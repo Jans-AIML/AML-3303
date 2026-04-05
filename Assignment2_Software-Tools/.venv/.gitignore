@@ -1,1 +1,72 @@
-*
+# =============================================================================
+# .gitignore — AML-3303 / Predicting Airbnb Listing Prices
+# =============================================================================
+
+# ── Large datasets ────────────────────────────────────────────────────────────
+# Raw CSVs are sourced from S3 at runtime; no need to commit them.
+*.csv
+*.parquet
+*.feather
+*.xlsx
+*.xls
+data/
+
+# ── MLflow tracking artefacts ─────────────────────────────────────────────────
+# mlruns/ is the default local tracking store created by mlflow.set_experiment()
+# It can be very large (fitted models, plots, pickles) and is fully reproducible
+# by re-running the notebook.
+mlruns/
+mlartifacts/
+
+# ── Temporary / runtime files ─────────────────────────────────────────────────
+# Scaler pickle, feature-config JSON, feature-importance PNGs saved to tmp dir
+*.pkl
+*.pickle
+*.tmp
+/tmp/
+
+# ── Python environment folders ────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+site-packages/
+
+# ── Jupyter / notebook internals ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── IDE and editor config ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Environment variable / secrets files ─────────────────────────────────────
+# Never commit AWS keys, MLflow credentials, or any secrets.
+.env
+.env.*
+*.env
+secrets.txt
+credentials
+
+# ── OS artefacts ──────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
