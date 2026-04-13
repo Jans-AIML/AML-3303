@@ -1,15 +1,16 @@
-"""Documents API router — upload, list, retrieve, and delete support documents."""
+"""Documents API router — upload, list, retrieve, delete, and analytics."""
 
 import os
 import shutil
 
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, UploadFile, status
+from sqlalchemy import func
 from sqlalchemy.orm import Session
 
 from app.config import settings
 from app.db.session import get_db
-from app.models.database import Document
-from app.models.schemas import DocumentListResponse, DocumentResponse
+from app.models.database import ChatSession, Document, Message
+from app.models.schemas import AnalyticsResponse, DocumentListResponse, DocumentResponse
 from app.tasks.background import process_document_task
 
 router = APIRouter()
@@ -58,6 +59,53 @@ def list_documents(db: Session = Depends(get_db)):
     """Return all uploaded documents."""
     docs = db.query(Document).order_by(Document.upload_date.desc()).all()
     return DocumentListResponse(documents=docs, total=len(docs))
+
+
+@router.get("/analytics", response_model=AnalyticsResponse)
+def get_analytics(db: Session = Depends(get_db)):
+    """Return key metrics about documents and chat usage."""
+    # Documents by status
+    by_status = {
+        row[0]: row[1]
+        for row in db.query(Document.status, func.count(Document.id)).group_by(Document.status).all()
+    }
+    # Documents by file type
+    by_type = {
+        row[0]: row[1]
+        for row in db.query(Document.file_type, func.count(Document.id)).group_by(Document.file_type).all()
+    }
+    # Chunk aggregates (processed docs only)
+    total_chunks = db.query(func.coalesce(func.sum(Document.chunk_count), 0)).filter(
+        Document.status == "processed"
+    ).scalar() or 0
+    avg_chunks = db.query(func.avg(Document.chunk_count)).filter(
+        Document.status == "processed"
+    ).scalar() or 0.0
+    # Top 10 documents by chunk count
+    top_docs = (
+        db.query(Document.filename, Document.chunk_count)
+        .filter(Document.chunk_count.isnot(None))
+        .order_by(Document.chunk_count.desc())
+        .limit(10)
+        .all()
+    )
+    # Chat stats
+    total_sessions = db.query(func.count(ChatSession.id)).scalar() or 0
+    total_queries = (
+        db.query(func.count(Message.id)).filter(Message.role == "user").scalar() or 0
+    )
+    return AnalyticsResponse(
+        total_documents=sum(by_status.values()),
+        total_chunks=int(total_chunks),
+        avg_chunks_per_doc=round(float(avg_chunks), 1),
+        by_status=by_status,
+        by_type=by_type,
+        top_docs_by_chunks=[
+            {"filename": row[0], "chunk_count": row[1]} for row in top_docs
+        ],
+        total_sessions=total_sessions,
+        total_queries=total_queries,
+    )
 
 
 @router.get("/{doc_id}", response_model=DocumentResponse)

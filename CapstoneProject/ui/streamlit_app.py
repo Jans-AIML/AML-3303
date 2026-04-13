@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 
+import pandas as pd
 import requests
 import streamlit as st
 
@@ -88,11 +89,99 @@ def _api_delete(path: str) -> bool:
         return False
 
 
+# ── Analytics page ──────────────────────────────────────────────────────────────
+
+def render_analytics() -> None:
+    st.title("📊 Analytics Dashboard")
+    st.caption("Live statistics from the SQLite database.")
+
+    data = _api_get("/api/documents/analytics")
+    if not data:
+        st.warning("Could not load analytics. Make sure the backend is running.")
+        return
+
+    # ── KPI cards ────────────────────────────────────────────────────────────
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("📄 Documents", f"{data['total_documents']:,}")
+    c2.metric("🔢 Chunks Indexed", f"{data['total_chunks']:,}")
+    c3.metric("💬 Chat Sessions", data["total_sessions"])
+    c4.metric("❓ Queries Answered", data["total_queries"])
+
+    if data["avg_chunks_per_doc"] > 0:
+        st.caption(
+            f"Average **{data['avg_chunks_per_doc']}** chunks per processed document · "
+            f"{data['total_chunks']:,} total vectors in ChromaDB"
+        )
+
+    st.divider()
+
+    # ── Status + Type breakdown ─────────────────────────────────────────────
+    col_left, col_right = st.columns(2)
+
+    with col_left:
+        st.subheader("🟡 Documents by Status")
+        if data["by_status"]:
+            df_status = pd.DataFrame.from_dict(
+                data["by_status"], orient="index", columns=["Count"]
+            ).sort_values("Count", ascending=False)
+            st.bar_chart(df_status, color="#4CAF50")
+        else:
+            st.caption("No data yet.")
+
+    with col_right:
+        st.subheader("📂 Documents by File Type")
+        if data["by_type"]:
+            df_type = pd.DataFrame.from_dict(
+                data["by_type"], orient="index", columns=["Count"]
+            ).sort_values("Count", ascending=False)
+            st.bar_chart(df_type, color="#2196F3")
+        else:
+            st.caption("No data yet.")
+
+    st.divider()
+
+    # ── Top documents table ─────────────────────────────────────────────────
+    st.subheader("🏆 Top 10 Documents by Chunk Count")
+    if data["top_docs_by_chunks"]:
+        df_top = pd.DataFrame(data["top_docs_by_chunks"])
+        # Truncate long Elsevier filenames for readability
+        df_top["filename"] = df_top["filename"].str.replace(".json", "", regex=False)
+        df_top["filename"] = df_top["filename"].str[:30]
+        df_top = df_top.set_index("filename").rename(columns={"chunk_count": "Chunks"})
+        st.bar_chart(df_top, color="#FF9800")
+    else:
+        st.caption("No documents available.")
+
+    st.divider()
+
+    # ── Raw detail table ──────────────────────────────────────────────────
+    with st.expander("📝 Full status breakdown", expanded=False):
+        st.write("**By Processing Status**")
+        st.dataframe(
+            pd.DataFrame.from_dict(data["by_status"], orient="index", columns=["Count"]),
+            use_container_width=True,
+        )
+        st.write("**By File Type**")
+        st.dataframe(
+            pd.DataFrame.from_dict(data["by_type"], orient="index", columns=["Count"]),
+            use_container_width=True,
+        )
+
+
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 
 with st.sidebar:
     st.title("🔬 Research Assistant")
     st.caption("AML-3303 Capstone · Lambton College · April 2026")
+
+    # ── Page selector ─────────────────────────────────────────────
+    page = st.radio(
+        "Navigate",
+        ["💬 Chat", "📊 Analytics"],
+        horizontal=True,
+        label_visibility="collapsed",
+    )
+    st.divider()
 
     # Backend status
     health = _api_get("/health")
@@ -195,6 +284,11 @@ with st.sidebar:
             icon="💡",
         )
 
+
+# ── Page routing ──────────────────────────────────────────────────────────────
+if page == "📊 Analytics":
+    render_analytics()
+    st.stop()
 
 # ── Main chat area ────────────────────────────────────────────────────────────
 

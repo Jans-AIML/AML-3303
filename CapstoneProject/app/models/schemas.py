@@ -73,6 +73,19 @@ class QueryResponse(BaseModel):
     message_id: int
 
 
+# ── Analytics Schemas ─────────────────────────────────────────────────────────
+
+class AnalyticsResponse(BaseModel):
+    total_documents: int
+    total_chunks: int
+    avg_chunks_per_doc: float
+    by_status: dict[str, int]
+    by_type: dict[str, int]
+    top_docs_by_chunks: list[dict]
+    total_sessions: int
+    total_queries: int
+
+
 # ── Health / Status Schemas ────────────────────────────────────────────────────
 
 class HealthResponse(BaseModel):
