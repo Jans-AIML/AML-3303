@@ -1,0 +1,1686 @@
+{
+    "abstract": "Introduction: Soft tissue deposits is tumorous islands apart from lymph nodes and occasionally diagnosed in neck dissection specimens. Their importance has begun to be recognized, however, their value has not been investigated in laryngeal cancer as a single tumor site. Objective: To investigate the prognostic value of soft tissue deposits in patients with laryngeal carcinoma. Methods: Medical records of 194 patients with laryngeal carcinoma who were treated primarily by surgery and neck dissection were reviewed. Prognostic significance of soft tissue deposits was assessed along with other clinical and pathological findings. Recurrence rates, overall and disease-specific survival rates were examined. Results: The incidence of soft tissue deposits was found to be 7.2% in laryngeal carcinoma. N stage was more advanced in patients who had soft tissue deposits. Regional recurrence rate was higher and disease specific and overall survivals rates were significantly lower in patients with soft tissue deposits in univariate analysis. However, in multivariate analysis, soft tissue deposits were not found as an independent risk factor. Conclusion: In laryngeal carcinoma, soft tissue deposits was diagnosed in patients with more advanced neck disease and their significance was lesser than other factors including extranodal extension.",
+    "bib_entries": {
+        "bib0080": {
+            "authors": [
+                {
+                    "first": "Edwin",
+                    "initial": "E.",
+                    "last": "Silverberg"
+                },
+                {
+                    "first": "Catherine C.",
+                    "initial": "C.C.",
+                    "last": "Boring"
+                },
+                {
+                    "first": "Teresa S.",
+                    "initial": "T.S.",
+                    "last": "Squires"
+                }
+            ],
+            "doi": "10.3322/canjclin.40.1.9",
+            "firstpage": "9",
+            "issn": "00079235",
+            "lastpage": "26",
+            "pmid": "2104569",
+            "pub_year": 1990,
+            "title": "Cancer statistics, 1990",
+            "volume": "40"
+        },
+        "bib0085": {
+            "authors": [
+                {
+                    "first": "Seung Shin",
+                    "initial": "S.S.",
+                    "last": "Hahn"
+                },
+                {
+                    "first": "Cynthia A.",
+                    "initial": "C.A.",
+                    "last": "Spaulding"
+                },
+                {
+                    "first": "Jung Ah",
+                    "initial": "J.A.",
+                    "last": "Kim"
+                },
+                {
+                    "first": "William C.",
+                    "initial": "W.C.",
+                    "last": "Constable"
+                }
+            ],
+            "doi": "10.1016/0360-3016(87)90186-6",
+            "firstpage": "1143",
+            "issn": "03603016",
+            "lastpage": "1147",
+            "pmid": "3610702",
+            "pub_year": 1987,
+            "title": "The prognostic significance of lymph node involvement in pyriform sinus and supraglottic cancers",
+            "volume": "13"
+        },
+        "bib0090": {
+            "authors": [
+                {
+                    "first": "Andrea",
+                    "initial": "A.",
+                    "last": "Gallo"
+                },
+                {
+                    "first": "Valentina",
+                    "initial": "V.",
+                    "last": "Manciocco"
+                },
+                {
+                    "first": "Marilia",
+                    "initial": "M.",
+                    "last": "Simonelli"
+                },
+                {
+                    "first": "Giulio",
+                    "initial": "G.",
+                    "last": "Pagliuca"
+                },
+                {
+                    "first": "Enzo",
+                    "initial": "E.",
+                    "last": "D'Arcangelo"
+                },
+                {
+                    "first": "Marco",
+                    "initial": "M.",
+                    "last": "De Vincentiis"
+                }
+            ],
+            "doi": "10.1001/archotol.131.7.620",
+            "firstpage": "620",
+            "issn": "08864470",
+            "lastpage": "625",
+            "pmid": "16027286",
+            "pub_year": 2005,
+            "title": "Supracricoid partial laryngectomy in the treatment of laryngeal cancer: Univariate and multivariate analysis of prognostic factors",
+            "volume": "131"
+        },
+        "bib0095": {
+            "authors": [
+                {
+                    "first": "Ulf K.",
+                    "initial": "U.K.",
+                    "last": "Z\u00e4tterstr\u00f6m"
+                },
+                {
+                    "first": "Johan",
+                    "initial": "J.",
+                    "last": "Wennerberg"
+                },
+                {
+                    "first": "Sven\u2010B\u00f6rje \u2010B",
+                    "initial": "S.\u2010.",
+                    "last": "Ewers"
+                },
+                {
+                    "first": "Roger",
+                    "initial": "R.",
+                    "last": "Willen"
+                },
+                {
+                    "first": "Robyn",
+                    "initial": "R.",
+                    "last": "Attewell"
+                }
+            ],
+            "doi": "10.1002/hed.2880130603",
+            "firstpage": "477",
+            "issn": "10433074",
+            "lastpage": "487",
+            "pmid": "1791143",
+            "pub_year": 1991,
+            "title": "Prognostic factors in head and neck cancer: Histologic grading, dna ploidy, and nodal status",
+            "volume": "13"
+        },
+        "bib0100": {
+            "authors": [
+                {
+                    "first": "P. M.",
+                    "initial": "P.M.",
+                    "last": "STELL"
+                }
+            ],
+            "doi": "10.1111/j.1365-2273.1988.tb00773.x",
+            "firstpage": "399",
+            "issn": "03077772",
+            "lastpage": "409",
+            "pmid": "3072131",
+            "pub_year": 1988,
+            "title": "REVIEW Prognostic factors in laryngeal carcinoma",
+            "volume": "13"
+        },
+        "bib0105": {
+            "authors": [
+                {
+                    "first": "N. S.",
+                    "initial": "N.S.",
+                    "last": "VIOLARIS"
+                },
+                {
+                    "first": "D.",
+                    "initial": "D.",
+                    "last": "O'NEIL"
+                },
+                {
+                    "first": "T. R.",
+                    "initial": "T.R.",
+                    "last": "HELLIWELL"
+                },
+                {
+                    "first": "A. W.",
+                    "initial": "A.W.",
+                    "last": "CASLIN"
+                },
+                {
+                    "first": "N. J.",
+                    "initial": "N.J.",
+                    "last": "ROLAND"
+                },
+                {
+                    "first": "A. S.",
+                    "initial": "A.S.",
+                    "last": "JONES"
+                }
+            ],
+            "doi": "10.1111/j.1365-2273.1994.tb01255.x",
+            "firstpage": "394",
+            "issn": "03077772",
+            "lastpage": "399",
+            "pmid": "7834879",
+            "pub_year": 1994,
+            "title": "Soft tissue cervical metastases of squamous carcinoma of the head and neck",
+            "volume": "19"
+        },
+        "bib0110": {
+            "authors": [
+                {
+                    "first": "Jemy",
+                    "initial": "J.",
+                    "last": "Jose"
+                },
+                {
+                    "first": "Andrew P.",
+                    "initial": "A.P.",
+                    "last": "Coatesworth"
+                },
+                {
+                    "first": "Colin",
+                    "initial": "C.",
+                    "last": "Johnston"
+                },
+                {
+                    "first": "Ken",
+                    "initial": "K.",
+                    "last": "MacLennan"
+                }
+            ],
+            "doi": "10.1002/hed.10214",
+            "firstpage": "451",
+            "issn": "10433074",
+            "lastpage": "456",
+            "pmid": "12784236",
+            "pub_year": 2003,
+            "title": "Cervical node metastases in squamous cell carcinoma of the upper aerodigestive tract: The significance of extracapsular spread and soft tissue deposits",
+            "volume": "25"
+        },
+        "bib0115": {
+            "authors": [
+                {
+                    "first": "Sulen",
+                    "initial": "S.",
+                    "last": "Sarioglu"
+                },
+                {
+                    "first": "Nilhan",
+                    "initial": "N.",
+                    "last": "Akbulut"
+                },
+                {
+                    "first": "Selen",
+                    "initial": "S.",
+                    "last": "Iplikci"
+                },
+                {
+                    "first": "Barbaros",
+                    "initial": "B.",
+                    "last": "Aydin"
+                },
+                {
+                    "first": "Ersoy",
+                    "initial": "E.",
+                    "last": "Dogan"
+                },
+                {
+                    "first": "Mehtat",
+                    "initial": "M.",
+                    "last": "Unlu"
+                },
+                {
+                    "first": "Hulya",
+                    "initial": "H.",
+                    "last": "Ellidokuz"
+                },
+                {
+                    "first": "Emel",
+                    "initial": "E.",
+                    "last": "Ada"
+                },
+                {
+                    "first": "Fadime",
+                    "initial": "F.",
+                    "last": "Akman"
+                },
+                {
+                    "first": "Ahmet Omer",
+                    "initial": "A.O.",
+                    "last": "Ikiz"
+                }
+            ],
+            "doi": "10.1002/hed.23981",
+            "firstpage": "E256",
+            "issn": "10433074",
+            "lastpage": "E260",
+            "pmid": "25546631",
+            "pub_year": 2016,
+            "title": "Tumor deposits in head and neck carcinomas",
+            "volume": "38"
+        },
+        "bib0120": null,
+        "bib0125": {
+            "authors": [
+                {
+                    "first": "Jemy",
+                    "initial": "J.",
+                    "last": "Jose"
+                },
+                {
+                    "first": "James W.",
+                    "initial": "J.W.",
+                    "last": "Moor"
+                },
+                {
+                    "first": "Andrew P.",
+                    "initial": "A.P.",
+                    "last": "Coatesworth"
+                },
+                {
+                    "first": "Colin",
+                    "initial": "C.",
+                    "last": "Johnston"
+                },
+                {
+                    "first": "Ken",
+                    "initial": "K.",
+                    "last": "MacLennan"
+                }
+            ],
+            "doi": "10.1001/archotol.130.2.157",
+            "firstpage": "157",
+            "issn": "08864470",
+            "lastpage": "160",
+            "pmid": "14967743",
+            "pub_year": 2004,
+            "title": "Soft Tissue Deposits in Neck Dissections of Patients with Head and Neck Squamous Cell Carcinoma: Prospective Analysis of Prevalence, Survival, and Its Implications",
+            "volume": "130"
+        },
+        "bib0130": {
+            "authors": [
+                {
+                    "first": "Si Yi",
+                    "initial": "S.Y.",
+                    "last": "Zhang"
+                },
+                {
+                    "first": "Zhong Ming",
+                    "initial": "Z.M.",
+                    "last": "Lu"
+                },
+                {
+                    "first": "Xiao Ning",
+                    "initial": "X.N.",
+                    "last": "Luo"
+                },
+                {
+                    "first": "Liang Si",
+                    "initial": "L.S.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Ping Jiang",
+                    "initial": "P.J.",
+                    "last": "Ge"
+                },
+                {
+                    "first": "Xin Han",
+                    "initial": "X.H.",
+                    "last": "Song"
+                },
+                {
+                    "first": "Shao hua",
+                    "initial": "S.h.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Yi Long",
+                    "initial": "Y.L.",
+                    "last": "Wu"
+                }
+            ],
+            "doi": "10.1371/journal.pone.0060157",
+            "issn": "19326203",
+            "pmid": "23593169",
+            "pub_year": 2013,
+            "title": "Retrospective Analysis of Prognostic Factors in 205 Patients with Laryngeal Squamous Cell Carcinoma Who Underwent Surgical Treatment",
+            "volume": "8"
+        },
+        "bib0135": {
+            "authors": [
+                {
+                    "first": "A.",
+                    "initial": "A.",
+                    "last": "Alvi"
+                },
+                {
+                    "first": "J. T.",
+                    "initial": "J.T.",
+                    "last": "Johnson"
+                }
+            ],
+            "doi": "10.1016/S0194-5998(96)70285-1",
+            "firstpage": "65",
+            "issn": "01945998",
+            "lastpage": "70",
+            "pmid": "8570253",
+            "pub_year": 1996,
+            "title": "Extracapsular spread in the clinically negative neck (N0): Implications and outcome",
+            "volume": "114"
+        },
+        "bib0140": {
+            "authors": [
+                {
+                    "first": "Johannes J.",
+                    "initial": "J.J.",
+                    "last": "Fagan"
+                },
+                {
+                    "first": "Bobby",
+                    "initial": "B.",
+                    "last": "Collins"
+                },
+                {
+                    "first": "Leon",
+                    "initial": "L.",
+                    "last": "Barnes"
+                },
+                {
+                    "first": "Frank",
+                    "initial": "F.",
+                    "last": "D'Amico"
+                },
+                {
+                    "first": "Eugene N.",
+                    "initial": "E.N.",
+                    "last": "Myers"
+                },
+                {
+                    "first": "Jonas T.",
+                    "initial": "J.T.",
+                    "last": "Johnson"
+                }
+            ],
+            "doi": "10.1001/archotol.124.6.637",
+            "firstpage": "637",
+            "issn": "08864470",
+            "lastpage": "640",
+            "pmid": "9639472",
+            "pub_year": 1998,
+            "title": "Perineural invasion in squamous cell carcinoma of the head and neck",
+            "volume": "124"
+        },
+        "bib0145": {
+            "authors": [
+                {
+                    "first": "Taner",
+                    "initial": "T.",
+                    "last": "Yilmaz"
+                },
+                {
+                    "first": "A. Sefik",
+                    "initial": "A.S.",
+                    "last": "Hosal"
+                },
+                {
+                    "first": "G\u00f6khan",
+                    "initial": "G.",
+                    "last": "Gediko\u01e7lu"
+                },
+                {
+                    "first": "Metin",
+                    "initial": "M.",
+                    "last": "\u00d6nerci"
+                },
+                {
+                    "first": "B\u00fclent",
+                    "initial": "B.",
+                    "last": "G\u00fcrsel"
+                }
+            ],
+            "doi": "10.1016/S0196-0709(98)90100-4",
+            "firstpage": "83",
+            "issn": "01960709",
+            "lastpage": "88",
+            "pmid": "9550437",
+            "pub_year": 1998,
+            "title": "Prognostic significance of vascular and perineural invasion in cancer of the larynx",
+            "volume": "19"
+        },
+        "bib0150": {
+            "authors": [
+                {
+                    "first": "N. B.",
+                    "initial": "N.B.",
+                    "last": "Wulff"
+                },
+                {
+                    "first": "C. A.",
+                    "initial": "C.A.",
+                    "last": "Kristensen"
+                },
+                {
+                    "first": "E.",
+                    "initial": "E.",
+                    "last": "Andersen"
+                },
+                {
+                    "first": "B.",
+                    "initial": "B.",
+                    "last": "Charabi"
+                },
+                {
+                    "first": "C. H.",
+                    "initial": "C.H.",
+                    "last": "S\u00f8rensen"
+                },
+                {
+                    "first": "P.",
+                    "initial": "P.",
+                    "last": "Hom\u00f8e"
+                }
+            ],
+            "doi": "10.1111/coa.12443",
+            "firstpage": "662",
+            "issn": "17494478",
+            "lastpage": "671",
+            "pmid": "25891761",
+            "pub_year": 2015,
+            "title": "Risk factors for postoperative complications after total laryngectomy following radiotherapy or chemoradiation: A 10-year retrospective longitudinal study in Eastern Denmark",
+            "volume": "40"
+        }
+    },
+    "body_text": [
+        {
+            "endOffset": 22850,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "Exclusion of patients who underwent prior radiotherapy and pathological examination techniques might be associated with lower STD rates than the literature.",
+            "startOffset": 22694,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 23765,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "Other prognostic factors like conglomerated lymph nodes, PNI and LVI were found to be associated with STDs, which indicated more aggressive tumor behavior, however, certain factors indicating tumor aggressiveness such as histopathological subtype of the tumor or tumor differentiation were not associated with STD.",
+            "startOffset": 23451,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 22693,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "The incidence of soft tissue deposits was 7.2% in the present study, which was lower than the literature.",
+            "startOffset": 22588,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 15216,
+            "parents": [],
+            "refoffsets": {
+                "bib0090": {
+                    "endOffset": 15216,
+                    "startOffset": 15213
+                },
+                "bib0095": {
+                    "endOffset": 15216,
+                    "startOffset": 15213
+                },
+                "bib0100": {
+                    "endOffset": 15216,
+                    "startOffset": 15213
+                }
+            },
+            "secId": "sec0005",
+            "sentence": "Factors related to cervical metastasis like extranodal extension (ENE), conglomerated lymph nodes and other tumor factors like differentiation, lymphovascular invasion (LVI) or perineural invasion (PNI), were also proposed to indicate prognostic significance, although, they were not included in the TNM staging.3\u20135",
+            "startOffset": 14901,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 18785,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0040",
+            "sentence": "Chi Square test was employed for categorical variables, Mann\u2013Whitney-U test employed for numerical variables that did not show normal distribution.",
+            "startOffset": 18638,
+            "title": "Statistical analysis"
+        },
+        {
+            "endOffset": 14778,
+            "parents": [],
+            "secId": "sec0005",
+            "sentence": "TNM staging is used for designating the optimal therapy and evaluating the prognosis of the patients.",
+            "startOffset": 14677,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 23128,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "Five percent of patients with N1, 23% with N2 and 50% with N3 neck tumors had STD, whereas, none of the patients with N0 neck tumors were found to have STD.",
+            "startOffset": 22972,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 25938,
+            "parents": [],
+            "secId": "sec0065",
+            "sentence": "In laryngeal carcinoma, STD was diagnosed in patients with more advanced neck disease and it played a lesser significance than other factors including ENE.",
+            "startOffset": 25783,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 23451,
+            "parents": [],
+            "refoffsets": {
+                "bib0110": {
+                    "endOffset": 23451,
+                    "startOffset": 23445
+                },
+                "bib0115": {
+                    "endOffset": 23451,
+                    "startOffset": 23445
+                },
+                "bib0125": {
+                    "endOffset": 23451,
+                    "startOffset": 23445
+                }
+            },
+            "secId": "sec0060",
+            "sentence": "This was also concordant with the literature.7,8,10",
+            "startOffset": 23400,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 18637,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0040",
+            "sentence": "Analyses were performed with SPSS v.22.0 (IBM, NY, USA).",
+            "startOffset": 18581,
+            "title": "Statistical analysis"
+        },
+        {
+            "endOffset": 24066,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "Either way, the process implies poor prognosis theoretically.",
+            "startOffset": 24005,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 15336,
+            "parents": [],
+            "refoffsets": {
+                "bib0105": {
+                    "endOffset": 15232,
+                    "startOffset": 15231
+                }
+            },
+            "secId": "sec0005",
+            "sentence": "Violaris et al.6 first mentioned the term \u201csoft tissue deposits (STD) or soft tissue free metastases\u201d in the literature.",
+            "startOffset": 15216,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 17442,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0020",
+            "sentence": "Any tumoral mass in the soft tissues of the neck dissection materials, with or without regular contours that did not have lymph node architecture were diagnosed as STD (Fig. 1).",
+            "startOffset": 17265,
+            "title": "Pathologic techniques and soft tissue deposits"
+        },
+        {
+            "endOffset": 20813,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Disease specific survival was 45.1 \u00b1 6.9 months for patients with STD and 81.1 \u00b1 2.2 months for those without STD.",
+            "startOffset": 20699,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 15542,
+            "parents": [],
+            "refoffsets": {
+                "bib0110": {
+                    "endOffset": 15349,
+                    "startOffset": 15348
+                }
+            },
+            "secId": "sec0005",
+            "sentence": "Jose et al.7 defined soft tissue deposits as either extra-lymphatic squamous cell carcinoma (SCC) deposits or metastases that lacked lymphoid tissue due to total destruction of the lymph node architecture.",
+            "startOffset": 15337,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 16331,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0015",
+            "sentence": "A total of 269 patients who underwent neck dissection from January 1, 2007 to December 31, 2014 with the diagnosis of laryngeal carcinoma were retrospectively reviewed.",
+            "startOffset": 16163,
+            "title": "Study population"
+        },
+        {
+            "endOffset": 17265,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0020",
+            "sentence": "These blocks were sectioned in their entirety at 4 \u03bcm thickness and sections were stained with H&E.",
+            "startOffset": 17166,
+            "title": "Pathologic techniques and soft tissue deposits"
+        },
+        {
+            "endOffset": 25650,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "Even though they are all SCCs, head and neck carcinomas present diverse clinical characteristics.",
+            "startOffset": 25553,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 21281,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Two and 5 year overall survival rates were 84.3% and 71.2% when there was no evidence of STD in the specimen.",
+            "startOffset": 21172,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 20372,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Regional recurrences were found to be more common in patients with STD (Table 3).",
+            "startOffset": 20291,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 25411,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "Interestingly, smoking was found as an important risk factor affecting overall survival.",
+            "startOffset": 25323,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 25050,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "Nevertheless, STDs would seem to have a significant prognostic impact on laryngeal cancer outcome and we recommended STD to be included in the pathologic analysis and taken into consideration in the decision tree.",
+            "startOffset": 24837,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 18899,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0040",
+            "sentence": "Kaplan\u2013Meier survival curves were used to calculate 2 and 5 year disease-specific and overall survival estimates.",
+            "startOffset": 18786,
+            "title": "Statistical analysis"
+        },
+        {
+            "endOffset": 16495,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0015",
+            "sentence": "Patients who underwent simultaneous laryngectomy (partial or total) and neck dissection due to laryngeal SCC as the primary treatment were included in the analysis.",
+            "startOffset": 16331,
+            "title": "Study population"
+        },
+        {
+            "endOffset": 21065,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "STD was found to have a significant influence on disease specific survival (p = 0.041).",
+            "startOffset": 20978,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 22065,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "ENE was found to increase the risk of death from the laryngeal cancer 3.47 times.",
+            "startOffset": 21984,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 18323,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0035",
+            "sentence": "The adherence to adjuvant treatment, complications, local/regional recurrences, distant metastasis, second primaries and cause of death was identified accordingly.",
+            "startOffset": 18160,
+            "title": "Survival"
+        },
+        {
+            "endOffset": 19420,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0050",
+            "sentence": "The mean age of patients was 60.8 \u00b1 8.6 with a range of 41\u201384 years.",
+            "startOffset": 19352,
+            "title": "Demographic and clinicopathologic characteristics"
+        },
+        {
+            "endOffset": 17612,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0025",
+            "sentence": "The primary evaluation was the impact of STDs on oncologic outcome, which was represented by recurrence rate, overall and disease-specific survival rates.",
+            "startOffset": 17458,
+            "title": "Outcome measures"
+        },
+        {
+            "endOffset": 20977,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Two and 5 years disease specific survival rates were 90.3% and 84.8% in patients without STD and 74% and 49.4% respectively in patients with STD (Table 4, Fig. 2).",
+            "startOffset": 20814,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 22587,
+            "parents": [],
+            "refoffsets": {
+                "bib0115": {
+                    "endOffset": 22587,
+                    "startOffset": 22583
+                },
+                "bib0125": {
+                    "endOffset": 22587,
+                    "startOffset": 22583
+                }
+            },
+            "secId": "sec0060",
+            "sentence": "In subgroup analysis, larynx carcinoma was noticed to be associated with lesser STDs (14.3\u201316.1%) compared to oral cavity (20\u201322.6%) and hypopharynx cancers (22.7\u201338.5%).8,10",
+            "startOffset": 22413,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 19699,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0050",
+            "sentence": "N stage was more advanced and ENE, conglomerated lymph nodes, PNI and LVI were more frequent in patients who had STD compared to those who did not.",
+            "startOffset": 19552,
+            "title": "Demographic and clinicopathologic characteristics"
+        },
+        {
+            "endOffset": 19952,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "The mean follow-up duration was 36.6 \u00b1 23.4 months.",
+            "startOffset": 19901,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 18159,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0035",
+            "sentence": "The follow-up and status of patients were established from hospital records.",
+            "startOffset": 18083,
+            "title": "Survival"
+        },
+        {
+            "endOffset": 15877,
+            "parents": [],
+            "secId": "sec0005",
+            "sentence": "Although pathological criteria of the STD were well established, they were not regularly reported in the studies and their clinical significance was not evident.",
+            "startOffset": 15716,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 19119,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0040",
+            "sentence": "Cox proportional hazards regression model was used to calculate survival hazard ratios and 95% CIs.",
+            "startOffset": 19020,
+            "title": "Statistical analysis"
+        },
+        {
+            "endOffset": 17165,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0020",
+            "sentence": "Neck dissection materials, which were separated into zones peroperatively, were saturated in formalin for 24 h. Nodular lesions were separated (macroscopic pathological dissection) and embedded in paraffin blocks individually.",
+            "startOffset": 16939,
+            "title": "Pathologic techniques and soft tissue deposits"
+        },
+        {
+            "endOffset": 15716,
+            "parents": [],
+            "refoffsets": {
+                "bib0115": {
+                    "endOffset": 15559,
+                    "startOffset": 15558
+                }
+            },
+            "secId": "sec0005",
+            "sentence": "Sar\u0131oglu et al.8 indicated the absence of any sign of residual lymph node and localization in the lymphatic basin of primary tumor for the diagnosis of these tumor deposits.",
+            "startOffset": 15543,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 19351,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0050",
+            "sentence": "Of the 194 patients with laryngeal carcinoma included in the study, 189 were men (97.4%) and 5 were women (2.6%).",
+            "startOffset": 19238,
+            "title": "Demographic and clinicopathologic characteristics"
+        },
+        {
+            "endOffset": 20553,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Final status of 131 patients (67.5%) was NED, 9 (4.6%) AWD, 25 (12.9%) DOD, 22 (11.3%) DAC, and 7 (3.6%) were lost due to perioperative complications that were also accepted as DAC.",
+            "startOffset": 20372,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 22151,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Positive surgical margin was also a significant factor for disease specific survival.",
+            "startOffset": 22066,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 23291,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "ENE, which also indicated advanced neck disease, was associated with STD more commonly.",
+            "startOffset": 23204,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 25322,
+            "parents": [],
+            "refoffsets": {
+                "bib0130": {
+                    "endOffset": 25322,
+                    "startOffset": 25317
+                },
+                "bib0135": {
+                    "endOffset": 25322,
+                    "startOffset": 25317
+                },
+                "bib0140": {
+                    "endOffset": 25322,
+                    "startOffset": 25317
+                },
+                "bib0145": {
+                    "endOffset": 25322,
+                    "startOffset": 25317
+                }
+            },
+            "secId": "sec0060",
+            "sentence": "These factors had already been accepted as important prognostic factors and were targeted by the adjuvant treatments in many institutions.11\u201314",
+            "startOffset": 25179,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 19869,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0050",
+            "sentence": "Type of surgery and utilization of adjuvant treatment were similar in respect of STD whereas, STD was found more frequently in the comprehensive neck specimens (Table 2).",
+            "startOffset": 19699,
+            "title": "Demographic and clinicopathologic characteristics"
+        },
+        {
+            "endOffset": 20699,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Disease specific survival was 79.8 \u00b1 2.3 and overall survival was 68.1 \u00b1 2.8 months for the whole study group according to Kaplan\u2013Meier estimates.",
+            "startOffset": 20553,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 14900,
+            "parents": [],
+            "refoffsets": {
+                "bib0085": {
+                    "endOffset": 14900,
+                    "startOffset": 14899
+                }
+            },
+            "secId": "sec0005",
+            "sentence": "Among these factors, cervical metastases present as the most significant factor, decreasing 5 year survival rate by 50%.2",
+            "startOffset": 14779,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 24174,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "On clinical grounds, patients with STD experienced regional recurrences 4 times more than those without STD.",
+            "startOffset": 24066,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 20290,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Second primary tumors appeared in 24 patients (12.4%) during follow-up.",
+            "startOffset": 20219,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 21374,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "On the other hand, it was to be 49.1% and 16.4% respectively in cases where STD was present.",
+            "startOffset": 21282,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 19551,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0050",
+            "sentence": "Demographical, clinical and pathological variables were analyzed according to presence or absence of free tumor implants (Table 1).",
+            "startOffset": 19420,
+            "title": "Demographic and clinicopathologic characteristics"
+        },
+        {
+            "endOffset": 24004,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "Either aggressive tumor behavior or poor host defense might be the underlying cause.",
+            "startOffset": 23920,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 23399,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "Forty-three percent of the STDs were found together with ENE, whereas 24% of ENEs were coexisting with STD.",
+            "startOffset": 23292,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 16162,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0015",
+            "sentence": "The present study was conducted in a university hospital, department of otolaryngology with the permission of local ethics committee (2014 \u2013 23/11).",
+            "startOffset": 16014,
+            "title": "Study population"
+        },
+        {
+            "endOffset": 21874,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "History of smoking, PNI, surgical margins for the laryngeal specimen, N stage, ENE, conglomerated lymph nodes and STD for the neck specimen, type of neck dissection, and recurrences or distant metastasis were found to have detrimental effects on survival (Table 4).",
+            "startOffset": 21609,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 14676,
+            "parents": [],
+            "refoffsets": {
+                "bib0080": {
+                    "endOffset": 14676,
+                    "startOffset": 14675
+                }
+            },
+            "secId": "sec0005",
+            "sentence": "Laryngeal carcinoma is the most common type of head and neck carcinomas excluding skin cancers.1",
+            "startOffset": 14580,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 21609,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "T stage, preoperative tracheotomy, tumor type and differentiation, LVI and comorbid diseases did not affect the survival rates.",
+            "startOffset": 21482,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 25773,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "Thus, we believed the analysis of STD in laryngeal carcinoma only was valuable in identifying its prognostic significance.",
+            "startOffset": 25651,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 22214,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Overall survival was significantly reduced by smoking and PNI.",
+            "startOffset": 22152,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 23204,
+            "parents": [],
+            "refoffsets": {
+                "bib0115": {
+                    "endOffset": 23145,
+                    "startOffset": 23144
+                }
+            },
+            "secId": "sec0060",
+            "sentence": "Sar\u0131oglu et al.8 reported a single case of STD in a pathologically N0 neck.",
+            "startOffset": 23129,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 18561,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0035",
+            "sentence": "Deaths due to postoperative complications were accepted as DAC.",
+            "startOffset": 18498,
+            "title": "Survival"
+        },
+        {
+            "endOffset": 23919,
+            "parents": [],
+            "refoffsets": {
+                "bib0125": {
+                    "endOffset": 23919,
+                    "startOffset": 23917
+                }
+            },
+            "secId": "sec0060",
+            "sentence": "Soft tissue deposits might represent true extra-nodal metastases or nodal metastases in which all nodal architecture was lost due to tumor infiltration.10",
+            "startOffset": 23765,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 18497,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0035",
+            "sentence": "The patients were grouped according to their final status as No Evidence of Disease (NED), Alive With Disease (AWD), Dead from Another Cause (DAC) and Dead Of Disease (DOD).",
+            "startOffset": 18324,
+            "title": "Survival"
+        },
+        {
+            "endOffset": 22971,
+            "parents": [],
+            "refoffsets": {
+                "bib0110": {
+                    "endOffset": 22971,
+                    "startOffset": 22968
+                },
+                "bib0115": {
+                    "endOffset": 22971,
+                    "startOffset": 22968
+                }
+            },
+            "secId": "sec0060",
+            "sentence": "STDs were observed to be more frequent in patients with advanced neck disease, which is confirmed by previous studies.7,8",
+            "startOffset": 22850,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 17973,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0030",
+            "sentence": "Demographical (age, sex, smoking, alcohol consumption), clinical (comorbid diseases, preoperative tracheotomy) and pathological variables (histopathology and differentiation of tumor, LVI, PNI, surgical margins, ENE, conglomerated lymph nodes, STD) were analyzed according to free tumor implants and investigated as prognostic factors.",
+            "startOffset": 17638,
+            "title": "Other prognostic variables"
+        },
+        {
+            "endOffset": 25178,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "Multivariate analysis confirmed ENE, positive surgical margins and PNI as independent prognostic factors in laryngeal carcinoma.",
+            "startOffset": 25050,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 24276,
+            "parents": [],
+            "refoffsets": {
+                "bib0115": {
+                    "endOffset": 24276,
+                    "startOffset": 24275
+                }
+            },
+            "secId": "sec0060",
+            "sentence": "STDs were reported to increase recurrence and distant metastasis rates 2.29 times in the literature.8",
+            "startOffset": 24175,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 26314,
+            "parents": [],
+            "secId": "sec0070",
+            "sentence": "All procedures performed in studies involving human participants were in accordance with the ethical standards of the institutional research committee and with the 1964 Helsinki declaration and its later amendments or comparable ethical standards.",
+            "startOffset": 26067,
+            "title": "Ethical approval"
+        },
+        {
+            "endOffset": 18075,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "refoffsets": {
+                "bib0120": {
+                    "endOffset": 18075,
+                    "startOffset": 18074
+                }
+            },
+            "secId": "sec0030",
+            "sentence": "TNM stage was calculated according to American Joint Committee on Cancer (AJCC) 2007 staging system.9",
+            "startOffset": 17974,
+            "title": "Other prognostic variables"
+        },
+        {
+            "endOffset": 24678,
+            "parents": [],
+            "refoffsets": {
+                "bib0115": {
+                    "endOffset": 24678,
+                    "startOffset": 24677
+                }
+            },
+            "secId": "sec0060",
+            "sentence": "In the literature, STDs were reported to be an independent factor for head and neck carcinomas that decrease overall survival by 3.2 times in one study.8",
+            "startOffset": 24525,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 19182,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0040",
+            "sentence": "The level of statistical significance was defined as p < 0.05.",
+            "startOffset": 19120,
+            "title": "Statistical analysis"
+        },
+        {
+            "endOffset": 24836,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "Relatively lower incidence of STD observed in laryngeal carcinoma might have led other potent prognostic factors to cover the importance of STD in our study.",
+            "startOffset": 24679,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 26051,
+            "parents": [],
+            "secId": "sec0065",
+            "sentence": "The retrospective nature of the study and relatively small study population suggests further studies are needed.",
+            "startOffset": 25939,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 20218,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Distant metastases were diagnosed in 15 patients (7.7%).",
+            "startOffset": 20162,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 21983,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Significant factors from univariate analysis were tested with multivariate Cox regression analysis (Table 5).",
+            "startOffset": 21874,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 20161,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Two patients had both local and regional recurrences thus; the overall loco-regional recurrence rate was established as 12.4%.",
+            "startOffset": 20035,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 16754,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0015",
+            "sentence": "Patients who were having surgery as salvage treatment (34 patients) or who did not have simultaneous laryngectomy and neck dissection (25 patients) were excluded, as were cases with synchronous tumors (3 patients) or who were lost to follow-up (13 patients).",
+            "startOffset": 16496,
+            "title": "Study population"
+        },
+        {
+            "endOffset": 25553,
+            "parents": [],
+            "refoffsets": {
+                "bib0150": {
+                    "endOffset": 25553,
+                    "startOffset": 25551
+                }
+            },
+            "secId": "sec0060",
+            "sentence": "Risk of second primary tumors or increase in complications and comorbid diseases might provide mechanisms for smoking to exert its effects.15",
+            "startOffset": 25412,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 15991,
+            "parents": [],
+            "secId": "sec0005",
+            "sentence": "The aim of the present study was to investigate the prognostic value of STD in patients with laryngeal carcinoma.",
+            "startOffset": 15878,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 24524,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "In univariate analyses, STD was found to decrease survival rates significantly, however, in multivariate analysis, STD was not found to be an independent prognostic factor.",
+            "startOffset": 24352,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 16893,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0015",
+            "sentence": "A follow-up period of at least one year was sought except for patients who had deceased prior to the completion of one postoperative year.",
+            "startOffset": 16755,
+            "title": "Study population"
+        },
+        {
+            "endOffset": 22292,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "ENE was found to be related to overall survival, however, to a lesser extent.",
+            "startOffset": 22215,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 21171,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Overall survival was 35.3 \u00b1 6.2 months in patients with STD and 70.3 \u00b1 2.8 months in patients free of STD.",
+            "startOffset": 21065,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 19019,
+            "parents": [
+                {
+                    "id": "sec0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "sec0040",
+            "sentence": "The Kaplan\u2013Meier estimates were compared using log-rank test to signify the effect of factors on survival individually.",
+            "startOffset": 18900,
+            "title": "Statistical analysis"
+        },
+        {
+            "endOffset": 24351,
+            "parents": [],
+            "secId": "sec0060",
+            "sentence": "Survival period of patients with STD were about half of those without STD.",
+            "startOffset": 24277,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 26380,
+            "parents": [],
+            "secId": "sec0075",
+            "sentence": "The authors declare no conflicts of interest.",
+            "startOffset": 26335,
+            "title": "Conflicts of interest"
+        },
+        {
+            "endOffset": 20034,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Ten patients (5.2%) developed local and 16 (8.2%) developed regional recurrences.",
+            "startOffset": 19953,
+            "title": "Oncological outcome and survival"
+        },
+        {
+            "endOffset": 22412,
+            "parents": [],
+            "refoffsets": {
+                "bib0110": {
+                    "endOffset": 22412,
+                    "startOffset": 22406
+                },
+                "bib0115": {
+                    "endOffset": 22412,
+                    "startOffset": 22406
+                },
+                "bib0125": {
+                    "endOffset": 22412,
+                    "startOffset": 22406
+                }
+            },
+            "secId": "sec0060",
+            "sentence": "Soft tissue deposits were reported as having an overall incidence of 17.1\u201324.3 in head and neck cancers.7,8,10",
+            "startOffset": 22302,
+            "title": "Discussion"
+        },
+        {
+            "endOffset": 21482,
+            "parents": [
+                {
+                    "id": "sec0045",
+                    "title": "Results"
+                }
+            ],
+            "secId": "sec0055",
+            "sentence": "Overall survival rates were significantly lower in the presence of STD compared to its absence (p = 0.002).",
+            "startOffset": 21375,
+            "title": "Oncological outcome and survival"
+        }
+    ],
+    "docId": "S1808869417301167",
+    "metadata": {
+        "asjc": [
+            "2733"
+        ],
+        "authors": [
+            {
+                "email": "oaozmen@yahoo.com",
+                "first": "Omer Afsin",
+                "initial": "O.A.",
+                "last": "Ozmen"
+            },
+            {
+                "email": null,
+                "first": "Melih",
+                "initial": "M.",
+                "last": "Alpay"
+            },
+            {
+                "email": null,
+                "first": "Ozlem",
+                "initial": "O.",
+                "last": "Saraydaroglu"
+            },
+            {
+                "email": null,
+                "first": "Uygar Levent",
+                "initial": "U.L.",
+                "last": "Demir"
+            },
+            {
+                "email": null,
+                "first": "Fikret",
+                "initial": "F.",
+                "last": "Kasapoglu"
+            },
+            {
+                "email": null,
+                "first": "Hamdi Hakan",
+                "initial": "H.H.",
+                "last": "Coskun"
+            },
+            {
+                "email": null,
+                "first": "Oguz Ibrahim",
+                "initial": "O.I.",
+                "last": "Basut"
+            }
+        ],
+        "doi": "10.1016/j.bjorl.2017.07.002",
+        "firstpage": "566",
+        "issn": "18088694",
+        "keywords": [
+            "Cervical metastasis",
+            "Laryngeal cancer",
+            "Prognosis",
+            "Soft tissue deposit",
+            "Survival"
+        ],
+        "lastpage": "573",
+        "openaccess": "Full",
+        "pub_year": 2018,
+        "subjareas": [
+            "MEDI"
+        ],
+        "title": "Prognostic significance of soft tissue deposits in laryngeal carcinoma"
+    }
+}

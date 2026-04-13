@@ -1,0 +1,3126 @@
+{
+    "abstract": "The use of Direct Imine Acylation (DIA) methodology for the total synthesis of pallimamine is described, with three different synthetic routes examined. The construction of three advanced \u03b4-lactam precursors, all utilising DIA, is described, along with attempts to progress these compounds further, using three distinct desymmetrisation strategies, two involving alcohol-aryl coupling, and a third involving an unusual diastereoselective lactonisation.",
+    "bib_entries": {
+        "bib1": {
+            "authors": [
+                {
+                    "first": "Lu",
+                    "initial": "L.",
+                    "last": "Sheng-Teh"
+                },
+                {
+                    "first": "Hwang",
+                    "initial": "H.",
+                    "last": "Jeng-Fen"
+                },
+                {
+                    "first": "Wu",
+                    "initial": "W.",
+                    "last": "Tian-Shung"
+                },
+                {
+                    "first": "Donald R.",
+                    "initial": "D.R.",
+                    "last": "McPhail"
+                },
+                {
+                    "first": "Andrew T.",
+                    "initial": "A.T.",
+                    "last": "McPhail"
+                },
+                {
+                    "first": "Kuo Hsiung",
+                    "initial": "K.H.",
+                    "last": "Lee"
+                }
+            ],
+            "doi": "10.1016/0031-9422(89)80219-5",
+            "firstpage": "1245",
+            "issn": "00319422",
+            "lastpage": "1249",
+            "pub_year": 1989,
+            "title": "Alkaloids of Corydalis pallida var. sparsimamma and the structure and stereochemistry of pallimamine",
+            "volume": "28"
+        },
+        "bib10": {
+            "authors": [
+                {
+                    "first": "Wangke",
+                    "initial": "W.",
+                    "last": "Qian"
+                },
+                {
+                    "first": "Weijian",
+                    "initial": "W.",
+                    "last": "Lu"
+                },
+                {
+                    "first": "Haifeng",
+                    "initial": "H.",
+                    "last": "Sun"
+                },
+                {
+                    "first": "Zeng",
+                    "initial": "Z.",
+                    "last": "Li"
+                },
+                {
+                    "first": "Liyuan",
+                    "initial": "L.",
+                    "last": "Zhu"
+                },
+                {
+                    "first": "Rui",
+                    "initial": "R.",
+                    "last": "Zhao"
+                },
+                {
+                    "first": "Lei",
+                    "initial": "L.",
+                    "last": "Zhang"
+                },
+                {
+                    "first": "Shengbin",
+                    "initial": "S.",
+                    "last": "Zhou"
+                },
+                {
+                    "first": "Yu",
+                    "initial": "Y.",
+                    "last": "Zhou"
+                },
+                {
+                    "first": "Hualiang",
+                    "initial": "H.",
+                    "last": "Jiang"
+                },
+                {
+                    "first": "Xuechu",
+                    "initial": "X.",
+                    "last": "Zhen"
+                },
+                {
+                    "first": "Hong",
+                    "initial": "H.",
+                    "last": "Liu"
+                }
+            ],
+            "doi": "10.1016/j.bmc.2012.05.057",
+            "firstpage": "4862",
+            "issn": "09680896",
+            "lastpage": "4871",
+            "pmid": "22748706",
+            "pub_year": 2012,
+            "title": "Design, synthesis, and pharmacological evaluation of novel tetrahydroprotoberberine derivatives: Selective inhibitors of dopamine D 1 receptor",
+            "volume": "20"
+        },
+        "bib11": {
+            "authors": [
+                {
+                    "first": "Shohei",
+                    "initial": "S.",
+                    "last": "Hashiguchi"
+                },
+                {
+                    "first": "Akio",
+                    "initial": "A.",
+                    "last": "Fujii"
+                },
+                {
+                    "first": "Jun",
+                    "initial": "J.",
+                    "last": "Takehara"
+                },
+                {
+                    "first": "Takao",
+                    "initial": "T.",
+                    "last": "Ikariya"
+                },
+                {
+                    "first": "Ryoji",
+                    "initial": "R.",
+                    "last": "Noyori"
+                }
+            ],
+            "doi": "10.1021/ja00133a037",
+            "firstpage": "7562",
+            "issn": "00027863",
+            "lastpage": "7563",
+            "pub_year": 1995,
+            "title": "Asymmetric Transfer Hydrogenation of Aromatic Ketones Catalyzed by Chiral Ruthenium(II) Complexes",
+            "volume": "117"
+        },
+        "bib12": {
+            "authors": [
+                {
+                    "first": "Maurice",
+                    "initial": "M.",
+                    "last": "Shamma"
+                },
+                {
+                    "first": "C. D.",
+                    "initial": "C.D.",
+                    "last": "Jones"
+                }
+            ],
+            "doi": "10.1021/ja00719a030",
+            "firstpage": "4943",
+            "issn": "00027863",
+            "lastpage": "4949",
+            "pub_year": 1970,
+            "title": "A Model for the Biogenesis of the Spirobenzylisoquinoline Alkaloids",
+            "volume": "92"
+        },
+        "bib13": {
+            "authors": [
+                {
+                    "first": "M.",
+                    "initial": "M.",
+                    "last": "Blouin"
+                },
+                {
+                    "first": "R.",
+                    "initial": "R.",
+                    "last": "Frenette"
+                }
+            ],
+            "doi": "10.1021/jo016037z",
+            "firstpage": "9043",
+            "issn": "00223263",
+            "lastpage": "9045",
+            "pmid": "11749644",
+            "pub_year": 2001,
+            "title": "A new method for the preparation of aryl vinyl ethers",
+            "volume": "66"
+        },
+        "bib13a": {
+            "authors": [
+                {
+                    "first": "M.",
+                    "initial": "M.",
+                    "last": "Blouin"
+                },
+                {
+                    "first": "R.",
+                    "initial": "R.",
+                    "last": "Frenette"
+                }
+            ],
+            "doi": "10.1021/jo016037z",
+            "firstpage": "9043",
+            "issn": "00223263",
+            "lastpage": "9045",
+            "pmid": "11749644",
+            "pub_year": 2001,
+            "title": "A new method for the preparation of aryl vinyl ethers",
+            "volume": "66"
+        },
+        "bib13b": {
+            "authors": [
+                {
+                    "first": "M.",
+                    "initial": "M.",
+                    "last": "Blouin"
+                },
+                {
+                    "first": "R.",
+                    "initial": "R.",
+                    "last": "Frenette"
+                }
+            ],
+            "doi": "10.1021/jo016037z",
+            "firstpage": "9043",
+            "issn": "00223263",
+            "lastpage": "9045",
+            "pmid": "11749644",
+            "pub_year": 2001,
+            "title": "A new method for the preparation of aryl vinyl ethers",
+            "volume": "66"
+        },
+        "bib13c": {
+            "authors": [
+                {
+                    "first": "M.",
+                    "initial": "M.",
+                    "last": "Blouin"
+                },
+                {
+                    "first": "R.",
+                    "initial": "R.",
+                    "last": "Frenette"
+                }
+            ],
+            "doi": "10.1021/jo016037z",
+            "firstpage": "9043",
+            "issn": "00223263",
+            "lastpage": "9045",
+            "pmid": "11749644",
+            "pub_year": 2001,
+            "title": "A new method for the preparation of aryl vinyl ethers",
+            "volume": "66"
+        },
+        "bib14": {
+            "authors": [
+                {
+                    "first": "Jung Kai",
+                    "initial": "J.K.",
+                    "last": "Chang"
+                },
+                {
+                    "first": "Nein Chen",
+                    "initial": "N.C.",
+                    "last": "Chang"
+                }
+            ],
+            "doi": "10.1016/j.tet.2008.01.119",
+            "firstpage": "3483",
+            "issn": "00404020",
+            "lastpage": "3487",
+            "pub_year": 2008,
+            "title": "Total synthesis of (\u00b1)-gusanlung D",
+            "volume": "64"
+        },
+        "bib15": {
+            "authors": [
+                {
+                    "first": "Bo Rui",
+                    "initial": "B.R.",
+                    "last": "Chang"
+                },
+                {
+                    "first": "Chung Yi",
+                    "initial": "C.Y.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Nein Chen",
+                    "initial": "N.C.",
+                    "last": "Chang"
+                }
+            ],
+            "doi": "10.1016/S0040-4039(02)00446-X",
+            "firstpage": "3233",
+            "issn": "00404039",
+            "lastpage": "3235",
+            "pub_year": 2002,
+            "title": "Regioselective reduction of N-alkyl-3-sulfonyl glutarimides. Synthesis of 3,4-dihydro-3-tosylpyridin-2-ones",
+            "volume": "43"
+        },
+        "bib16": {
+            "authors": [
+                {
+                    "first": "Chung Yi",
+                    "initial": "C.Y.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Bo Rui",
+                    "initial": "B.R.",
+                    "last": "Chang"
+                },
+                {
+                    "first": "Min Ruei",
+                    "initial": "M.R.",
+                    "last": "Tsai"
+                },
+                {
+                    "first": "Meng Yang",
+                    "initial": "M.Y.",
+                    "last": "Chang"
+                },
+                {
+                    "first": "Nein Chen",
+                    "initial": "N.C.",
+                    "last": "Chang"
+                }
+            ],
+            "doi": "10.1016/j.tet.2003.09.076",
+            "firstpage": "9383",
+            "issn": "00404020",
+            "lastpage": "9387",
+            "pub_year": 2003,
+            "title": "Regioselective reduction of N-alkyl-3-sulfonyl glutarimides to \u03b4-lactams. Formal synthesis of (\u00b1)-paroxetine and (\u00b1)-tacamonine",
+            "volume": "59"
+        },
+        "bib17": null,
+        "bib18": {
+            "authors": [
+                {
+                    "first": "William P.",
+                    "initial": "W.P.",
+                    "last": "Unsworth"
+                },
+                {
+                    "first": "Christiana",
+                    "initial": "C.",
+                    "last": "Kitsiou"
+                },
+                {
+                    "first": "Richard J.K.",
+                    "initial": "R.J.K.",
+                    "last": "Taylor"
+                }
+            ],
+            "doi": "10.1021/ol4013469",
+            "firstpage": "3302",
+            "issn": "15237060",
+            "lastpage": "3305",
+            "pmid": "23786450",
+            "pub_year": 2013,
+            "title": "An expedient protecting-group-free total synthesis of (\u00b1)- dievodiamine",
+            "volume": "15"
+        },
+        "bib2": {
+            "authors": [
+                {
+                    "first": "Lenka",
+                    "initial": "L.",
+                    "last": "Grycov\u00e1"
+                },
+                {
+                    "first": "Ji\u0159\u00ed",
+                    "initial": "J.",
+                    "last": "Dost\u00e1l"
+                },
+                {
+                    "first": "Radek",
+                    "initial": "R.",
+                    "last": "Marek"
+                }
+            ],
+            "doi": "10.1016/j.phytochem.2006.10.004",
+            "firstpage": "150",
+            "issn": "00319422",
+            "lastpage": "175",
+            "pmid": "17109902",
+            "pub_year": 2007,
+            "title": "Quaternary protoberberine alkaloids",
+            "volume": "68"
+        },
+        "bib3": {
+            "authors": [
+                {
+                    "first": "Anna",
+                    "initial": "A.",
+                    "last": "Vollekov\u00e1"
+                },
+                {
+                    "first": "Daniela",
+                    "initial": "D.",
+                    "last": "Ko\u0161t'\u00c1lov\u00e1"
+                },
+                {
+                    "first": "Viktor",
+                    "initial": "V.",
+                    "last": "Kettmann"
+                },
+                {
+                    "first": "Jaroslav",
+                    "initial": "J.",
+                    "last": "T\u00f3th"
+                }
+            ],
+            "doi": "10.1002/ptr.1256",
+            "firstpage": "834",
+            "issn": "0951418X",
+            "lastpage": "837",
+            "pmid": "12916091",
+            "pub_year": 2003,
+            "title": "Antifungal activity of Mahonia aquifolium extract and its major protoberberine alkaloids",
+            "volume": "17"
+        },
+        "bib4": {
+            "authors": [
+                {
+                    "first": "J. M.",
+                    "initial": "J.M.",
+                    "last": "Hwang"
+                },
+                {
+                    "first": "H. C.",
+                    "initial": "H.C.",
+                    "last": "Kuo"
+                },
+                {
+                    "first": "T. H.",
+                    "initial": "T.H.",
+                    "last": "Tseng"
+                },
+                {
+                    "first": "J. Y.",
+                    "initial": "J.Y.",
+                    "last": "Liu"
+                },
+                {
+                    "first": "C. Y.",
+                    "initial": "C.Y.",
+                    "last": "Chu"
+                }
+            ],
+            "doi": "10.1007/s00204-005-0014-8",
+            "firstpage": "62",
+            "issn": "03405761",
+            "lastpage": "73",
+            "pmid": "16189662",
+            "pub_year": 2006,
+            "title": "Berberine induces apoptosis through a mitochondria/caspases pathway in human hepatoma cells",
+            "volume": "80"
+        },
+        "bib5": {
+            "authors": [
+                {
+                    "first": "Mohsen",
+                    "initial": "M.",
+                    "last": "Imanshahidi"
+                },
+                {
+                    "first": "Hossein",
+                    "initial": "H.",
+                    "last": "Hosseinzadeh"
+                }
+            ],
+            "doi": "10.1002/ptr.2399",
+            "firstpage": "999",
+            "issn": "0951418X",
+            "lastpage": "1012",
+            "pmid": "18618524",
+            "pub_year": 2008,
+            "title": "Pharmacological and therapeutic effects of Berberis vulgaris and its active constituent, berberine",
+            "volume": "22"
+        },
+        "bib5a": {
+            "authors": [
+                {
+                    "first": "Mohsen",
+                    "initial": "M.",
+                    "last": "Imanshahidi"
+                },
+                {
+                    "first": "Hossein",
+                    "initial": "H.",
+                    "last": "Hosseinzadeh"
+                }
+            ],
+            "doi": "10.1002/ptr.2399",
+            "firstpage": "999",
+            "issn": "0951418X",
+            "lastpage": "1012",
+            "pmid": "18618524",
+            "pub_year": 2008,
+            "title": "Pharmacological and therapeutic effects of Berberis vulgaris and its active constituent, berberine",
+            "volume": "22"
+        },
+        "bib6": {
+            "authors": [
+                {
+                    "first": "Chih Yu",
+                    "initial": "C.Y.",
+                    "last": "Lo"
+                },
+                {
+                    "first": "Lin Chen",
+                    "initial": "L.C.",
+                    "last": "Hsu"
+                },
+                {
+                    "first": "Min Shin",
+                    "initial": "M.S.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Yi Jing",
+                    "initial": "Y.J.",
+                    "last": "Lin"
+                },
+                {
+                    "first": "Lih Geeng",
+                    "initial": "L.G.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Cheng Deng",
+                    "initial": "C.D.",
+                    "last": "Kuo"
+                },
+                {
+                    "first": "Jin Yi",
+                    "initial": "J.Y.",
+                    "last": "Wu"
+                }
+            ],
+            "doi": "10.1016/j.bmcl.2012.10.098",
+            "firstpage": "305",
+            "issn": "0960894X",
+            "lastpage": "309",
+            "pmid": "23182088",
+            "pub_year": 2013,
+            "title": "Synthesis and anticancer activity of a novel series of 9-O-substituted berberine derivatives: A lipophilic substitute role",
+            "volume": "23"
+        },
+        "bib6a": {
+            "authors": [
+                {
+                    "first": "Chih Yu",
+                    "initial": "C.Y.",
+                    "last": "Lo"
+                },
+                {
+                    "first": "Lin Chen",
+                    "initial": "L.C.",
+                    "last": "Hsu"
+                },
+                {
+                    "first": "Min Shin",
+                    "initial": "M.S.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Yi Jing",
+                    "initial": "Y.J.",
+                    "last": "Lin"
+                },
+                {
+                    "first": "Lih Geeng",
+                    "initial": "L.G.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Cheng Deng",
+                    "initial": "C.D.",
+                    "last": "Kuo"
+                },
+                {
+                    "first": "Jin Yi",
+                    "initial": "J.Y.",
+                    "last": "Wu"
+                }
+            ],
+            "doi": "10.1016/j.bmcl.2012.10.098",
+            "firstpage": "305",
+            "issn": "0960894X",
+            "lastpage": "309",
+            "pmid": "23182088",
+            "pub_year": 2013,
+            "title": "Synthesis and anticancer activity of a novel series of 9-O-substituted berberine derivatives: A lipophilic substitute role",
+            "volume": "23"
+        },
+        "bib6d": {
+            "authors": [
+                {
+                    "first": "Chih Yu",
+                    "initial": "C.Y.",
+                    "last": "Lo"
+                },
+                {
+                    "first": "Lin Chen",
+                    "initial": "L.C.",
+                    "last": "Hsu"
+                },
+                {
+                    "first": "Min Shin",
+                    "initial": "M.S.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Yi Jing",
+                    "initial": "Y.J.",
+                    "last": "Lin"
+                },
+                {
+                    "first": "Lih Geeng",
+                    "initial": "L.G.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Cheng Deng",
+                    "initial": "C.D.",
+                    "last": "Kuo"
+                },
+                {
+                    "first": "Jin Yi",
+                    "initial": "J.Y.",
+                    "last": "Wu"
+                }
+            ],
+            "doi": "10.1016/j.bmcl.2012.10.098",
+            "firstpage": "305",
+            "issn": "0960894X",
+            "lastpage": "309",
+            "pmid": "23182088",
+            "pub_year": 2013,
+            "title": "Synthesis and anticancer activity of a novel series of 9-O-substituted berberine derivatives: A lipophilic substitute role",
+            "volume": "23"
+        },
+        "bib6e": {
+            "authors": [
+                {
+                    "first": "Chih Yu",
+                    "initial": "C.Y.",
+                    "last": "Lo"
+                },
+                {
+                    "first": "Lin Chen",
+                    "initial": "L.C.",
+                    "last": "Hsu"
+                },
+                {
+                    "first": "Min Shin",
+                    "initial": "M.S.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Yi Jing",
+                    "initial": "Y.J.",
+                    "last": "Lin"
+                },
+                {
+                    "first": "Lih Geeng",
+                    "initial": "L.G.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Cheng Deng",
+                    "initial": "C.D.",
+                    "last": "Kuo"
+                },
+                {
+                    "first": "Jin Yi",
+                    "initial": "J.Y.",
+                    "last": "Wu"
+                }
+            ],
+            "doi": "10.1016/j.bmcl.2012.10.098",
+            "firstpage": "305",
+            "issn": "0960894X",
+            "lastpage": "309",
+            "pmid": "23182088",
+            "pub_year": 2013,
+            "title": "Synthesis and anticancer activity of a novel series of 9-O-substituted berberine derivatives: A lipophilic substitute role",
+            "volume": "23"
+        },
+        "bib6f": {
+            "authors": [
+                {
+                    "first": "Chih Yu",
+                    "initial": "C.Y.",
+                    "last": "Lo"
+                },
+                {
+                    "first": "Lin Chen",
+                    "initial": "L.C.",
+                    "last": "Hsu"
+                },
+                {
+                    "first": "Min Shin",
+                    "initial": "M.S.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Yi Jing",
+                    "initial": "Y.J.",
+                    "last": "Lin"
+                },
+                {
+                    "first": "Lih Geeng",
+                    "initial": "L.G.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Cheng Deng",
+                    "initial": "C.D.",
+                    "last": "Kuo"
+                },
+                {
+                    "first": "Jin Yi",
+                    "initial": "J.Y.",
+                    "last": "Wu"
+                }
+            ],
+            "doi": "10.1016/j.bmcl.2012.10.098",
+            "firstpage": "305",
+            "issn": "0960894X",
+            "lastpage": "309",
+            "pmid": "23182088",
+            "pub_year": 2013,
+            "title": "Synthesis and anticancer activity of a novel series of 9-O-substituted berberine derivatives: A lipophilic substitute role",
+            "volume": "23"
+        },
+        "bib7": {
+            "authors": [
+                {
+                    "first": "Qiao Qin",
+                    "initial": "Q.Q.",
+                    "last": "Huang"
+                },
+                {
+                    "first": "Jun Long",
+                    "initial": "J.L.",
+                    "last": "Bi"
+                },
+                {
+                    "first": "Qian Yun",
+                    "initial": "Q.Y.",
+                    "last": "Sun"
+                },
+                {
+                    "first": "Fu Mei",
+                    "initial": "F.M.",
+                    "last": "Yang"
+                },
+                {
+                    "first": "Yue Hu",
+                    "initial": "Y.H.",
+                    "last": "Wang"
+                },
+                {
+                    "first": "Gui Hua",
+                    "initial": "G.H.",
+                    "last": "Tang"
+                },
+                {
+                    "first": "Fu Wei",
+                    "initial": "F.W.",
+                    "last": "Zhao"
+                },
+                {
+                    "first": "Huan",
+                    "initial": "H.",
+                    "last": "Wang"
+                },
+                {
+                    "first": "Jin Jin",
+                    "initial": "J.J.",
+                    "last": "Xu"
+                },
+                {
+                    "first": "Edward J.",
+                    "initial": "E.J.",
+                    "last": "Kennelly"
+                },
+                {
+                    "first": "Chun Lin",
+                    "initial": "C.L.",
+                    "last": "Long"
+                },
+                {
+                    "first": "Ge Fen",
+                    "initial": "G.F.",
+                    "last": "Yin"
+                }
+            ],
+            "doi": "10.1055/s-0031-1280126",
+            "firstpage": "65",
+            "issn": "00320943",
+            "lastpage": "70",
+            "pmid": "21858757",
+            "pub_year": 2012,
+            "title": "Bioactive isoquinoline alkaloids from Corydalis saxicola",
+            "volume": "78"
+        },
+        "bib8": {
+            "authors": [
+                {
+                    "first": "Haifeng",
+                    "initial": "H.",
+                    "last": "Sun"
+                },
+                {
+                    "first": "Liyuan",
+                    "initial": "L.",
+                    "last": "Zhu"
+                },
+                {
+                    "first": "Huicui",
+                    "initial": "H.",
+                    "last": "Yang"
+                },
+                {
+                    "first": "Wangke",
+                    "initial": "W.",
+                    "last": "Qian"
+                },
+                {
+                    "first": "Lin",
+                    "initial": "L.",
+                    "last": "Guo"
+                },
+                {
+                    "first": "Shengbin",
+                    "initial": "S.",
+                    "last": "Zhou"
+                },
+                {
+                    "first": "Bo",
+                    "initial": "B.",
+                    "last": "Gao"
+                },
+                {
+                    "first": "Zeng",
+                    "initial": "Z.",
+                    "last": "Li"
+                },
+                {
+                    "first": "Yu",
+                    "initial": "Y.",
+                    "last": "Zhou"
+                },
+                {
+                    "first": "Hualiang",
+                    "initial": "H.",
+                    "last": "Jiang"
+                },
+                {
+                    "first": "Kaixian",
+                    "initial": "K.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Xuechu",
+                    "initial": "X.",
+                    "last": "Zhen"
+                },
+                {
+                    "first": "Hong",
+                    "initial": "H.",
+                    "last": "Liu"
+                }
+            ],
+            "doi": "10.1016/j.bmc.2012.12.016",
+            "firstpage": "856",
+            "issn": "09680896",
+            "lastpage": "868",
+            "pmid": "23332346",
+            "pub_year": 2013,
+            "title": "Asymmetric total synthesis and identification of tetrahydroprotoberberine derivatives as new antipsychotic agents possessing a dopamine D1, D2 and serotonin 5-HT1A multi-action profile",
+            "volume": "21"
+        },
+        "bib9": {
+            "authors": [
+                {
+                    "first": "Can Hui",
+                    "initial": "C.H.",
+                    "last": "Zheng"
+                },
+                {
+                    "first": "Jun",
+                    "initial": "J.",
+                    "last": "Chen"
+                },
+                {
+                    "first": "Jia",
+                    "initial": "J.",
+                    "last": "Liu"
+                },
+                {
+                    "first": "Xiao Tian",
+                    "initial": "X.T.",
+                    "last": "Zhou"
+                },
+                {
+                    "first": "Na",
+                    "initial": "N.",
+                    "last": "Liu"
+                },
+                {
+                    "first": "Duo",
+                    "initial": "D.",
+                    "last": "Shi"
+                },
+                {
+                    "first": "Jing Jing",
+                    "initial": "J.J.",
+                    "last": "Huang"
+                },
+                {
+                    "first": "Jia Guo",
+                    "initial": "J.G.",
+                    "last": "Lv"
+                },
+                {
+                    "first": "Ju",
+                    "initial": "J.",
+                    "last": "Zhu"
+                },
+                {
+                    "first": "You Jun",
+                    "initial": "Y.J.",
+                    "last": "Zhou"
+                }
+            ],
+            "doi": "10.1002/ardp.201100169",
+            "firstpage": "454",
+            "issn": "03656233",
+            "lastpage": "462",
+            "pmid": "22415658",
+            "pub_year": 2012,
+            "title": "Synthesis and biological evaluation of 1-phenyl-1,2,3,4-dihydroisoquinoline compounds as tubulin polymerization inhibitors",
+            "volume": "345"
+        }
+    },
+    "body_text": [
+        {
+            "endOffset": 15276,
+            "parents": [],
+            "refoffsets": {
+                "bib3": {
+                    "endOffset": 15191,
+                    "startOffset": 15190
+                },
+                "bib4": {
+                    "endOffset": 15276,
+                    "startOffset": 15275
+                }
+            },
+            "secId": "sec1",
+            "sentence": "Many protoberberines exhibit biological activity,3 which has helped to propagate significant research efforts towards their synthesis.4",
+            "startOffset": 15141,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 44297,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.15",
+            "sentence": "The combined organic layers were washed with brine (300 mL), dried over MgSO4 and the solvent removed in vacuo to give the crude product.",
+            "startOffset": 44160,
+            "title": "8-Hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinolin-1-one (37)16"
+        },
+        {
+            "endOffset": 32410,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.6",
+            "sentence": "119\u2013121 \u00b0C); \u03b4H (400 MHz, CDCl3) 7.95 (d, J=13.6 Hz, 1H), 7.51 (d, J=13.6 Hz, 1H), 7.45\u20137.30 (m, 5H), 7.10 (dd, J=8.3, 2.0 Hz, 1H), 7.02 (d, J=2.0 Hz, 1H), 6.92 (d, J=8.3 Hz, 1H), 5.22 (s, 2H), 3.93 (s, 3H \u03b4C (100 MHz, CDCl3) 152.0, 150.1, 139.4, 136.2, 135.4, 128.9, 128.3, 127.3, 124.5, 123.2, 113.5, 110.9, 71.0, 56.2.",
+            "startOffset": 32089,
+            "title": "1-(Benzyloxy)-2-methoxy-4-[(E)-2-nitroethenyl]benzene (27)"
+        },
+        {
+            "endOffset": 14954,
+            "parents": [],
+            "refoffsets": {
+                "bib1": {
+                    "endOffset": 14954,
+                    "startOffset": 14953
+                }
+            },
+            "secId": "sec1",
+            "sentence": "Protoberberine alkaloid (\u00b1)-pallimamine 1 was isolated in 1989 from Corrydalis pallida var sparsimamma collected in Nan-Shan village, Taiwan, along with other known protoberberine alkaloids \u03b1-allocryptopine 2, protopine 3 and (\u2212)-capaurimine 4 (Fig. 1).1",
+            "startOffset": 14700,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 21119,
+            "parents": [],
+            "refoffsets": {
+                "bib14": {
+                    "endOffset": 21119,
+                    "startOffset": 21117
+                }
+            },
+            "secId": "sec2",
+            "sentence": "Encouragingly, these conditions did indeed promote oxidation and cyclisation, but unfortunately the cyclisation took place at the para-position of the phenol ring, furnishing the unusual bridged polycyclic compound 33.14",
+            "startOffset": 20899,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 46539,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.17",
+            "sentence": "K2CO3 (98.1 mg, 0.710 mmol) was added and the reaction mixture was stirred at 120 \u00b0C for 20 h.",
+            "startOffset": 46445,
+            "title": "tert-Butyl-8-(benzyloxy)-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinoline-2-carboxylate (39)"
+        },
+        {
+            "endOffset": 36061,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.10",
+            "sentence": "Imine 30 (48.5 mg, 0.180 mmol) and carboxylic acid 6 (85 mg, 0.270 mmol) were dissolved in CHCl3 (2.5 mL) and N,N-diisopropylethylamine (43 mg, 0.33 mmol) and T3P (50% in THF, 172 mg, 0.270 mmol) were added successively.",
+            "startOffset": 35841,
+            "title": "Dimethyl 3,4,10-trimethoxy-11-(benzyloxy)-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (31)"
+        },
+        {
+            "endOffset": 34342,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "refoffsets": {
+                "bib13b": {
+                    "endOffset": 34342,
+                    "startOffset": 34339
+                }
+            },
+            "secId": "sec4.8",
+            "sentence": "Mp 71\u201373 \u00b0C (CHCl3) (lit.13b",
+            "startOffset": 34314,
+            "title": "6-Methoxy-7-(benzyloxy)-1,2,3,4-tetrahydroisoquinoline (29)"
+        },
+        {
+            "endOffset": 33269,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.7",
+            "sentence": "the combined organic extracts were dried over Na2SO4 and concentrated in vacuo to afford the title compound 28 as an off-white solid which was used without further purification (3.43 g, 76%).",
+            "startOffset": 33078,
+            "title": "2-[4-(Benzyloxy)-3-methoxyphenyl]ethan-1-amine (28)"
+        },
+        {
+            "endOffset": 17712,
+            "parents": [],
+            "refoffsets": {
+                "bib8": {
+                    "endOffset": 17712,
+                    "startOffset": 17711
+                }
+            },
+            "secId": "sec2",
+            "sentence": "The novel benzoic acid derivative 6 was prepared via a straightforward two-step protocol; commercially available 2,3-dimethoxybenzoic acid 10 was first reacted with 1,3-dibromo-5,5-dimethylhydantoin to form bromide 11 which was then converted into diester 6 via a modified Hurtley reaction (Scheme 1).8",
+            "startOffset": 17410,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 30273,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.5",
+            "sentence": "The resulting solution was stirred at room temperature for 40 min before the addition of AlCl3 (221 mg, 1.66 mmol), and heating to 50 \u00b0C for 5 h.",
+            "startOffset": 30128,
+            "title": "Dimethyl 12-bromo-3,4,10,11-tetramethoxy-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (20)"
+        },
+        {
+            "endOffset": 18478,
+            "parents": [],
+            "refoffsets": {
+                "bib10": {
+                    "endOffset": 18332,
+                    "startOffset": 18330
+                }
+            },
+            "secId": "sec2",
+            "sentence": "First, vanillin 13 was converted into amine 17 by a sequence of known procedures (bromination, alkylation, Henry reaction and reduction),10 and was then reacted with paraformaldehyde and formic acid in a Pictet\u2013Spengler reaction to form tetrahydroisoquinoline 18 in good overall yield.",
+            "startOffset": 18193,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 42037,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.14",
+            "sentence": "Bromine (7.5 mg, 0.047 mmol) was added dropwise and the solution stirred for 45 min at the same temperature.",
+            "startOffset": 41929,
+            "title": "18-Bromo-4-(hydroxymethyl)-8,9,17-trimethoxy-16-oxo-2-oxa-12-azapentacyclo[10.6.2.01,14.04,13.05,10]icosa-5,7,9,14-tetraen-17-yl acetate (34)"
+        },
+        {
+            "endOffset": 25521,
+            "parents": [],
+            "secId": "sec4",
+            "sentence": "High Resolution Mass Spectra (HRMS) were obtained by University of York Mass spectrometer Service, using ionisation (ESI) on a Bruker Daltonics, MicrOTOF spectrometer.",
+            "startOffset": 25354,
+            "title": "Experimental section"
+        },
+        {
+            "endOffset": 23889,
+            "parents": [],
+            "secId": "sec3",
+            "sentence": "In future work, we will examine a range of reduction/protection strategies to complete the synthesis of pallimamine 1 from advanced pentacyclic precursors related to 43.",
+            "startOffset": 23720,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 34168,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.8",
+            "sentence": "The combined organic extracts were dried (Na2SO4) and concentrated in vacuo.",
+            "startOffset": 34092,
+            "title": "6-Methoxy-7-(benzyloxy)-1,2,3,4-tetrahydroisoquinoline (29)"
+        },
+        {
+            "endOffset": 26831,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.2",
+            "sentence": "Sodium hydride (6.16 g, 165 mmol, 60% in mineral oil) was added portionwise to a rapidly stirred cold suspension (0 \u00b0C) of 6-bromo-2,3-dimethoxybenzoic acid 11 (18.0 g, 68.8 mmol), copper(I) bromide (987 mg, 6.88 mmol) and dimethyl malonate (240 mL) [note: a solid crust formed on top of the reaction during the addition of sodium hydride].",
+            "startOffset": 26491,
+            "title": "6-(1,3-Dimethoxy-1,3-dioxopropan-2-yl)-2,3-dimethoxybenzoic acid (6)"
+        },
+        {
+            "endOffset": 19269,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "Using this one-pot telescoped procedure, lactam 20 was isolated in 38% unoptimised yield from imine 12.",
+            "startOffset": 19166,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 30415,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.5",
+            "sentence": "After this time, the mixture was poured onto a rapidly stirring mixture of satd aq Rochelle's salt and Et2O (1:1, 80 mL) and stirred for 1 h.",
+            "startOffset": 30274,
+            "title": "Dimethyl 12-bromo-3,4,10,11-tetramethoxy-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (20)"
+        },
+        {
+            "endOffset": 45475,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.16",
+            "sentence": "The aqueous layer was extracted with ethyl acetate (3\u00d7100 mL) and the combined organic extracts dried over MgSO4 and filtered.",
+            "startOffset": 45349,
+            "title": "tert-Butyl-8-hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinoline-2-carboxylate (38)"
+        },
+        {
+            "endOffset": 47580,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.18",
+            "sentence": "Lactam 39 (102 mg, 0.247 mmol) was dissolved in THF (2.6 mL) and cooled to \u221278 \u00b0C.",
+            "startOffset": 47498,
+            "title": "8-(Benzyloxy)-6,7-dimethoxy-3,4-dihydroisoquinoline (40)"
+        },
+        {
+            "endOffset": 28604,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.3",
+            "sentence": "Mp 62\u201364 \u00b0C; Rf 0.12 (CH2Cl2/MeOH, 9:1); \u03bdmax (thin film)/cm\u22121 3336, 2934, 2831, 1598, 1563, 1484, 1429, 1325, 1304, 1261, 1110, 1035, 1003, 806; \u03b4H (400 MHz, CDCl3) 6.60 (s, 1H), 3.90 (s, 2H), 3.83 (s, 3H).",
+            "startOffset": 28397,
+            "title": "6,7-Dimethoxy-8-bromo-1,2,3,4-tetrahydroisoquinoline (18)"
+        },
+        {
+            "endOffset": 40884,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.13",
+            "sentence": "Purification of the crude residue by flash chromatography (SiO2, MeOH/CH2Cl2, 25:1) afforded the title compound 33 as a yellow oil (13.1 mg, 30%).",
+            "startOffset": 40738,
+            "title": "4-(Hydroxymethyl)-8,9,17-trimethoxy-2-oxa-12-azapentacyclo[10.6.2.01,14.04,13.05,10]icosa-5,7,9,14,17-pentaen-16-one (33)"
+        },
+        {
+            "endOffset": 46738,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.17",
+            "sentence": "The aqueous layer was extracted with ethyl acetate (3\u00d710 mL) and the combined organic extracts dried over MgSO4 and filtered.",
+            "startOffset": 46613,
+            "title": "tert-Butyl-8-(benzyloxy)-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinoline-2-carboxylate (39)"
+        },
+        {
+            "endOffset": 24985,
+            "parents": [],
+            "secId": "sec4",
+            "sentence": "All spectra were acquired at 295 K. Chemical shifts (\u03b4) are quoted in parts per million (ppm).",
+            "startOffset": 24891,
+            "title": "Experimental section"
+        },
+        {
+            "endOffset": 31824,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.6",
+            "sentence": "After this time, the reaction mixture was cooled to rt, quenched with H2O (20 mL) and filtered.",
+            "startOffset": 31729,
+            "title": "1-(Benzyloxy)-2-methoxy-4-[(E)-2-nitroethenyl]benzene (27)"
+        },
+        {
+            "endOffset": 44800,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.15",
+            "sentence": "Column chromatography (SiO2, 1:1 petrol:ethyl acetate\u2192pure ethyl acetate) afforded the title compound 37 (7.34 g, 80%) as a white solid; Rf 0.40 (ethyl acetate); \u03b4H (400 MHz, CDCl3) 12.37 (1H, s), 6.45 (1H, br s), 6.25 (1H, s), 3.88 (3H, s), 3.86 (3H, s), 3.52 (2H, dt, J=6.7, 2.7 Hz), 2.90 (2H, t, J=6.7 Hz); HRMS (ESI+) 246.0736; C11H13NNaO4 (MNa+) requires: 246.0737 (0.2 ppm error); Elemental Analysis: calculated for C11H13NO4 requires C, 59.19; H, 5.87; N, 6.27; found C, 59.20; H, 5.95; N, 6.17.",
+            "startOffset": 44298,
+            "title": "8-Hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinolin-1-one (37)16"
+        },
+        {
+            "endOffset": 46612,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.17",
+            "sentence": "The reaction was cooled to rt before it was quenched with water (10 mL).",
+            "startOffset": 46540,
+            "title": "tert-Butyl-8-(benzyloxy)-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinoline-2-carboxylate (39)"
+        },
+        {
+            "endOffset": 24142,
+            "parents": [],
+            "secId": "sec4",
+            "sentence": "Anhydrous dichloromethane and toluene were obtained from an Innovative Technology Pure Solv solvent purification system.",
+            "startOffset": 24022,
+            "title": "Experimental section"
+        },
+        {
+            "endOffset": 41671,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.13",
+            "sentence": "Rf 0.43 (CH2Cl2/MeOH, 9:1); \u03bdmax (thin film)/cm\u22121 3356, 2928, 2855, 1681, 1656, 1626, 1493, 1454, 1273, 1209, 1175, 1063, 1020, 732; \u03b4H (400 MHz, CDCl3) 7.06 (d, J=8.6 Hz, 1H), 6.92 (d, J=8.6 Hz, 1H), 6.41 (s, 1H), 5.68 (s, 1H), 4.22 (d, J=16.6 Hz, 1H), 4.17 (s, 1H), 4.03 (d, J=12.1 Hz, 1H), 3.92 (d, J=16.6 Hz, 1H), 3.89 (s, 3H), 3.82 (s, 3H), 3.70 (s, 3H), 3.41 (d, J=11.0 Hz, 1H), 3.37\u20133.32 (m, 2H), 3.03 (td, J=11.7, 3.9 Hz, 1H), 2.61 (dd, J=11.7, 5.1 Hz, 1H), 2.12 (dd, J=13.0, 3.4, 1H), 1.65 (td, J=13.0, 5.4 Hz, 1H); \u03b4C (100 MHz, CDCl3) 181.2, 158.3, 151.4, 151.2, 146.6, 129.5, 128.7, 124.4, 122.0, 116.7, 111.5, 71.8, 70.5, 67.9, 61.2, 60.8, 55.8, 55.3, 48.8, 45.2, 43.3, 39.6; MS (ESI+) m/z (rel %) 400 ([M+H]+, 100); HRMS (ESI+) 400.1746 [M+H]+, C22H26NO6 requires 400.1755.",
+            "startOffset": 40885,
+            "title": "4-(Hydroxymethyl)-8,9,17-trimethoxy-2-oxa-12-azapentacyclo[10.6.2.01,14.04,13.05,10]icosa-5,7,9,14,17-pentaen-16-one (33)"
+        },
+        {
+            "endOffset": 40594,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.13",
+            "sentence": "The resulting solution was stirred for 1 h, before being quenched with NaHCO3 (20 mL).",
+            "startOffset": 40508,
+            "title": "4-(Hydroxymethyl)-8,9,17-trimethoxy-2-oxa-12-azapentacyclo[10.6.2.01,14.04,13.05,10]icosa-5,7,9,14,17-pentaen-16-one (33)"
+        },
+        {
+            "endOffset": 17963,
+            "parents": [],
+            "refoffsets": {
+                "bib9": {
+                    "endOffset": 17963,
+                    "startOffset": 17962
+                }
+            },
+            "secId": "sec2",
+            "sentence": "The overall yield for the two-step conversion of compound 10 into product 6 was relatively low (36%) but was easily performed on a large scale (7 g of 6 formed), providing ample quantities of material with which the perform the subsequent syntheses.9",
+            "startOffset": 17713,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 40249,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.12",
+            "sentence": "\u03bdmax (thin film)/cm\u22121 3275, 2938, 1719, 1677, 1610, 1517, 1497, 1454, 1283, 1231, 1090, 1004, 815; \u03b4H (400 MHz, CD3OD) 8.42 (s, 1H), 7.35 (d, J=8.7 Hz, 1H), 7.13 (d, J=8.7 Hz, 1H), 7.04 (s, 1H), 6.83 (s, 1H), 4.84 (s, 1H), 4.51 (d, J=15.3 Hz, 1H), 4.18 (d, J=15.3 Hz, 1H), 4.06 (d, J=11.9 Hz, 1H), 3.89 (s, 3H), 3.88 (s, 6H), 3.81 (d, J=11.9 Hz, 1H), 3.58 (d, J=11.0 Hz, 1H), 3.41 (d, J=9.1 Hz, 1H), 3.29\u20133.21 (m, 2H), 3.05 (td, J=11.6, 2.3 Hz, 1H), 2.80 (d, J=16.1 Hz, 1H); \u03b4C (100 MHz, CD3OD) 150.7, 147.2, 144.9, 144.6, 130.0, 127.3, 127.2, 122.1, 122.0, 114.8, 112.8, 111.6, 65.7, 65.2, 62.4, 59.4, 55.0, 55.0, 53.4, 50.9, 49.0, 27.8; MS (ESI+) m/z (rel %) 402 ([M+H]+, 100); HRMS (ESI+) 402.1897 [M+H]+, C22H28NO6 requires 402.1911.",
+            "startOffset": 39512,
+            "title": "13,13-Bis(hydroxymethyl)-11-hydroxy-3,4,10-trimethoxy-7,8,12b,13-tetrahydro-5H-6-azatetraphene (22)"
+        },
+        {
+            "endOffset": 33077,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.7",
+            "sentence": "The residue was taken up in 1 M aq HCl (100 mL), washed with Et2O (2\u00d7100 mL), basified to pH 10 with 1 M NaOH and extracted with Et2O (3\u00d7100 mL).",
+            "startOffset": 32932,
+            "title": "2-[4-(Benzyloxy)-3-methoxyphenyl]ethan-1-amine (28)"
+        },
+        {
+            "endOffset": 20335,
+            "parents": [],
+            "refoffsets": {
+                "bib13": {
+                    "endOffset": 20208,
+                    "startOffset": 20206
+                }
+            },
+            "secId": "sec2",
+            "sentence": "First, based on literature precedent,13 sequential Henry condensation, reduction, Pictet\u2013Spengler and oxidation reactions delivered the key imine coupling partner 30.",
+            "startOffset": 20169,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 22642,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "The DIA reaction of imine 40 with acid 6 proceeded well, furnishing lactam 41 in 51% unoptimised yield, with AlCl3 used as an additive in this case.",
+            "startOffset": 22494,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 49888,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.19",
+            "sentence": "The resulting solution was stirred at room temperature for 20 min before the addition of AlCl3 (224 mg, 1.68 mmol), and heating to 50 \u00b0C for 2 h.",
+            "startOffset": 49743,
+            "title": "13,13-Dimethyl 12-(benzyloxy)-3,4,10,11-tetramethoxy-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (41)"
+        },
+        {
+            "endOffset": 44874,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "refoffsets": {
+                "bib16": {
+                    "endOffset": 44874,
+                    "startOffset": 44872
+                }
+            },
+            "secId": "sec4.15",
+            "sentence": "The obtained data were in accord with those reported in the literature.16",
+            "startOffset": 44801,
+            "title": "8-Hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinolin-1-one (37)16"
+        },
+        {
+            "endOffset": 34973,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.9",
+            "sentence": "Amine 29 (1.38 g, 5.12 mmol) was dissolved in dichloromethane (50 mL) and MnO2 (8.90 g, 103 mmol) was added.",
+            "startOffset": 34865,
+            "title": "6-Methoxy-7-(benzyloxy)-3,4-dihydroisoquinoline (30)"
+        },
+        {
+            "endOffset": 32088,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "refoffsets": {
+                "bib13a": {
+                    "endOffset": 32088,
+                    "startOffset": 32085
+                }
+            },
+            "secId": "sec4.6",
+            "sentence": "Mp 119\u2013120 \u00b0C (lit.13a",
+            "startOffset": 32066,
+            "title": "1-(Benzyloxy)-2-methoxy-4-[(E)-2-nitroethenyl]benzene (27)"
+        },
+        {
+            "endOffset": 43812,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.15",
+            "sentence": "The flask was cooled to 0 \u00b0C under nitrogen atmosphere and BF3\u00b7OEt2 (20.8 mL, 0.169 mol) was added dropwise.",
+            "startOffset": 43704,
+            "title": "8-Hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinolin-1-one (37)16"
+        },
+        {
+            "endOffset": 17268,
+            "parents": [],
+            "secId": "sec1",
+            "sentence": "Indeed, it is plausible that similar thermodynamic factors are at play during its biosynthesis, giving rise to the observed trans-configuration in the natural product; the fact that pallimamine was isolated in racemic form offers minor supporting evidence for this hypothesis, as this suggests that its biosynthesis may proceed via an intermediate that has undergone reversible epimerisation.",
+            "startOffset": 16876,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 18192,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "Next, attention turned to the synthesis of brominated imine 12; this substrate was chosen as the bromo-substituent was thought to be a useful synthetic handle with which to install the tetrahydropyran ring later in the synthesis.",
+            "startOffset": 17963,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 32830,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.7",
+            "sentence": "After complete addition, the reaction mixture was heated 70 \u00b0C for 2 h, before being cooled to 0 \u00b0C and quenched by addition of ethyl acetate (50 mL) followed by H2O until evolution of gas ceased.",
+            "startOffset": 32634,
+            "title": "2-[4-(Benzyloxy)-3-methoxyphenyl]ethan-1-amine (28)"
+        },
+        {
+            "endOffset": 19621,
+            "parents": [],
+            "refoffsets": {
+                "bib11": {
+                    "endOffset": 19561,
+                    "startOffset": 19559
+                }
+            },
+            "secId": "sec2",
+            "sentence": "However, repeated attempts to reduce lactam 20 were unsuccessful11 leading either to no reaction, or complex product mixtures.",
+            "startOffset": 19495,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 27096,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.2",
+            "sentence": "The resulting suspension was then quenched with water (800 mL), washed with ether (3\u00d71500 mL) and then acidified with 10% hydrochloric acid.",
+            "startOffset": 26956,
+            "title": "6-(1,3-Dimethoxy-1,3-dioxopropan-2-yl)-2,3-dimethoxybenzoic acid (6)"
+        },
+        {
+            "endOffset": 16366,
+            "parents": [],
+            "secId": "sec1",
+            "sentence": "Following reduction (7\u21928) it was then planned to exploit the symmetry of the resulting diol 8 to construct the tetrahydropyran ring via a C\u2013O coupling reaction, resulting in the desymmetrisation of the diastereotopic alcohol groups.",
+            "startOffset": 16134,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 36207,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.10",
+            "sentence": "The resulting solution was stirred at rt for 40 min before the addition of BCl3 (1 M in CH2Cl2, 0.36 mL, 0.36 mmol), and heated to 50 \u00b0C for 4 h.",
+            "startOffset": 36062,
+            "title": "Dimethyl 3,4,10-trimethoxy-11-(benzyloxy)-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (31)"
+        },
+        {
+            "endOffset": 29304,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.4",
+            "sentence": "The resulting suspension was stirred for 16 h at rt, before being filtered through a short pad of Celite and concentrated in vacuo, affording the title compound 12 as a pale brown solid which was used without further purification (283 mg, 84%).",
+            "startOffset": 29060,
+            "title": "6,7-Dimethoxy-8-bromo-3,4-dihydroisoquinoline (12)"
+        },
+        {
+            "endOffset": 51542,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.20",
+            "sentence": "The reaction was stirred at rt for 20 h, then evacuated, flushed with argon, filtered through Celite\u2122 and concentrated in vacuo.",
+            "startOffset": 51414,
+            "title": "(6SR,11bRS)-Methyl 1,2,8,9-tetramethoxy-7,12-dioxo-4,5,6,7,11b,12-hexahydrobenzo[g]chromeno[3,4,5-ija]quinolizine-11b-carboxylate (43)"
+        },
+        {
+            "endOffset": 36546,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.10",
+            "sentence": "Purification of the crude residue by flash chromatography (SiO2, 50%\u219260%, ethyl acetate/hexane) afforded the title compound 31 as a yellow oil (49 mg, 48%).",
+            "startOffset": 36390,
+            "title": "Dimethyl 3,4,10-trimethoxy-11-(benzyloxy)-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (31)"
+        },
+        {
+            "endOffset": 23177,
+            "parents": [],
+            "refoffsets": {
+                "bib15": {
+                    "endOffset": 23177,
+                    "startOffset": 23175
+                }
+            },
+            "secId": "sec2",
+            "sentence": "The product was found to possess the correct relative stereochemistry required in pallimamine, with this structural assignment confirmed by X-ray crystallographic data as shown (see Scheme 7).15",
+            "startOffset": 22983,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 28026,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "refoffsets": {
+                "bib10": {
+                    "endOffset": 27914,
+                    "startOffset": 27912
+                }
+            },
+            "secId": "sec4.3",
+            "sentence": "A solution of 2-(3-bromo-4,5-dimethoxyphenyl)ethanamine 1710 (498 mg, 1.91 mmol) and paraformaldehyde (58 mg, 1.91 mmol) in formic acid (1 mL) was heated to 50 \u00b0C for 15 h.",
+            "startOffset": 27854,
+            "title": "6,7-Dimethoxy-8-bromo-1,2,3,4-tetrahydroisoquinoline (18)"
+        },
+        {
+            "endOffset": 31676,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.6",
+            "sentence": "4-Benzyloxy-3-methoxybenzaldehyde 26 (1.00 g, 4.13 mmol) was dissolved in AcOH (5 mL), and NH4OAc (477 mg, 6.20 mmol) and MeNO2 (756 mg, 12.4 mmol) were added successively.",
+            "startOffset": 31504,
+            "title": "1-(Benzyloxy)-2-methoxy-4-[(E)-2-nitroethenyl]benzene (27)"
+        },
+        {
+            "endOffset": 24412,
+            "parents": [],
+            "secId": "sec4",
+            "sentence": "Flash column chromatography was carried out using slurry packed silica gel (SiO2), 35\u201370 \u03bcm, 60 \u00c5, under light positive pressure eluting with the specified solvent system.",
+            "startOffset": 24241,
+            "title": "Experimental section"
+        },
+        {
+            "endOffset": 32065,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.6",
+            "sentence": "The filtrate was extracted with ethyl acetate (3\u00d720 mL), and the organic extracts combined with the filtrant, dried (MgSO4) and concentrated in vacuo to afford the title compound 27 which was used without further purification (1.17 g, 99%).",
+            "startOffset": 31825,
+            "title": "1-(Benzyloxy)-2-methoxy-4-[(E)-2-nitroethenyl]benzene (27)"
+        },
+        {
+            "endOffset": 25353,
+            "parents": [],
+            "secId": "sec4",
+            "sentence": "Infrared spectra (IR) were recorded on a ThermoNicolet IR-100 spectrometer with NaCl plates as a thin film dispersed from either CH2Cl2 or CDCl3.",
+            "startOffset": 25208,
+            "title": "Experimental section"
+        },
+        {
+            "endOffset": 44034,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.15",
+            "sentence": "Ethyl acetate (300 mL) was added and the rapidly stirred mixture was heated for 1 h at 50 \u00b0C solvating all the crude material.",
+            "startOffset": 43908,
+            "title": "8-Hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinolin-1-one (37)16"
+        },
+        {
+            "endOffset": 20085,
+            "parents": [],
+            "refoffsets": {
+                "bib12": {
+                    "endOffset": 20062,
+                    "startOffset": 20060
+                }
+            },
+            "secId": "sec2",
+            "sentence": "It was planned instead to synthesise triol 22, using a similar strategy to that described earlier, before constructing the tetrahydropyran ring using an oxidative coupling process,12 as outlined in Fig. 3.",
+            "startOffset": 19880,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 31728,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.6",
+            "sentence": "The resulting mixture was heated to 90 \u00b0C for 19 h.",
+            "startOffset": 31677,
+            "title": "1-(Benzyloxy)-2-methoxy-4-[(E)-2-nitroethenyl]benzene (27)"
+        },
+        {
+            "endOffset": 27794,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.2",
+            "sentence": "Purification by column chromatography (SiO2, 2:1\u21921:1 petrol:ethyl acetate\u2192ethyl acetate) afforded compound 6 as a white solid (7.74 g, 36%); Rf 0.47 (CH2Cl2/MeOH, 50:1); mp 104\u2013108 \u00b0C; \u03bdmax (thin film)/cm\u22121 3223, 2955, 1735, 1581, 1494, 1438, 1264, 1150, 1055; \u03b4H (400 MHz, CDCl3) 7.22 (1H, d, J=8.7 Hz), 7.08 (1H, d, J=8.7 Hz), 5.36 (1H, s), 3.99 (3H, s), 3.91 (3H, s), 3.78 (6H, s); \u03b4C (100 MHz, CDCl3) 169.0, 167.3, 152.3, 147.6, 126.5, 125.5, 124.8, 115.2, 62.2, 56.0, 54.2, 52.9; HRMS (ESI+) 335.0728 [M+Na]+, C14H16NaO8 requires 335.0737.",
+            "startOffset": 27250,
+            "title": "6-(1,3-Dimethoxy-1,3-dioxopropan-2-yl)-2,3-dimethoxybenzoic acid (6)"
+        },
+        {
+            "endOffset": 20832,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "As mentioned above, it was next planned to convert triol 22 into tetrahydropyran 25 using the oxidative coupling strategy outlined in Fig. 3.",
+            "startOffset": 20691,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 46246,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.16",
+            "sentence": "The filtrate was concentrated in vacuo and purified by column chromatography (SiO2, 4:1 petrol:ethyl acetate\u2192pure ethyl acetate) to afford the title compound 38 as colorless crystals (2.35 g, 80%); Rf 0.60 (1:1 petrol:ethyl acetate); mp 115\u2013117 \u00b0C; \u03bdmax (thin film)/cm\u22121 3007, 2977, 2941, 1711, 1643, 1575, 1450, 1420, 1368, 1291, 1254, 1228; \u03b4H (400 MHz, CDCl3) 12.24 (1H, s), 6.23 (1H, s), 3.90 (2H, t, J=6.3 Hz), 3.88 (3H, s), 3.83 (3H, s), 2.90 (2H, t, J=6.3 Hz), 1.55 (9H, s); \u03b4C (100 MHz, CDCl3) 169.3, 157.5, 157.2, 152.0, 136.1, 135.2, 106.3, 101.6, 83.6, 60.6, 55.9, 44.6, 28.4, 27.9; HRMS (ESI+) 346.1248; C16H21NNaO6 (MNa+) requires: 346.1261; Elemental Analysis: calculated for C16H21NO6 requires C, 59.43; H, 6.55; N, 4.33; found C, 59.66; H, 6.46; N, 4.25.",
+            "startOffset": 45476,
+            "title": "tert-Butyl-8-hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinoline-2-carboxylate (38)"
+        },
+        {
+            "endOffset": 28112,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.3",
+            "sentence": "After this time, the solvent was removed in vacuo, and 1 M aq NaOH was added (10 mL).",
+            "startOffset": 28027,
+            "title": "6,7-Dimethoxy-8-bromo-1,2,3,4-tetrahydroisoquinoline (18)"
+        },
+        {
+            "endOffset": 19879,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "The potential for the aryl bromide moiety in compound 20 to undergo unwanted reduction was postulated to be a factor in our failure to form diol 21, and in view of this, an alternative synthetic strategy was devised in which this bromo-group is not required.",
+            "startOffset": 19621,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 25961,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.1",
+            "sentence": "The reaction mixture was stirred at rt for 1 h, then 1 M aq HCl (150 mL) was added and the aqueous layer was extracted with ethyl acetate (3\u00d7200 mL).",
+            "startOffset": 25812,
+            "title": "6-Bromo-2,3-dimethoxybenzoic acid (11)"
+        },
+        {
+            "endOffset": 23377,
+            "parents": [],
+            "secId": "sec3",
+            "sentence": "Preliminary studies indicated that the reduction of pentacyclic pallimamine analogue 43 is not straightforward and the total synthesis of pallimamine 1 has therefore not yet been completed.",
+            "startOffset": 23188,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 34313,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.8",
+            "sentence": "The crude residue was purified by flash chromatography (SiO2, 5\u219210% MeOH/CH2Cl2) to afford the title compound 29 as a brown solid (1.38 g, 39%).",
+            "startOffset": 34169,
+            "title": "6-Methoxy-7-(benzyloxy)-1,2,3,4-tetrahydroisoquinoline (29)"
+        },
+        {
+            "endOffset": 48243,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.18",
+            "sentence": "The organic solution was dried over MgSO4 and concentrated in vacuo.",
+            "startOffset": 48175,
+            "title": "8-(Benzyloxy)-6,7-dimethoxy-3,4-dihydroisoquinoline (40)"
+        },
+        {
+            "endOffset": 19165,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "In line with the majority of the previous DIA reactions reported by our group involving C\u2013C bond formation, it was necessary to add a Lewis acid into the reaction mixture and increase the temperature, in this case AlCl3 at 50 \u00b0C, in order to promote the ring-closing step.",
+            "startOffset": 18893,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 48043,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.18",
+            "sentence": "The resulting mixture was then diluted with water (5 mL) and extracted with ethyl acetate (3\u00d715 mL).",
+            "startOffset": 47943,
+            "title": "8-(Benzyloxy)-6,7-dimethoxy-3,4-dihydroisoquinoline (40)"
+        },
+        {
+            "endOffset": 51413,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.20",
+            "sentence": "Palladium hydroxide (35 mg, 20 wt % on carbon) was then added, and the reaction vessel was re-purged with argon, evacuated and fitted with a hydrogen balloon.",
+            "startOffset": 51255,
+            "title": "(6SR,11bRS)-Methyl 1,2,8,9-tetramethoxy-7,12-dioxo-4,5,6,7,11b,12-hexahydrobenzo[g]chromeno[3,4,5-ija]quinolizine-11b-carboxylate (43)"
+        },
+        {
+            "endOffset": 46444,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.17",
+            "sentence": "Lactam 38 (115 mg, 0.355 mmol) and benzyl bromide (0.063 mL, 0.532 mmol) were dissolved in toluene (3 mL).",
+            "startOffset": 46338,
+            "title": "tert-Butyl-8-(benzyloxy)-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinoline-2-carboxylate (39)"
+        },
+        {
+            "endOffset": 15686,
+            "parents": [],
+            "refoffsets": {
+                "bib5": {
+                    "endOffset": 15631,
+                    "startOffset": 15630
+                },
+                "bib5a": {
+                    "endOffset": 15631,
+                    "startOffset": 15630
+                }
+            },
+            "secId": "sec1",
+            "sentence": "In view of these factors, as well as a longstanding interest in the application of telescoped/tandem synthetic methodology in target synthesis,5 we were encouraged to embark upon its total synthesis.",
+            "startOffset": 15487,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 51773,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.20",
+            "sentence": "p-Toluenesulfonic acid monohydrate (16.9 mg, 0.0888 mmol) was added and the resulting solution stirred at 120 \u00b0C for 6 h, and then concentrated in vacuo.",
+            "startOffset": 51620,
+            "title": "(6SR,11bRS)-Methyl 1,2,8,9-tetramethoxy-7,12-dioxo-4,5,6,7,11b,12-hexahydrobenzo[g]chromeno[3,4,5-ija]quinolizine-11b-carboxylate (43)"
+        },
+        {
+            "endOffset": 48712,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.18",
+            "sentence": "The majority of the volatile organics were then removed in vacuo, before the crude residue was dissolved in dichloromethane (20 mL), washed with satd aq NaHCO3 (10 mL), dried over MgSO4 and concentrated in vacuo.",
+            "startOffset": 48500,
+            "title": "8-(Benzyloxy)-6,7-dimethoxy-3,4-dihydroisoquinoline (40)"
+        },
+        {
+            "endOffset": 27249,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.2",
+            "sentence": "The acidic aqueous residues were then extracted with ethyl acetate (3\u00d71000 mL) and the organic extracts were dried over MgSO4 and concentrated in vacuo.",
+            "startOffset": 27097,
+            "title": "6-(1,3-Dimethoxy-1,3-dioxopropan-2-yl)-2,3-dimethoxybenzoic acid (6)"
+        },
+        {
+            "endOffset": 24890,
+            "parents": [],
+            "secId": "sec4",
+            "sentence": "1H NMR and 13C NMR spectra were recorded on a Jeol ECX-400 NMR or Jeol ECS400 spectrometer operating 400 MHz and 100 MHz, respectively, or on a Bruker DRX500 spectrometer, operating at 500 MHz and 125 MHz, respectively.",
+            "startOffset": 24671,
+            "title": "Experimental section"
+        },
+        {
+            "endOffset": 16601,
+            "parents": [],
+            "secId": "sec1",
+            "sentence": "It was expected that C\u2013O bond formation would occur selectively via the pseudo-equatorial alcohol, rather than the alternative pseudo-axial alcohol, to form a product with the trans-fused ring junction required in the natural product.",
+            "startOffset": 16367,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 37932,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.11",
+            "sentence": "The mixture was stirred for 30 min, filtered and evaporated to afford the title compound 32 as a brown oil which was used without further purification (78.6 mg, 100%).",
+            "startOffset": 37765,
+            "title": "13,13-Bis(hydroxymethyl)-3,4,10-trimethoxy-11-(benzyloxy)-7,8,12b,13-tetrahydro-5H-6-azatetraphene (32)"
+        },
+        {
+            "endOffset": 28396,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.3",
+            "sentence": "The aqueous solution was extracted with dichloromethane (3\u00d710 mL), and the combined organic layers dried (Na2SO4), concentrated in vacuo and purified by flash chromatography (SiO2, ethyl acetate\u21925% MeOH/ethyl acetate) to afford the title compound as an off-white solid (317 mg, 61%).",
+            "startOffset": 28113,
+            "title": "6,7-Dimethoxy-8-bromo-1,2,3,4-tetrahydroisoquinoline (18)"
+        },
+        {
+            "endOffset": 40507,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.13",
+            "sentence": "Phenol 22 (43.4 mg, 0.108 mmol) was dissolved in MeCN (5 mL) and diacetoxyiodobenzene (41.7 mg, 0.129 mmol) was added in one portion.",
+            "startOffset": 40374,
+            "title": "4-(Hydroxymethyl)-8,9,17-trimethoxy-2-oxa-12-azapentacyclo[10.6.2.01,14.04,13.05,10]icosa-5,7,9,14,17-pentaen-16-one (33)"
+        },
+        {
+            "endOffset": 43588,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.15",
+            "sentence": "Diphenylphosphorylazide (8.96 mL, 0.0420 mol) was added dropwise to a stirred solution of carboxylic acid 35 (10.0 g, 0.0420 mol) and triethylamine (5.80 mL, 0.0420 mol) in toluene (125 mL) at rt.",
+            "startOffset": 43392,
+            "title": "8-Hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinolin-1-one (37)16"
+        },
+        {
+            "endOffset": 21918,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "Attention then switched to a third synthetic strategy, in which it was planned to perform the final ring-closure via a lactonisation reaction.",
+            "startOffset": 21776,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 16133,
+            "parents": [],
+            "refoffsets": {
+                "bib6": {
+                    "endOffset": 16070,
+                    "startOffset": 16063
+                },
+                "bib6a": {
+                    "endOffset": 16070,
+                    "startOffset": 16063
+                },
+                "bib6d": {
+                    "endOffset": 16133,
+                    "startOffset": 16131
+                },
+                "bib6e": {
+                    "endOffset": 16070,
+                    "startOffset": 16063
+                },
+                "bib6f": {
+                    "endOffset": 16070,
+                    "startOffset": 16063
+                },
+                "bib7": {
+                    "endOffset": 15957,
+                    "startOffset": 15956
+                }
+            },
+            "secId": "sec1",
+            "sentence": "We were confident that our recently established \u2018Direct Imine Acylation\u2019 (DIA) methodology6 would facilitate the coupling of a comparatively simple imine 5 and benzoic acid derivative 6 to construct the key \u03b4-lactam7 ring system 7; the viability of DIA to construct C\u2013C bonds has been demonstrated previously in our group,6a,6d\u2013g including an example in a related natural product synthesis.6d",
+            "startOffset": 15741,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 21632,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "This strategy was ultimately unsuccessful as a route to generate pallimamine, due to the apparent bias for cyclisation into the phenol para-position.",
+            "startOffset": 21483,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 23719,
+            "parents": [],
+            "secId": "sec3",
+            "sentence": "Lactam 41 was progressed further to give lactone 43 as a single diastereoisomer, a compound in which the complete pallimamine skeleton has been installed.",
+            "startOffset": 23565,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 28895,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.3",
+            "sentence": "3.81 (s, 3H), 3.05 (t, J=5.9 Hz, 2H), 2.72 (t, J=5.9 Hz, 2H), 2.10 (br s, 1H); \u03b4C (100 MHz, CDCl3) 151.6, 144.6, 132.3, 127.7, 118.1, 112.4, 60.6, 56.2, 48.8, 43.3, 29.4; MS (ESI+) m/z (rel %) 272 ([M+H]+, 100), 286 ([M+Na]+, 20); HRMS (ESI+) 272.0269 [M+H]+, C11H15BrNO2 requires 272.0291.",
+            "startOffset": 28605,
+            "title": "6,7-Dimethoxy-8-bromo-1,2,3,4-tetrahydroisoquinoline (18)"
+        },
+        {
+            "endOffset": 51254,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.20",
+            "sentence": "A 100-mL round bottom flask containing benzyl ether 41 (199 mg, 0.337 mmol) and methanol (3.4 mL) was purged with argon.",
+            "startOffset": 51134,
+            "title": "(6SR,11bRS)-Methyl 1,2,8,9-tetramethoxy-7,12-dioxo-4,5,6,7,11b,12-hexahydrobenzo[g]chromeno[3,4,5-ija]quinolizine-11b-carboxylate (43)"
+        },
+        {
+            "endOffset": 35247,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "refoffsets": {
+                "bib13c": {
+                    "endOffset": 35247,
+                    "startOffset": 35244
+                }
+            },
+            "secId": "sec4.9",
+            "sentence": "Mp 93\u201394 \u00b0C (CHCl3) (lit.13c",
+            "startOffset": 35219,
+            "title": "6-Methoxy-7-(benzyloxy)-3,4-dihydroisoquinoline (30)"
+        },
+        {
+            "endOffset": 15486,
+            "parents": [],
+            "secId": "sec1",
+            "sentence": "To the best of our knowledge, the pentacyclic structure of pallimamine 1 with its additional tetrahydropyran ring is a unique feature amongst protoberberine alkaloids and it has not been synthesised previously.",
+            "startOffset": 15276,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 45208,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.16",
+            "sentence": "After 10 min a solution of Boc2O (2.21 g, 10.1 mmol) in THF (28 mL) was transferred via syringe at \u221278 \u00b0C.",
+            "startOffset": 45102,
+            "title": "tert-Butyl-8-hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinoline-2-carboxylate (38)"
+        },
+        {
+            "endOffset": 35218,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.9",
+            "sentence": "The resulting suspension was stirred for 16 h at rt, before being filtered through a short pad of Celite and concentrated in vacuo, affording the title compound 30 as a pale brown solid which was used without further purification (980 mg, 72%).",
+            "startOffset": 34974,
+            "title": "6-Methoxy-7-(benzyloxy)-3,4-dihydroisoquinoline (30)"
+        },
+        {
+            "endOffset": 48174,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.18",
+            "sentence": "The combined organic extracts were washed with satd aq NaHCO3 solution (10 mL), satd aq Na2CO3 solution (10 mL) and brine (10 mL).",
+            "startOffset": 48044,
+            "title": "8-(Benzyloxy)-6,7-dimethoxy-3,4-dihydroisoquinoline (40)"
+        },
+        {
+            "endOffset": 36315,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.10",
+            "sentence": "After this time, the reaction was quenched with NaHCO3 (10 mL), and extracted with ethyl acetate (3\u00d710 mL).",
+            "startOffset": 36208,
+            "title": "Dimethyl 3,4,10-trimethoxy-11-(benzyloxy)-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (31)"
+        },
+        {
+            "endOffset": 16875,
+            "parents": [],
+            "secId": "sec1",
+            "sentence": "While we had no evidence to support this prediction when starting this work, intuitively we felt that the trans-fused product (and the associated transition state for its formation) would be more thermodynamically stable than the cis-variant and therefore form more easily.",
+            "startOffset": 16602,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 33290,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "refoffsets": {
+                "bib13a": {
+                    "endOffset": 33290,
+                    "startOffset": 33287
+                }
+            },
+            "secId": "sec4.7",
+            "sentence": "Mp 59\u201361 \u00b0C (lit.13a",
+            "startOffset": 33270,
+            "title": "2-[4-(Benzyloxy)-3-methoxyphenyl]ethan-1-amine (28)"
+        },
+        {
+            "endOffset": 47942,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.18",
+            "sentence": "Stirring was continued while the mixture warmed to rt.",
+            "startOffset": 47888,
+            "title": "8-(Benzyloxy)-6,7-dimethoxy-3,4-dihydroisoquinoline (40)"
+        },
+        {
+            "endOffset": 25611,
+            "parents": [],
+            "secId": "sec4",
+            "sentence": "Melting points were measured on a Gallenkamp melting point apparatus and are uncorrected.",
+            "startOffset": 25522,
+            "title": "Experimental section"
+        },
+        {
+            "endOffset": 52468,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.20",
+            "sentence": "Purification by column chromatography (SiO2, 1:1 ethyl acetate:hexane\u21922:1 ethyl acetate:hexane) afforded the title compound 43 as colourless oil (101 mg, 64%); Rf 0.50 (ethyl acetate); \u03bdmax (thin film)/cm\u22121 2939, 1784, 1745, 1661, 1483, 1462, 1308, 1224, 1164, 1075, 731; \u03b4H (400 MHz, CDCl3) 8.11 (1H, d, J=8.8), 7.13 (1H, d, J=8.8), 6.61 (1H, s), 5.16 (1H, s), 4.13\u2013405 (2H, m), 4.05 (3H, s), 3.93 (6H, s), 3.90 (3H, s), 3.50 (3H, s), 2.97\u20132.80 (2H, m); \u03b4C (100 MHz, CDCl3) 166.0, 162.9, 161.9, 154.5, 153.4, 150.4, 142.2, 135.4, 129.5, 124.9, 124.4, 124.3, 114.8, 110.3, 107.6, 61.6, 61.6, 56.2, 56.0, 54.9, 53.5, 52.2, 38.6, 27.4; HRMS (ESI+) 492.1279; C24H23NNaO9 (MNa+) requires: 492.1265.",
+            "startOffset": 51774,
+            "title": "(6SR,11bRS)-Methyl 1,2,8,9-tetramethoxy-7,12-dioxo-4,5,6,7,11b,12-hexahydrobenzo[g]chromeno[3,4,5-ija]quinolizine-11b-carboxylate (43)"
+        },
+        {
+            "endOffset": 24021,
+            "parents": [],
+            "secId": "sec4",
+            "sentence": "Except where stated, all reagents were purchased from commercial sources and used without further purification.",
+            "startOffset": 23910,
+            "title": "Experimental section"
+        },
+        {
+            "endOffset": 29059,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.4",
+            "sentence": "Amine 18 (285 mg, 1.05 mmol) was dissolved in dichloromethane (10.5 mL) and MnO2 (1.82 g, 20.9 mmol) was added.",
+            "startOffset": 28948,
+            "title": "6,7-Dimethoxy-8-bromo-3,4-dihydroisoquinoline (12)"
+        },
+        {
+            "endOffset": 33984,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.8",
+            "sentence": "Amine 28 (3.34 g, 13.0 mmol) and paraformaldehyde (390 mg, 13.0 mmol) were dissolved in formic acid (6.5 mL) and heated to 50 \u00b0C for 17 h.",
+            "startOffset": 33846,
+            "title": "6-Methoxy-7-(benzyloxy)-1,2,3,4-tetrahydroisoquinoline (29)"
+        },
+        {
+            "endOffset": 34810,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.8",
+            "sentence": "124\u2013126 \u00b0C); Rf 0.07 (ethyl acetate); \u03b4H (400 MHz, CDCl3) 7.45\u20137.41 (m, 2H) 7.38\u20137.33 (m, 2H), 7.32\u20137.27 (m, 1H), 6.60 (s, 1H), 6.53 (s, 1H), 5.10 (s, 2H), 3.88 (s, 2H), 3.85 (s, 3H), 3.11 (t, J=6.0 Hz, 2H), 2.72 (t, J=6.0 Hz, 2H), 1.92 (br s, 1H); \u03b4C (100 MHz, CDCl3) 148.3, 146.6, 137.4, 128.7, 127.9, 127.6, 127.4, 127.3, 112.7, 112.1, 71.3, 56.2, 47.9, 44.0, 28.7; MS (ESI+) m/z (rel %) 270 ([M+H]+, 100); HRMS (ESI+) 270.1482 [M+H]+, C17H20NO2 requires 270.1489.",
+            "startOffset": 34343,
+            "title": "6-Methoxy-7-(benzyloxy)-1,2,3,4-tetrahydroisoquinoline (29)"
+        },
+        {
+            "endOffset": 21776,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "Nonetheless, both oxidative coupling processes are certainly interesting, especially as both products were isolated as single diastereoisomers.",
+            "startOffset": 21633,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 29799,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.4",
+            "sentence": "102 \u00b0C); Rf 0.44 (CH2Cl2/MeOH, 9:1); \u03bdmax (thin film)/cm\u22121 2938, 1616, 1593, 1551, 1484, 1404, 1309, 1278, 1222, 1118, 1032, 1011, 989, 813, 611; \u03b4H (400 MHz, CDCl3) 8.59 (s, 1H), 6.65 (s, 1H), 3.91 (s, 3H), 3.84 (s, 3H), 3.72\u20133.66 (m, 2H), 2.68\u20132.61 (m, 2H); \u03b4C (100 MHz, CDCl3) 158.6, 155.5, 145.3, 135.5, 120.5, 119.4, 110.5, 60.8, 56.3, 46.8, 25.6; MS (ESI+) m/z (rel %) 270 ([M+H]+, 100), 299 ([M+Na]+, 10); HRMS (ESI+) 270.0134 [M+H]+, C11H1379BrNO2 requires 270.0124.",
+            "startOffset": 29325,
+            "title": "6,7-Dimethoxy-8-bromo-3,4-dihydroisoquinoline (12)"
+        },
+        {
+            "endOffset": 48327,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.18",
+            "sentence": "The crude material was used directly in the next step without further purification.",
+            "startOffset": 48244,
+            "title": "8-(Benzyloxy)-6,7-dimethoxy-3,4-dihydroisoquinoline (40)"
+        },
+        {
+            "endOffset": 20691,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "This delivered lactam 31 in reasonable overall yield, and it was then converted into the requisite triol 22 via successive reduction with LiAlH4 and hydrogenolysis (Scheme 4).",
+            "startOffset": 20516,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 39206,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.12",
+            "sentence": "The reaction was stirred for 20 h, before being filtered through a short plug of Celite\u2122 and evaporated.",
+            "startOffset": 39102,
+            "title": "13,13-Bis(hydroxymethyl)-11-hydroxy-3,4,10-trimethoxy-7,8,12b,13-tetrahydro-5H-6-azatetraphene (22)"
+        },
+        {
+            "endOffset": 47438,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.17",
+            "sentence": "The filtrate was concentrated in vacuo and purified by column chromatography (SiO2, 4:1 petrol:ethyl acetate) to afford the title compound 39 as colourless oil (118 mg, 80%); Rf 0.50 (1:1 petrol:ethyl acetate); \u03bdmax (thin film)/cm\u22121 2977, 2936, 1761, 1708, 1592, 1489, 1454, 1423, 1379, 1309, 1279, 1248, 1146, 1121; \u03b4H (400 MHz, CDCl3) 7.59\u20137.57 (2H, m), 7.36\u20137.26 (3H, m), 6.47 (1H, s), 5.16 (2H, s), 3.98 (3H, s), 3.83 (3H, s), 3.81 (2H, t, J=6.2 Hz), 2.84 (2H, t, J=6.2 Hz), 1.57 (9H, s); \u03b4C (100 MHz, CDCl3) 161.2, 156.4, 154.3, 152.6, 142.4, 137.4, 137.0, 129.0, 128.1, 127.8, 117.7, 105.6, 82.6, 75.8, 61.0, 56.0, 44.1, 29.5, 28.0; HRMS (ESI+) 436.1728; C23H27NNaO6 (MNa+) requires: 436.1731.",
+            "startOffset": 46739,
+            "title": "tert-Butyl-8-(benzyloxy)-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinoline-2-carboxylate (39)"
+        },
+        {
+            "endOffset": 17387,
+            "parents": [],
+            "secId": "sec1",
+            "sentence": "This paper details our efforts to date to apply the strategy outlined in Fig. 2 to the total synthesis of pallimamine.",
+            "startOffset": 17269,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 37353,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.10",
+            "sentence": "Rf 0.48 (ethyl acetate); \u03bdmax (thin film)/cm\u22121 2941, 1733, 1656, 1515, 1487, 1453, 1422, 1311, 1250, 1228, 1120, 1019, 912, 732; \u03b4H (400 MHz, CDCl3) 7.45\u20137.40 (m, 2H), 7.39\u20137.33 (m, 2H), 7.32\u20137.26 (m, 1H), 7.04 (d, J=8.6 Hz, 1H), 6.87 (s, 1H), 6.77 (d, J=8.6 Hz, 1H), 6.72 (s, 1H), 5.48 (s, 1H), 5.08 (d, J=12.2 Hz, 1H), 5.02 (d, J=12.2 Hz, 1H), 4.95\u20134.89 (m, 1H), 4.03 (s, 3H), 3.91 (s, 3H), 3.89 (s, 3H), 3.74 (s, 3H), 3.54 (s, 3H), 2.92\u20132.84 (m, 2H), 2.72\u20132.64 (m, 1H); \u03b4C (100 MHz, CDCl3) 170.2, 167.4, 162.4, 154.0, 150.1, 149.3, 146.5, 137.2, 132.5, 130.7, 128.7, 128.0, 127.6, 123.4, 123.3, 122.4, 115.2, 114.1, 111.7, 71.6, 66.5, 61.8, 60.9, 56.2, 56.0, 53.1, 53.0, 39.1, 29.2; MS (ESI+) m/z (rel %) 562 ([M+H]+, 10), 584 ([M+Na]+, 100); HRMS (ESI+) 584.1874 [M+Na]+, C31H31NNaO9 requires 584.1891.",
+            "startOffset": 36547,
+            "title": "Dimethyl 3,4,10-trimethoxy-11-(benzyloxy)-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (31)"
+        },
+        {
+            "endOffset": 37764,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.11",
+            "sentence": "The cooling was removed after 5 min, and the reaction mixture allowed to stir for 6 h at rt before being quenched by successive addition of ethyl acetate, H2O and Na2SO4.",
+            "startOffset": 37594,
+            "title": "13,13-Bis(hydroxymethyl)-3,4,10-trimethoxy-11-(benzyloxy)-7,8,12b,13-tetrahydro-5H-6-azatetraphene (32)"
+        },
+        {
+            "endOffset": 43322,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.14",
+            "sentence": "Mp 90\u201392 \u00b0C (CHCl3); Rf 0.44 (CH2Cl2/MeOH, 9:1); \u03bdmax (thin film)/cm\u22121 3514, 2940, 1745, 1700, 1492, 1370, 1273, 1240, 1073, 1025, 914, 790, 729; \u03b4H (400 MHz, CDCl3) 6.99 (d, J=8.6 Hz, 1H), 6.89 (d, J=8.6 Hz, 1H), 6.27 (s, 1H), 5.17 (s, 1H), 4.17 (d, J=16.2 Hz, 1H), 4.14 (s, 1H), 4.13 (d, J=12.0 Hz, 1H), 3.91\u20133.85 (m, 1H), 3.87 (s, 3H), 3.81 (s, 3H), 3.60 (d, J=12.4 Hz, 1H), 3.38 (d, J=10.5 Hz, 1H), 3.38 (s, 3H), 3.31 (d, J=10.5 Hz, 1H), 2.96 (td, J=12.2, 3.6 Hz, 1H), 2.57\u20132.50 (m, 1H), 2.33 (dd, J=13.6, 2.0 Hz, 1H), 2.21 (s, 3H), 1.73\u20131.63 (m, 1H); \u03b4C (100 MHz, CDCl3) 186.7, 169.8, 158.8, 151.4, 146.5, 129.2, 128.5, 122.1, 121.9, 111.5, 99.2, 72.0, 70.6, 67.9, 62.2, 60.8, 55.9, 55.8, 52.3, 49.1, 46.2, 43.1, 38.6, 21.3; MS (ESI+) m/z (rel %) 478 ([M\u2212OAc]+, 90), 538 ([M+H]+, 100) 560 ([M+Na]+, 90); HRMS (ESI+) 538.1073 [M+H]+, C24H2979BrNO8 requires 538.1071.",
+            "startOffset": 42452,
+            "title": "18-Bromo-4-(hydroxymethyl)-8,9,17-trimethoxy-16-oxo-2-oxa-12-azapentacyclo[10.6.2.01,14.04,13.05,10]icosa-5,7,9,14-tetraen-17-yl acetate (34)"
+        },
+        {
+            "endOffset": 22259,
+            "parents": [],
+            "refoffsets": {
+                "bib16": {
+                    "endOffset": 22146,
+                    "startOffset": 22144
+                }
+            },
+            "secId": "sec2",
+            "sentence": "First, lactam 37 was formed in good yield from carboxylic acid 35 using Canniago's published method16 and this was then converted into compound 39 by the sequential installation of Boc and benzyl protecting groups.",
+            "startOffset": 22045,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 44159,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.15",
+            "sentence": "The mixture was cooled to rt, the layers separated and the aqueous fraction further extracted with ethyl acetate (2\u00d7300 mL).",
+            "startOffset": 44035,
+            "title": "8-Hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinolin-1-one (37)16"
+        },
+        {
+            "endOffset": 42451,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.14",
+            "sentence": "The combined organic layers were dried (MgSO4) and concentrated in vacuo, and the resulting crude residue was purified by flash chromatography (SiO2, 1\u21925% MeOH/CH2Cl2), affording the title compound 34 as a white solid (7.0 mg, 42%).",
+            "startOffset": 42219,
+            "title": "18-Bromo-4-(hydroxymethyl)-8,9,17-trimethoxy-16-oxo-2-oxa-12-azapentacyclo[10.6.2.01,14.04,13.05,10]icosa-5,7,9,14-tetraen-17-yl acetate (34)"
+        },
+        {
+            "endOffset": 23564,
+            "parents": [],
+            "secId": "sec3",
+            "sentence": "Nonetheless, three contrasting synthetic strategies have been developed to form advanced intermediates 20, 31 and 41, with each utilising a direct imine acylation reaction as a key step.",
+            "startOffset": 23378,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 22494,
+            "parents": [],
+            "refoffsets": {
+                "bib6a": {
+                    "endOffset": 22494,
+                    "startOffset": 22492
+                }
+            },
+            "secId": "sec2",
+            "sentence": "The synthesis of imine 40 was then completed following partial reduction of the lactam carbonyl with Super-Hydride\u2122 and treatment with TFA, as has been demonstrated for the synthesis of related imines in our earlier work (Scheme 6).6a",
+            "startOffset": 22260,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 42218,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.14",
+            "sentence": "After this time, the reaction was quenched by addition of satd aq Na2S2O3 (5 mL), basified to pH 8 with NaHCO3, and the aqueous solution was extracted with ethyl acetate (3\u00d710 mL).",
+            "startOffset": 42038,
+            "title": "18-Bromo-4-(hydroxymethyl)-8,9,17-trimethoxy-16-oxo-2-oxa-12-azapentacyclo[10.6.2.01,14.04,13.05,10]icosa-5,7,9,14-tetraen-17-yl acetate (34)"
+        },
+        {
+            "endOffset": 38831,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.11",
+            "sentence": "Rf 0.38 (ethyl acetate); \u03bdmax (thin film)/cm\u22121 3337, 2935, 2836, 1730, 1608, 1515, 1496, 1454, 1330, 1257, 1282, 1227, 1098, 1022, 995, 911, 805, 733; \u03b4H (400 MHz, CDCl3) 7.44 (d, J=7.0 Hz, 2H), 7.38\u20137.32 (m, 2H), 7.32\u20137.27 (m, 1H), 7.13 (d, J=8.7 Hz, 1H), 6.92 (s, 1H), 6.90 (d, J=8.7 Hz, 1H), 6.68 (s, 1H), 5.24 (d, J=13.1 Hz, 1H), 5.12 (d, J=13.1 Hz, 1H), 4.17 (s, 1H), 4.13 (d, J=15.8 Hz, 1H), 3.91 (s, 3H), 3.86 (s, 3H), 3.86 (s, 3H), 3.71 (d, J=12.2 Hz, 1H), 3.66 (d, J=15.5 Hz, 1H), 3.32\u20133.20 (m, 2H), 3.18 (d, J=10.1 Hz, 1H), 3.16\u20133.10 (m, 1H), 3.04 (dd, J=10.1, 1.7 Hz, 1H) 2.63\u20132.54 (m, 2H); \u03b4C (100 MHz, CDCl3) 150.5, 148.3, 145.7, 145.1, 137.7, 131.8, 131.2, 131.0, 128.6, 127.9, 127.3, 124.7, 120.8, 115.1, 112.0, 111.8, 71.0, 67.3, 64.6, 63.1, 60.2, 56.1, 55.9, 54.8, 51.0, 49.0, 30.5; MS (ESI+) m/z (rel %) 492 ([M+H]+, 100); HRMS (ESI+) 492.2367 [M+H]+, C29H34NO6 requires 492.2381.",
+            "startOffset": 37933,
+            "title": "13,13-Bis(hydroxymethyl)-3,4,10-trimethoxy-11-(benzyloxy)-7,8,12b,13-tetrahydro-5H-6-azatetraphene (32)"
+        },
+        {
+            "endOffset": 49396,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.18",
+            "sentence": "Purification by column chromatography (SiO2, 1:1 ethyl acetate:petrol\u21922:1 ethyl acetate:petrol\u2192pure ethyl acetate) afforded the title compound 40 as colourless oil (37.1 mg, 50%); Rf 0.15 (9:1 ethyl acetate:MeOH); \u03bdmax (thin film)/cm\u22121 2938, 1619, 1597, 1570, 1492, 1454, 1427, 1379, 1348, 1311, 1234, 1123, 1093, 1191; \u03b4H (400 MHz, CDCl3) 8.49 (1H, br s), 7.44\u20137.42 (2H, m), 7.39\u20137.30 (3H, m), 6.47 (1H, s), 5.13 (2H, s), 3.89 (3H, s), 3.87 (3H, s), 3.63 (2H, t, J=7.8 Hz), 2.60 (2H, t, J=7.8 Hz); \u03b4C (100 MHz, CDCl3) 155.8, 155.4, 150.5, 140.4, 136.8, 133.3, 128.4, 128.4, 128.2, 115.8, 106.4, 76.1, 61.0, 56.0, 46.8, 25.3; HRMS (ESI+) 298.1427; C18H20NO3 (MH+) requires: 298.1438.",
+            "startOffset": 48713,
+            "title": "8-(Benzyloxy)-6,7-dimethoxy-3,4-dihydroisoquinoline (40)"
+        },
+        {
+            "endOffset": 30702,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.5",
+            "sentence": "The crude residue was purified by successive flash chromatography (SiO2, 1\u21922% MeOH/CH2Cl2), affording the title compound 20 as a colourless oil (178.7 mg, 38%).",
+            "startOffset": 30542,
+            "title": "Dimethyl 12-bromo-3,4,10,11-tetramethoxy-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (20)"
+        },
+        {
+            "endOffset": 47703,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.18",
+            "sentence": "Super-Hydride\u2122 (0.371 mL, 0.371 mmol, 1 M solution in THF) was added dropwise and stirring continued for 30 min at \u221278 \u00b0C.",
+            "startOffset": 47581,
+            "title": "8-(Benzyloxy)-6,7-dimethoxy-3,4-dihydroisoquinoline (40)"
+        },
+        {
+            "endOffset": 20168,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "The synthesis of triol 22 was completed in seven steps from vanillin derivative 26.",
+            "startOffset": 20085,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 20898,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "First, triol 22 was treated with PhI(OAc)2 in acetonitrile at rt.",
+            "startOffset": 20833,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 29324,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "refoffsets": {
+                "bib12": {
+                    "endOffset": 29324,
+                    "startOffset": 29322
+                }
+            },
+            "secId": "sec4.4",
+            "sentence": "Mp 95\u201396 \u00b0C (lit.12",
+            "startOffset": 29305,
+            "title": "6,7-Dimethoxy-8-bromo-3,4-dihydroisoquinoline (12)"
+        },
+        {
+            "endOffset": 24670,
+            "parents": [],
+            "secId": "sec4",
+            "sentence": "Thin layer chromatography (TLC) was carried out on Merck silica gel 60 F254 pre-coated aluminium foil sheets and were visualised using UV light (254 nm) and stained with either basic aqueous potassium permanganate or ethanolic p-anisaldehyde as appropriate.",
+            "startOffset": 24413,
+            "title": "Experimental section"
+        },
+        {
+            "endOffset": 40737,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.13",
+            "sentence": "The aqueous solution was extracted with ethyl acetate (3\u00d720 mL), and the combined organic layers were dried (MgSO4) and concentrated in vacuo.",
+            "startOffset": 40595,
+            "title": "4-(Hydroxymethyl)-8,9,17-trimethoxy-2-oxa-12-azapentacyclo[10.6.2.01,14.04,13.05,10]icosa-5,7,9,14,17-pentaen-16-one (33)"
+        },
+        {
+            "endOffset": 32931,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.7",
+            "sentence": "Na2SO4 was added and the mixture stirred for 30 min before being filtered and concentrated in vacuo.",
+            "startOffset": 32831,
+            "title": "2-[4-(Benzyloxy)-3-methoxyphenyl]ethan-1-amine (28)"
+        },
+        {
+            "endOffset": 21483,
+            "parents": [],
+            "refoffsets": {
+                "bib15": {
+                    "endOffset": 21483,
+                    "startOffset": 21481
+                }
+            },
+            "secId": "sec2",
+            "sentence": "Alternative oxidative coupling conditions were therefore examined, but the use of bromine in acetic acid also led to oxidation and cyclisation onto the undesired para-position, along with concomitant acetate and bromide addition, furnishing bridged polycyclic 34 as a single diastereoisomer, with its structure confirmed by X-ray crystallography (see Scheme 5).15",
+            "startOffset": 21120,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 20515,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "This imine was then coupled with carboxylic acid 6 via the same DIA procedure used to synthesise lactam 20, but with BCl3 being used rather than AlCl3 to promote the ring-closure.",
+            "startOffset": 20336,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 25124,
+            "parents": [],
+            "secId": "sec4",
+            "sentence": "The multiplicity abbreviations used are: s, singlet; d, doublet; t, triplet; q, quartet; m, multiplet; br, broad or combinations of these.",
+            "startOffset": 24986,
+            "title": "Experimental section"
+        },
+        {
+            "endOffset": 35724,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.9",
+            "sentence": "101\u2013101.5 \u00b0C); Rf 0.11 (ethyl acetate); \u03b4H (400 MHz, CDCl3) 8.15 (t, J=2.0 Hz, 1H), 7.44 (d, J=7.3 Hz, 2H), 7.42\u20137.35 (m, 2H), 7.34\u20137.29 (m, 1H), 6.82 (s, 1H), 6.69 (s, 1H), 5.15 (s, 2H), 3.92 (s, 3H), 3.71 (ddd, J=8.2, 6.5, 2.2 Hz, 2H), 2.70\u20132.64 (m, 2H); \u03b4C (100 MHz, CDCl3) 159.8, 152.1, 147.0, 137.0, 130.6, 128.8, 128.1, 127.5, 121.6, 113.4, 110.9, 71.5, 56.2, 47.4, 25.0; MS (ESI+) m/z (rel %) 268 ([M+H]+, 100); HRMS (ESI+) 268.1332 [M+H]+, C17H18NO2 requires 268.1332.",
+            "startOffset": 35248,
+            "title": "6-Methoxy-7-(benzyloxy)-3,4-dihydroisoquinoline (30)"
+        },
+        {
+            "endOffset": 22044,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "For this route, an imine with a protected oxygen substituent was required, prompting us to synthesise imine 40 in five steps.",
+            "startOffset": 21919,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 22861,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "Subsequent cleavage of the benzyl protecting group via hydrogenolysis revealed phenol 42, which was then heated at reflux in toluene with catalytic p-TSA, furnishing lactone 43 in good yield over the two step sequence.",
+            "startOffset": 22643,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 32633,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.7",
+            "sentence": "A solution of nitrostyrene 27 (5.00 g, 17.5 mmol) in dry THF (20 mL) was added dropwise to a stirred suspension of LiAlH4 (2.00 g, 52.5 mmol) in dry THF (60 mL) at 0 \u00b0C.",
+            "startOffset": 32464,
+            "title": "2-[4-(Benzyloxy)-3-methoxyphenyl]ethan-1-amine (28)"
+        },
+        {
+            "endOffset": 45348,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.16",
+            "sentence": "The reaction was quenched with satd aq NH4Cl (100 mL) at rt.",
+            "startOffset": 45288,
+            "title": "tert-Butyl-8-hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinoline-2-carboxylate (38)"
+        },
+        {
+            "endOffset": 50087,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.19",
+            "sentence": "After this time, the mixture was diluted with ethyl acetate (300 mL), washed sequentially with sat aq NaHCO3 (150 mL) and 10% aq Rochelle's salt (150 mL), dried over MgSO4 and concentrated in vacuo.",
+            "startOffset": 49889,
+            "title": "13,13-Dimethyl 12-(benzyloxy)-3,4,10,11-tetramethoxy-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (41)"
+        },
+        {
+            "endOffset": 51619,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.20",
+            "sentence": "The crude product (phenol 42, 169 mg) was then dissolved in toluene (12 mL).",
+            "startOffset": 51543,
+            "title": "(6SR,11bRS)-Methyl 1,2,8,9-tetramethoxy-7,12-dioxo-4,5,6,7,11b,12-hexahydrobenzo[g]chromeno[3,4,5-ija]quinolizine-11b-carboxylate (43)"
+        },
+        {
+            "endOffset": 25207,
+            "parents": [],
+            "secId": "sec4",
+            "sentence": "The residual solvent peaks, \u03b4H 7.26 and \u03b4C 77.0 for CDCl3 were used as references.",
+            "startOffset": 25125,
+            "title": "Experimental section"
+        },
+        {
+            "endOffset": 25811,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.1",
+            "sentence": "In an ice bath, 2,3-dimethoxybenzoic acid 10 (10.0 g, 54.9 mmol) and 1,3-dibromo-5,5-dimethylhydantoin (8.63 g, 30.2 mmol) were added to 0.7 M aq NaOH (86 mL).",
+            "startOffset": 25652,
+            "title": "6-Bromo-2,3-dimethoxybenzoic acid (11)"
+        },
+        {
+            "endOffset": 39022,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.12",
+            "sentence": "Diol 32 (73.6 mg, 0.150 mmol) was dissolved in ethyl acetate (5 mL), Pd/C (15 mg, 10 wt.",
+            "startOffset": 38934,
+            "title": "13,13-Bis(hydroxymethyl)-11-hydroxy-3,4,10-trimethoxy-7,8,12b,13-tetrahydro-5H-6-azatetraphene (22)"
+        },
+        {
+            "endOffset": 15740,
+            "parents": [],
+            "secId": "sec1",
+            "sentence": "Our basic retrosynthetic analysis is shown in Fig. 2.",
+            "startOffset": 15687,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 24240,
+            "parents": [],
+            "secId": "sec4",
+            "sentence": "Anhydrous THF was obtained by distillation over sodium benzophenone ketyl immediately before use.",
+            "startOffset": 24143,
+            "title": "Experimental section"
+        },
+        {
+            "endOffset": 43907,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.15",
+            "sentence": "The reaction mixture was stirred for 20 h at rt before it was quenched with 1 M NaOH to pH 10.",
+            "startOffset": 43813,
+            "title": "8-Hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinolin-1-one (37)16"
+        },
+        {
+            "endOffset": 19494,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "It was then planned to reduce the ester and amide groups to form diol 21, with a view towards forming the key tetrahydropyran ring via a palladium-catalysed C\u2013O coupling reaction, as described above (i.e., 21\u21929, see Fig. 2).",
+            "startOffset": 19270,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 37593,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.11",
+            "sentence": "Lithium aluminium hydride (31.0 mg, 0.817 mmol) was added to a solution of diester 31 (91.5 mg, 0.16 mmol) in dry THF (4 mL) at 0 \u00b0C.",
+            "startOffset": 37460,
+            "title": "13,13-Bis(hydroxymethyl)-3,4,10-trimethoxy-11-(benzyloxy)-7,8,12b,13-tetrahydro-5H-6-azatetraphene (32)"
+        },
+        {
+            "endOffset": 31443,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.5",
+            "sentence": "Rf 0.42 (ethyl acetate); \u03bdmax (thin film)/cm\u22121 2943, 1736, 1658, 1595, 1484, 1451, 1425, 1395, 1311, 1272, 1258, 1119, 1031, 941, 812, 772, 733; \u03b4H (400 MHz, CDCl3) 7.25 (d, J=8.6 Hz, 1H), 7.07 (d, J=8.6 Hz, 1H), 6.76 (s, 1H), 5.90 (s, 1H), 4.89 (ddd, J=12.7, 5.0, 1.5 Hz, 1H), 4.04 (s, 3H), 3.92 (s, 3H), 3.91 (s, 3H), 3.80 (s, 3H), 3.69 (s, 3H), 3.67\u20133.61 (m, 1H), 3.54 (s, 3H), 2.81 (td, J=12.7, 3.3 Hz, 1H), 2.64\u20132.56 (m, 1H); \u03b4C (100 MHz, CDCl3) 168.1, 166.9, 162.5, 153.7, 152.9, 149.9, 144.4, 138.8, 129.7, 125.2, 124.0, 123.2, 120.9, 114.9, 111.6, 64.5, 61.8, 60.5, 60.4, 56.2, 56.0, 53.4, 53.0, 39.3, 30.3; MS (ESI+) m/z (rel %) 564 ([M+H]+, 10), 586 ([M+Na]+, 100); HRMS (ESI+) 586.0674 [M+Na]+, C25H2679BrNNaO9 requires 586.0683.",
+            "startOffset": 30703,
+            "title": "Dimethyl 12-bromo-3,4,10,11-tetramethoxy-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (20)"
+        },
+        {
+            "endOffset": 26955,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.2",
+            "sentence": "After the addition of the sodium hydride was complete, the mixture was stirred for 10 min at rt and then for 20 h at 70 \u00b0C.",
+            "startOffset": 26832,
+            "title": "6-(1,3-Dimethoxy-1,3-dioxopropan-2-yl)-2,3-dimethoxybenzoic acid (6)"
+        },
+        {
+            "endOffset": 30541,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.5",
+            "sentence": "The aqueous layer was extracted with Et2O (3\u00d740 mL), and the combined organic layers dried (MgSO4) and concentrated in vacuo.",
+            "startOffset": 30416,
+            "title": "Dimethyl 12-bromo-3,4,10,11-tetramethoxy-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (20)"
+        },
+        {
+            "endOffset": 41928,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.14",
+            "sentence": "Phenol 22 (12.6 mg, 0.031 mmol) and AcONa (5.0 mg, 0.062 mmol) were dissolved in AcOH (1 mL) and cooled to 0 \u00b0C.",
+            "startOffset": 41816,
+            "title": "18-Bromo-4-(hydroxymethyl)-8,9,17-trimethoxy-16-oxo-2-oxa-12-azapentacyclo[10.6.2.01,14.04,13.05,10]icosa-5,7,9,14-tetraen-17-yl acetate (34)"
+        },
+        {
+            "endOffset": 36389,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.10",
+            "sentence": "The combined organic layers were dried (MgSO4) and concentrated in vacuo.",
+            "startOffset": 36316,
+            "title": "Dimethyl 3,4,10-trimethoxy-11-(benzyloxy)-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (31)"
+        },
+        {
+            "endOffset": 50996,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.19",
+            "sentence": "The crude residue was purified by column chromatography (SiO2, 5:1\u21921:1 hexane:ethyl acetate), affording the title compound 41 as a colourless oil (255 mg, 51%); Rf 0.60 (ethyl acetate); mp 70\u201372 \u00b0C; \u03bdmax (thin film)/cm\u22121 2949, 1740, 1654, 1602, 1580, 1453, 1487, 1424, 1308, 1272, 1236, 1124, 1068; \u03b4H (400 MHz, CDCl3) 7.26\u20137.22 (1H, m), 7.18\u20137.11 (4H, m), 7.04 (2H, br s), 6.53 (1H, s), 5.09, (1H, s), 4.90 (1H, d, J=11.0 Hz), 4.81 (1H, ddd, J=13.3, 5.3, 2.5 Hz), 4.77 (1H, d, J=11.0 Hz), 4.03 (3H, s), 3.93 (3H, s), 3.89 (3H, s), 3.87 (3H, s), 3.53 (3H, s), 3.48 (3H, s), 3.33 (1H, ddd, J=13.3, 13.3, 4.1 Hz), 2.56\u20132.48 (2H, m); \u03b4C (100 MHz, CDCl3) 168.8, 166.7, 162.2, 153.2, 152.7, 150.3, 149.2, 139.6, 136.3, 136.1, 129.9, 129.5, 128.5, 128.1, 126.0, 123.3, 117.9, 114.5, 107.3, 75.7, 64.6, 61.5, 60.9, 56.2, 55.9, 55.7, 52.8, 52.6, 39.1, 29.7; HRMS (ESI+) 592.2183; C32H34NO10 (MH+) requires: 592.2177.",
+            "startOffset": 50088,
+            "title": "13,13-Dimethyl 12-(benzyloxy)-3,4,10,11-tetramethoxy-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (41)"
+        },
+        {
+            "endOffset": 26420,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "refoffsets": {
+                "bib17": {
+                    "endOffset": 26420,
+                    "startOffset": 26418
+                }
+            },
+            "secId": "sec4.1",
+            "sentence": "The obtained data were in accord with those reported in the literature.17",
+            "startOffset": 26347,
+            "title": "6-Bromo-2,3-dimethoxybenzoic acid (11)"
+        },
+        {
+            "endOffset": 34091,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.8",
+            "sentence": "After this time, 1 M aq NaOH (100 mL) was added and the aqueous solution extracted with CH2Cl2 (3\u00d7100 mL).",
+            "startOffset": 33985,
+            "title": "6-Methoxy-7-(benzyloxy)-1,2,3,4-tetrahydroisoquinoline (29)"
+        },
+        {
+            "endOffset": 22982,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "Crucially, lactone 43 was formed as a single diastereoisomer, validating our earlier proposed desymmetrisation strategy.",
+            "startOffset": 22862,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 45287,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.16",
+            "sentence": "The reaction mixture was then allowed to warm to rt and left to stir for 20 h.",
+            "startOffset": 45209,
+            "title": "tert-Butyl-8-hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinoline-2-carboxylate (38)"
+        },
+        {
+            "endOffset": 39101,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.12",
+            "sentence": "%) was added, and the reaction mixture placed under an atmosphere of hydrogen.",
+            "startOffset": 39023,
+            "title": "13,13-Bis(hydroxymethyl)-11-hydroxy-3,4,10-trimethoxy-7,8,12b,13-tetrahydro-5H-6-azatetraphene (22)"
+        },
+        {
+            "endOffset": 39511,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.12",
+            "sentence": "The crude residue was then re-suspended in EtOH (5 mL), Pd/C (15 mg) was added, the reaction mixture placed under an atmosphere of hydrogen and stirred for another 5 h before being filtered through a short plug of Celite\u2122 and evaporated to afford the title compound 22 as a colourless oil (53.5 mg, 83%).",
+            "startOffset": 39207,
+            "title": "13,13-Bis(hydroxymethyl)-11-hydroxy-3,4,10-trimethoxy-7,8,12b,13-tetrahydro-5H-6-azatetraphene (22)"
+        },
+        {
+            "endOffset": 45101,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.16",
+            "sentence": "n-BuLi (11.0 mL, 27.6 mmol, 2.5 M in hexanes) was added in a stirred solution of lactam 37 (2.05 g, 9.18 mL) in dry THF (110 mL) at \u221278 \u00b0C.",
+            "startOffset": 44962,
+            "title": "tert-Butyl-8-hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinoline-2-carboxylate (38)"
+        },
+        {
+            "endOffset": 33784,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.7",
+            "sentence": "63\u201365 \u00b0C); \u03b4H (400 MHz, CDCl3) 7.47\u20137.40 (m, 2H), 7.39\u20137.33 (m, 2H), 7.32\u20137.27 (m, 1H), 6.81 (d, J=8.1 Hz, 1H), 6.74 (d, J=1.9 Hz, 1H), 6.67 (dd, J=8.1, 1.9 Hz, 1H), 5.13 (s, 2H), 3.88 (s, 3H), 2.93 (t, J=6.8 Hz, 2H), 2.68 (t, J=6.8 Hz, 2H); \u03b4C (100 MHz, CDCl3) 149.7, 146.7, 137.5, 133.2, 128.7, 127.9, 127.4, 120.9, 114.3, 112.7, 71.3, 56.1, 43.7, 39.7; MS (ESI+) m/z (rel %) 241 ([M\u2212NH2]+, 95), 258 ([M+H]+, 90), 280 ([M+Na]+, 100); HRMS (ESI+) 258.1492 [M+H]+, C16H20NO2 requires 258.1489.",
+            "startOffset": 33291,
+            "title": "2-[4-(Benzyloxy)-3-methoxyphenyl]ethan-1-amine (28)"
+        },
+        {
+            "endOffset": 15140,
+            "parents": [],
+            "refoffsets": {
+                "bib2": {
+                    "endOffset": 15014,
+                    "startOffset": 15013
+                }
+            },
+            "secId": "sec1",
+            "sentence": "A large number of diversely functionalised protoberberines2 have been discovered over a number of years, with the family typified by the bis-isoquinoline motif highlighted below in red.",
+            "startOffset": 14955,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 18586,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "Finally, the synthesis was completed by oxidation using manganese(IV) oxide to furnish imine 12 (Scheme 2).",
+            "startOffset": 18479,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 47887,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "refoffsets": {
+                "bib18": {
+                    "endOffset": 47887,
+                    "startOffset": 47885
+                }
+            },
+            "secId": "sec4.18",
+            "sentence": "The excess reducing agent was quenched at \u221278 \u00b0C by the sequential addition of methanol (0.213 mL), water (0.107 mL), aq H2O2 solution 30% w/v (0.107 mL) and 6 M aq NaOH (0.107 mL).18",
+            "startOffset": 47704,
+            "title": "8-(Benzyloxy)-6,7-dimethoxy-3,4-dihydroisoquinoline (40)"
+        },
+        {
+            "endOffset": 26346,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.1",
+            "sentence": "The combined organic layers were dried with MgSO4 and concentrated in vacuo to give compound 10 as a solid (14.3 g, quantitative), which was used without further purification in the next step; \u03b4H (400 MHz, CDCl3) 11.46 (1H, br s), 7.21 (1H, d, J=8.9 Hz), 6.81 (1H, d, J=8.9 Hz), 3.88 (3H, s), 3.82 (3H, s); HRMS (ESI+) 282.9575 [M+Na]+, C9H979BrNaO4 requires 282.9576 (0.6 ppm error).",
+            "startOffset": 25962,
+            "title": "6-Bromo-2,3-dimethoxybenzoic acid (11)"
+        },
+        {
+            "endOffset": 48499,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.18",
+            "sentence": "A 1:1 mixture of CH2Cl2:TFA (2 mL), that had been pre-cooled to 0 \u00b0C, was added immediately to the crude product and the resulting solution was left to stir for 1 h at rt.",
+            "startOffset": 48328,
+            "title": "8-(Benzyloxy)-6,7-dimethoxy-3,4-dihydroisoquinoline (40)"
+        },
+        {
+            "endOffset": 18892,
+            "parents": [],
+            "secId": "sec2",
+            "sentence": "The DIA coupling of imine 12 and acid 6 was performed by stirring both components in chloroform at rt with NEt(i-Pr)2 and propylphosphonic acid anhydride (T3P), which led to in situ activation of the carboxylic acid and nucleophilic attack by the imine to form intermediate N-acyliminium ion 19 (Scheme 3).",
+            "startOffset": 18586,
+            "title": "Results and discussion"
+        },
+        {
+            "endOffset": 30127,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.5",
+            "sentence": "Imine 12 (225 mg, 0.83 mmol) and carboxylic acid 6 (390 mg, 1.25 mmol) were dissolved in CHCl3 (12 mL), and N,N-diisopropylethylamine (198 mg, 1.53 mmol) was added, followed by T3P (50% in THF, 796 mg, 1.25 mmol).",
+            "startOffset": 29914,
+            "title": "Dimethyl 12-bromo-3,4,10,11-tetramethoxy-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (20)"
+        },
+        {
+            "endOffset": 43703,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.15",
+            "sentence": "The reaction was then stirred at 90 \u00b0C for 1.5 h. Most of the solvent was removed in vacuo to afford a mobile oil.",
+            "startOffset": 43589,
+            "title": "8-Hydroxy-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinolin-1-one (37)16"
+        },
+        {
+            "endOffset": 49742,
+            "parents": [
+                {
+                    "id": "sec4",
+                    "title": "Experimental section"
+                }
+            ],
+            "secId": "sec4.19",
+            "sentence": "Imine 40 (250 mg, 0.841 mmol) and carboxylic acid 6 (315 mg, 1.01 mmol) were dissolved in CHCl3 (25.2 mL), and N,N-diisopropylethylamine (0.270 mL, 1.56 mmol) was added, followed by T3P (50% in THF, 802 mg, 1.26 mmol).",
+            "startOffset": 49524,
+            "title": "13,13-Dimethyl 12-(benzyloxy)-3,4,10,11-tetramethoxy-5-oxo-7,8,12b,13-tetrahydro-5H-6-azatetraphene-13,13-dicarboxylate (41)"
+        }
+    ],
+    "docId": "S0040402016303829",
+    "metadata": {
+        "asjc": [
+            "1303",
+            "1605",
+            "3002"
+        ],
+        "authors": [
+            {
+                "email": null,
+                "first": "Thomas O.",
+                "initial": "T.O.",
+                "last": "Ronson"
+            },
+            {
+                "email": null,
+                "first": "Christiana",
+                "initial": "C.",
+                "last": "Kitsiou"
+            },
+            {
+                "email": "william.unsworth@york.ac.uk",
+                "first": "William P.",
+                "initial": "W.P.",
+                "last": "Unsworth"
+            },
+            {
+                "email": "richard.taylor@york.ac.uk",
+                "first": "Richard J.K.",
+                "initial": "R.J.K.",
+                "last": "Taylor"
+            }
+        ],
+        "doi": "10.1016/j.tet.2016.05.009",
+        "firstpage": "6099",
+        "issn": "00404020",
+        "keywords": [
+            "Berberine alkaloids",
+            "Imines",
+            "N-acyliminium ions",
+            "Nitrogen heterocycles",
+            "Pallimamine"
+        ],
+        "lastpage": "6106",
+        "openaccess": "Full",
+        "pub_year": 2016,
+        "subjareas": [
+            "BIOC",
+            "CHEM",
+            "PHAR"
+        ],
+        "title": "Synthetic approaches to pallimamine and analogues using direct imine acylation"
+    }
+}

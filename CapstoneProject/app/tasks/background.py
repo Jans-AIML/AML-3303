@@ -4,7 +4,7 @@ import logging
 
 from app.db.session import SessionLocal
 from app.models.database import Document
-from app.services.document_processor import chunk_text, extract_text
+from app.services.document_processor import chunk_text, extract_elsevier_metadata, extract_text
 from app.services.vector_store import add_chunks
 
 logger = logging.getLogger(__name__)
@@ -36,7 +36,16 @@ def process_document_task(doc_id: int, file_path: str, file_type: str) -> None:
         logger.info("Created %d chunks for doc_id=%s", len(chunks), doc_id)
 
         # ── Step 4: Embed and store in ChromaDB ────────────────
-        add_chunks(doc_id=doc_id, filename=doc.filename, chunks=chunks)
+        # For Elsevier JSON files, extract rich metadata (authors, year, doi)
+        # so source citations in the UI show more than just a filename.
+        doc_metadata = None
+        if file_type == "json":
+            try:
+                doc_metadata = extract_elsevier_metadata(file_path)
+            except Exception as meta_exc:
+                logger.warning("Metadata extraction failed for doc_id=%s: %s", doc_id, meta_exc)
+
+        add_chunks(doc_id=doc_id, filename=doc.filename, chunks=chunks, doc_metadata=doc_metadata)
 
         # ── Step 5: Update DB status ───────────────────────────
         doc.status = "processed"

@@ -1,0 +1,2937 @@
+{
+    "abstract": "Vaccination remains the most successful and effective mechanism of pathogen control. However, their development and deployment in epidemic settings have been limited, and the 2015 Ebola outbreak in West Africa identified several bottlenecks linked to a lack of investment in pathogen research, infrastructure or regulation. Shortly after this outbreak, the UK Government established the UK Vaccine Network to ensure the UK is better prepared to respond to pathogens outbreaks of epidemic potential. As part of their work, the network commissioned the creation of a Vaccine Development Tool (http://www.vaccinedevelopment.org.uk/) to serve as a guide to the key stages in vaccine development. The tool also set out to capture the key, rate-limiting bottlenecks in the development of vaccines against emerging infectious disease such that corrective action could be taken, be it through research, funding, infrastructure and policy, both in the UK and internationally. The main research bottlenecks were related to understanding pathogen biology, identification of appropriate animal models and investment in the manufacturing sciences, especially into process development. Infrastructure gaps in GMP manufacturing and fill-finish were also identified and limitations in GMO regulation and regulatory and ethical approvals, especially for outbreak pathogens required new policy initiatives. The UK Vaccine Network has since begun work to correct for these limitations with a series of funding calls and development programmes. This paper seeks to summarise the Vaccine Development Tool and its key findings.",
+    "bib_entries": {
+        "b0005": {
+            "authors": [
+                {
+                    "first": "M. J.",
+                    "initial": "M.J.",
+                    "last": "Friedrich"
+                }
+            ],
+            "doi": "10.1001/jama.2018.5711",
+            "firstpage": "1973",
+            "issn": "15383598",
+            "pmid": "29800220",
+            "pub_year": 2018,
+            "title": "Antibiotic Consumption Increasing Globally",
+            "volume": "319"
+        },
+        "b0010": {
+            "authors": [
+                {
+                    "first": "Marie Paule",
+                    "initial": "M.P.",
+                    "last": "Kieny"
+                },
+                {
+                    "first": "John Arne",
+                    "initial": "J.A.",
+                    "last": "Rottingen"
+                },
+                {
+                    "first": "Jeremy",
+                    "initial": "J.",
+                    "last": "Farrar"
+                },
+                {
+                    "first": null,
+                    "initial": null,
+                    "last": null
+                }
+            ],
+            "doi": "10.1016/S0140-6736(16)31152-7",
+            "firstpage": "460",
+            "issn": "01406736",
+            "lastpage": "461",
+            "pmid": "27507751",
+            "pub_year": 2016,
+            "title": "The need for global R&D coordination for infectious diseases with epidemic potential",
+            "volume": "388"
+        },
+        "b0015": null,
+        "b0020": {
+            "authors": [
+                {
+                    "first": "Myron M.",
+                    "initial": "M.M.",
+                    "last": "Levine"
+                },
+                {
+                    "first": "Milagritos",
+                    "initial": "M.",
+                    "last": "Tapia"
+                },
+                {
+                    "first": "Adrian V.",
+                    "initial": "A.V.",
+                    "last": "Hill"
+                },
+                {
+                    "first": "Samba O.",
+                    "initial": "S.O.",
+                    "last": "Sow"
+                }
+            ],
+            "doi": "10.1093/infdis/jiu513",
+            "firstpage": "504",
+            "issn": "00221899",
+            "lastpage": "507",
+            "pmid": "25225675",
+            "pub_year": 2015,
+            "title": "How the current west african ebola virus disease epidemic is altering views on the need for vaccines and is galvanizing a global effort to field-test leading candidate vaccines",
+            "volume": "211"
+        },
+        "b0025": {
+            "authors": [
+                {
+                    "first": "Teresa",
+                    "initial": "T.",
+                    "last": "Lambe"
+                },
+                {
+                    "first": "Georgina",
+                    "initial": "G.",
+                    "last": "Bowyer"
+                },
+                {
+                    "first": "Katie J.",
+                    "initial": "K.J.",
+                    "last": "Ewer"
+                }
+            ],
+            "doi": "10.1098/rstb.2016.0295",
+            "issn": "09628436",
+            "pmid": "28396468",
+            "pub_year": 2017,
+            "title": "A review of phase I trials of Ebola virus vaccines: What can we learn from the race to develop novel vaccines?",
+            "volume": "372"
+        },
+        "b0030": {
+            "authors": [
+                {
+                    "first": "Saurabh R.",
+                    "initial": "S.R.",
+                    "last": "Shrivastava"
+                },
+                {
+                    "first": "Prateek S.",
+                    "initial": "P.S.",
+                    "last": "Shrivastava"
+                },
+                {
+                    "first": "Ramasamy",
+                    "initial": "R.",
+                    "last": "Jegadeesh"
+                }
+            ],
+            "firstpage": "107",
+            "issn": "17351995",
+            "lastpage": "108",
+            "pub_year": 2015,
+            "title": "Lessons learnt from the 2014 ebola outbreak in West-Africa",
+            "volume": "20"
+        },
+        "b0035": {
+            "authors": [
+                {
+                    "first": "Stephen C.",
+                    "initial": "S.C.",
+                    "last": "Redd"
+                },
+                {
+                    "first": "Thomas R.",
+                    "initial": "T.R.",
+                    "last": "Frieden"
+                }
+            ],
+            "doi": "10.1089/hs.2017.0006",
+            "firstpage": "41",
+            "issn": "23265094",
+            "lastpage": "52",
+            "pmid": "28146366",
+            "pub_year": 2017,
+            "title": "CDC's Evolving Approach to Emergency Response",
+            "volume": "15"
+        },
+        "b0040": {
+            "authors": [
+                {
+                    "first": "Alan R.",
+                    "initial": "A.R.",
+                    "last": "Hinman"
+                },
+                {
+                    "first": "Walter A.",
+                    "initial": "W.A.",
+                    "last": "Orenstein"
+                }
+            ],
+            "doi": "10.1016/S0140-6736(17)31370-3",
+            "firstpage": "451",
+            "issn": "01406736",
+            "lastpage": "452",
+            "pmid": "28792404",
+            "pub_year": 2017,
+            "title": "Collaborating to achieve Global Vaccine Action Plan goals",
+            "volume": "390"
+        },
+        "b0045": {
+            "authors": [
+                {
+                    "first": "Ana Maria",
+                    "initial": "A.M.",
+                    "last": "Henao-Restrepo"
+                }
+            ],
+            "doi": "10.1136/bmj.h3740",
+            "issn": "09598146",
+            "pmid": "26215666",
+            "pub_year": 2015,
+            "title": "The ring vaccination trial: A novel cluster randomised controlled trial design to evaluate vaccine efficacy and effectiveness during outbreaks, with special reference to Ebola",
+            "volume": "351"
+        },
+        "b0050": {
+            "authors": [
+                {
+                    "first": "Ana Maria",
+                    "initial": "A.M.",
+                    "last": "Henao-Restrepo"
+                },
+                {
+                    "first": "Ira M.",
+                    "initial": "I.M.",
+                    "last": "Longini"
+                },
+                {
+                    "first": "Matthias",
+                    "initial": "M.",
+                    "last": "Egger"
+                },
+                {
+                    "first": "Natalie E.",
+                    "initial": "N.E.",
+                    "last": "Dean"
+                },
+                {
+                    "first": "W. John",
+                    "initial": "W.J.",
+                    "last": "Edmunds"
+                },
+                {
+                    "first": "Anton",
+                    "initial": "A.",
+                    "last": "Camacho"
+                },
+                {
+                    "first": "Miles W.",
+                    "initial": "M.W.",
+                    "last": "Carroll"
+                },
+                {
+                    "first": "Moussa",
+                    "initial": "M.",
+                    "last": "Doumbia"
+                },
+                {
+                    "first": "Bertrand",
+                    "initial": "B.",
+                    "last": "Draguez"
+                },
+                {
+                    "first": "Sophie",
+                    "initial": "S.",
+                    "last": "Duraffour"
+                },
+                {
+                    "first": "Godwin",
+                    "initial": "G.",
+                    "last": "Enwere"
+                },
+                {
+                    "first": "Rebecca",
+                    "initial": "R.",
+                    "last": "Grais"
+                },
+                {
+                    "first": "Stephan",
+                    "initial": "S.",
+                    "last": "Gunther"
+                },
+                {
+                    "first": "Stefanie",
+                    "initial": "S.",
+                    "last": "Hossmann"
+                },
+                {
+                    "first": "Mandy Kader",
+                    "initial": "M.K.",
+                    "last": "Kond\u00e9"
+                },
+                {
+                    "first": "Souleymane",
+                    "initial": "S.",
+                    "last": "Kone"
+                },
+                {
+                    "first": "Eeva",
+                    "initial": "E.",
+                    "last": "Kuisma"
+                },
+                {
+                    "first": "Myron M.",
+                    "initial": "M.M.",
+                    "last": "Levine"
+                },
+                {
+                    "first": "Sema",
+                    "initial": "S.",
+                    "last": "Mandal"
+                },
+                {
+                    "first": "Gunnstein",
+                    "initial": "G.",
+                    "last": "Norheim"
+                },
+                {
+                    "first": "Ximena",
+                    "initial": "X.",
+                    "last": "Riveros"
+                },
+                {
+                    "first": "Aboubacar",
+                    "initial": "A.",
+                    "last": "Soumah"
+                },
+                {
+                    "first": "Sven",
+                    "initial": "S.",
+                    "last": "Trelle"
+                },
+                {
+                    "first": "Andrea S.",
+                    "initial": "A.S.",
+                    "last": "Vicari"
+                },
+                {
+                    "first": "Conall H.",
+                    "initial": "C.H.",
+                    "last": "Watson"
+                },
+                {
+                    "first": "Sakoba",
+                    "initial": "S.",
+                    "last": "K\u00e9\u00efta"
+                },
+                {
+                    "first": "Marie Paule",
+                    "initial": "M.P.",
+                    "last": "Kieny"
+                },
+                {
+                    "first": "John Arne",
+                    "initial": "J.A.",
+                    "last": "R\u00f8ttingen"
+                }
+            ],
+            "doi": "10.1016/S0140-6736(15)61117-5",
+            "firstpage": "857",
+            "issn": "01406736",
+            "lastpage": "866",
+            "pmid": "26248676",
+            "pub_year": 2015,
+            "title": "Efficacy and effectiveness of an rVSV-vectored vaccine expressing Ebola surface glycoprotein: interim results from the Guinea ring vaccination cluster-randomised trial",
+            "volume": "386"
+        },
+        "b0055": {
+            "authors": [
+                {
+                    "first": "Manon M.J.",
+                    "initial": "M.M.J.",
+                    "last": "Cox"
+                },
+                {
+                    "first": "Yoshifumi",
+                    "initial": "Y.",
+                    "last": "Hashimoto"
+                }
+            ],
+            "doi": "10.1016/j.jip.2011.05.003",
+            "firstpage": "s31",
+            "issn": "00222011",
+            "lastpage": "s41",
+            "pmid": "21784229",
+            "pub_year": 2011,
+            "title": "A fast track influenza virus vaccine produced in insect cells",
+            "volume": "107"
+        },
+        "b0060": {
+            "authors": [
+                {
+                    "first": "B\u00f8rge",
+                    "initial": "B.",
+                    "last": "Brende"
+                },
+                {
+                    "first": "Jeremy",
+                    "initial": "J.",
+                    "last": "Farrar"
+                },
+                {
+                    "first": "Diane",
+                    "initial": "D.",
+                    "last": "Gashumba"
+                },
+                {
+                    "first": "Carlos",
+                    "initial": "C.",
+                    "last": "Moedas"
+                },
+                {
+                    "first": "Trevor",
+                    "initial": "T.",
+                    "last": "Mundel"
+                },
+                {
+                    "first": "Yasuhisa",
+                    "initial": "Y.",
+                    "last": "Shiozaki"
+                },
+                {
+                    "first": "Harsh",
+                    "initial": "H.",
+                    "last": "Vardhan"
+                },
+                {
+                    "first": "Johanna",
+                    "initial": "J.",
+                    "last": "Wanka"
+                },
+                {
+                    "first": "John Arne",
+                    "initial": "J.A.",
+                    "last": "R\u00f8ttingen"
+                }
+            ],
+            "doi": "10.1016/S0140-6736(17)30131-9",
+            "firstpage": "233",
+            "issn": "01406736",
+            "lastpage": "235",
+            "pmid": "28109539",
+            "pub_year": 2017,
+            "title": "CEPI\u2014a new global R&D organisation for epidemic preparedness and response",
+            "volume": "389"
+        },
+        "b0065": null,
+        "b0070": {
+            "authors": [
+                {
+                    "first": "P. J.",
+                    "initial": "P.J.",
+                    "last": "Snoy"
+                }
+            ],
+            "doi": "10.1177/0300985810372506",
+            "firstpage": "774",
+            "issn": "03009858",
+            "lastpage": "778",
+            "pmid": "20551476",
+            "pub_year": 2010,
+            "title": "Establishing efficacy of human products using animals: The us food and drug administration's \"animal rulea\"",
+            "volume": "47"
+        },
+        "b0075": {
+            "authors": [
+                {
+                    "first": "Naif Khalaf",
+                    "initial": "N.K.",
+                    "last": "Alharbi"
+                },
+                {
+                    "first": "Eriko",
+                    "initial": "E.",
+                    "last": "Padron-Regalado"
+                },
+                {
+                    "first": "Craig P.",
+                    "initial": "C.P.",
+                    "last": "Thompson"
+                },
+                {
+                    "first": "Alexandra",
+                    "initial": "A.",
+                    "last": "Kupke"
+                },
+                {
+                    "first": "Daniel",
+                    "initial": "D.",
+                    "last": "Wells"
+                },
+                {
+                    "first": "Megan A.",
+                    "initial": "M.A.",
+                    "last": "Sloan"
+                },
+                {
+                    "first": "Keith",
+                    "initial": "K.",
+                    "last": "Grehan"
+                },
+                {
+                    "first": "Nigel",
+                    "initial": "N.",
+                    "last": "Temperton"
+                },
+                {
+                    "first": "Teresa",
+                    "initial": "T.",
+                    "last": "Lambe"
+                },
+                {
+                    "first": "George",
+                    "initial": "G.",
+                    "last": "Warimwe"
+                },
+                {
+                    "first": "Stephan",
+                    "initial": "S.",
+                    "last": "Becker"
+                },
+                {
+                    "first": "Adrian V.S.",
+                    "initial": "A.V.S.",
+                    "last": "Hill"
+                },
+                {
+                    "first": "Sarah C.",
+                    "initial": "S.C.",
+                    "last": "Gilbert"
+                }
+            ],
+            "doi": "10.1016/j.vaccine.2017.05.032",
+            "firstpage": "3780",
+            "issn": "0264410X",
+            "lastpage": "3788",
+            "pmid": "28579232",
+            "pub_year": 2017,
+            "title": "ChAdOx1 and MVA based vaccine candidates against MERS-CoV elicit neutralising antibodies and cellular immune responses in mice",
+            "volume": "35"
+        }
+    },
+    "body_text": [
+        {
+            "endOffset": 26639,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "Funders must ensure that process development, manufacturing, and analytics are not overlooked in future research calls.",
+            "startOffset": 26520,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 40116,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0065",
+            "sentence": "The UKVN members agreed that to develop a new vaccine might not always be the most appropriate response in an outbreak setting, particularly if a candidate vaccine is early stage and presents significant R&D or manufacturing challenges.",
+            "startOffset": 39880,
+            "title": "Prioritisation guide"
+        },
+        {
+            "endOffset": 30308,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0050",
+            "sentence": "Overall, this whole area would benefit a revision of regulations and derogating the use of common vaccine vectors in separate regulations from the currently applicable GMO guidance would have a substantial beneficial impact in speeding up approvals.",
+            "startOffset": 30059,
+            "title": "Clinical development"
+        },
+        {
+            "endOffset": 20909,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0030",
+            "sentence": "WG3 agreed that the significance of the TPP and the relevance to even the earliest exploratory basic science work, should not be underestimated, therefore prominently placing the TPP, aimed to engage early discovery scientists to consider what the end product is, and how the choices made during pre-clinical discovery and development influence them.",
+            "startOffset": 20559,
+            "title": "Target product Profile"
+        },
+        {
+            "endOffset": 37702,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "In pre-clinical development, due to the novelty of the vaccine, process development, assays, adjuvantisation and formulations were identified as bottlenecks.",
+            "startOffset": 37545,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 42341,
+            "parents": [],
+            "secId": "s0070",
+            "sentence": "Yet should this milestone be reached, many of the bottlenecks described currently will be eliminated.",
+            "startOffset": 42240,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 28733,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "The situation exists under the status quo that we may have a vaccine that can be utilised to fight a future epidemic, but not have the manufacturing capacity to enable production and distribution.",
+            "startOffset": 28537,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 20120,
+            "parents": [],
+            "secId": "s0025",
+            "sentence": "Due to the mandate and remit of the tool to be used by the UKVN for the development of vaccines for outbreaks, WG3 agreed that the tool did not need to address steps for market access and authorisation, as outbreak vaccines would not normally undergo this process \u2013 instead being deployed in small populations according to need once necessary evidence on safety and immunogenicity had been achieved.",
+            "startOffset": 19721,
+            "title": "Results"
+        },
+        {
+            "endOffset": 28402,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "The UK Government, with the UKVN providing evidence and advice, has identified manufacturing infrastructure as a significant bottleneck, and it has sought to invest into a new Vaccine Development and Manufacturing Centre (https://www.gov.uk/government/news/medicine-and-vaccine-manufacturing-centres-apply-for-funding).",
+            "startOffset": 28083,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 16352,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "Actions could be taken by policy makers to correct for limitations in regulation, funders to identify limits in scientific knowledge that could be corrected with appropriate investment, and for government and trans-national organisations to consider local and global response.",
+            "startOffset": 16076,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 36232,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "At the time of the UKVN formation, Zika was little heard of, and had only modest investment as a potential emerging virus in UK research funding portfolios.",
+            "startOffset": 36076,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 16541,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "Though the genesis of this tool was considered in the context of epidemic preparedness, the tool itself is sufficiently far-reaching that it can be utilized by the wider vaccine community.",
+            "startOffset": 16353,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 11395,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "Set in the context of the Ebola outbreak that began in 2014, multiple stakeholders were mobilised to respond to the humanitarian crisis of this escalating outbreak.",
+            "startOffset": 11231,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 30754,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0050",
+            "sentence": "Engagement with the NRA at an early stage is essential, as seeking opinion on the proposed trial design can capture any \u2018in country\u2019 requirements.",
+            "startOffset": 30608,
+            "title": "Clinical development"
+        },
+        {
+            "endOffset": 24011,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0040",
+            "sentence": "Yet, in an outbreak scenario, special regulations such as compulsory licensure and step-in rights may allow this issue to be side-stepped, but would require further clarification in policy.",
+            "startOffset": 23822,
+            "title": "Pre-clinical discovery"
+        },
+        {
+            "endOffset": 33432,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "Though these regulations are specific for the UK, many other countries require a similar level of scrutiny.",
+            "startOffset": 33325,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 38758,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "This dual nature affects the way we think about the TPP and development path.",
+            "startOffset": 38681,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 38680,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "A plague vaccine potentially has dual application: the development path could be in collaboration with government agencies in producing an anti-bioterror vaccine but could be expanded and developed as a vaccine against endemic disease in regions such as Madagascar.",
+            "startOffset": 38415,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 21757,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0035",
+            "sentence": "There was agreement that almost anything could be described as a bottleneck in that each step is necessary, and by the nature of discovery research and development, such endeavours take time.",
+            "startOffset": 21566,
+            "title": "Bottlenecks"
+        },
+        {
+            "endOffset": 31949,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "The tool provides an overview and signposting to other organisations and information sources, as many outbreak vaccines may never go through market authorisation due to there being no commercial incentive for the manufacturers.",
+            "startOffset": 31722,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 23362,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0040",
+            "sentence": "Increased research funding into standardised methodologies for in vitro and in vivo testing and work into human-livestock host immunology would be critical to increase capacity.",
+            "startOffset": 23185,
+            "title": "Pre-clinical discovery"
+        },
+        {
+            "endOffset": 26057,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "Other advances in nucleic acid based vaccines, such as DNA and RNA, offer a future, though as yet unrealised potential, for generic manufacturing and release testing of vaccines.",
+            "startOffset": 25879,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 26351,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "The determination of the range of physical, chemical, biological, or microbiological properties that ensure the quality of the desired product, is described as \u2018Critical Quality Attributes\u2019 (CQA) and requires well-defined analytics which in the long term can reduce Quality Control (QC) costs.",
+            "startOffset": 26058,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 11231,
+            "parents": [],
+            "refoffsets": {
+                "b0010": {
+                    "endOffset": 11230,
+                    "startOffset": 11227
+                }
+            },
+            "secId": "s0005",
+            "sentence": "However, the development of effective vaccines against these pathogens requires improved coordination between policy makers, funders, researchers, vaccine manufacturers, and regulators, if we are to develop and deploy vaccines to mitigate the spread of epi- or pandemics [2].",
+            "startOffset": 10956,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 31215,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0050",
+            "sentence": "Working with credible and experienced partners will help to minimise delay and several clinical trial networks already exists to facilitate clinical development, some of which are pathogen specific that can further minimise this bottleneck.",
+            "startOffset": 30975,
+            "title": "Clinical development"
+        },
+        {
+            "endOffset": 13682,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "The United Kingdom (UK) has a strong international reputation for scientific research and innovation, and a long history in vaccinology.",
+            "startOffset": 13546,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 21412,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0030",
+            "sentence": "It is worth noting that that the importance of TPPs is widely shared and recent work by the WHO and CEPI includes creating standard TPPs for priority pathogens.",
+            "startOffset": 21252,
+            "title": "Target product Profile"
+        },
+        {
+            "endOffset": 19383,
+            "parents": [
+                {
+                    "id": "s0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "s0020",
+            "sentence": "The final version can be seen at www.vaccinedevelopment.org.uk.",
+            "startOffset": 19320,
+            "title": "Making the tool"
+        },
+        {
+            "endOffset": 15886,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "The secondary, and crucial purpose of the tool, was to identify any generic bottlenecks that may slow down development.",
+            "startOffset": 15767,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 15163,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "WG3: To understand the challenges in vaccine development and the key rate limiting steps for any given vaccine in development.",
+            "startOffset": 15037,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 11921,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "Due to the relatively low geographic prevalence of infection there was a limited market and thus a poor case for industry to develop a vaccine for commercial purposes.",
+            "startOffset": 11754,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 27193,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "GMP manufacturing is an infrastructure bottleneck that requires funders and policy makers to examine the pressures upon the current manufacturing model.",
+            "startOffset": 27041,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 42171,
+            "parents": [],
+            "secId": "s0070",
+            "sentence": "Amongst these, viral vector and subunit vaccines are at the forefront, however future innovations with nucleic acid based vaccines are on the horizon.",
+            "startOffset": 42021,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 32377,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "The mapping tool highlights that:",
+            "startOffset": 32344,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 32343,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "For regular marketing authorization in the EU, vaccine developers must provide a full development dataset of pre-clinical and clinical trial results to evidence Clinical Safety and Efficacy, as well as evaluation of a positive benefit-risk ratio.",
+            "startOffset": 32097,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 26846,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "Further bottlenecks are encountered during animal in vivo studies; characterising immunogenicity and reactogenecity in relevant animal models is imperative for taking forward vaccine candidates into Phase 1.",
+            "startOffset": 26639,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 32681,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "A UK Government Home Office licensure must be provided at an institutional, personal and project level.",
+            "startOffset": 32578,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 39879,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0065",
+            "sentence": "As an additional feature, the tool also presents some of the work completed by WG2, which was undertaken to better understand the feasibility and challenges of developing vaccines for the major UKVN prioritised pathogens.",
+            "startOffset": 39658,
+            "title": "Prioritisation guide"
+        },
+        {
+            "endOffset": 27408,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "\u2018Step-in\u2019 rights in an emergency scenario will disrupt supply of an essential vaccine, but also cause delay.",
+            "startOffset": 27300,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 41047,
+            "parents": [],
+            "secId": "s0070",
+            "sentence": "This tool represents a first step towards understanding the limiting factors in vaccine development and epidemic preparedness.",
+            "startOffset": 40921,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 34934,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "MERS was selected as there are several candidates in later stages of development, including the viral vectored vaccine candidate ChAdOx1 MERS.",
+            "startOffset": 34792,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 18628,
+            "parents": [
+                {
+                    "id": "s0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "s0020",
+            "sentence": "Once the iterative, interactive working subgroups had met to agree the final nodes and bottlenecks on the map, the final figures were transcribed into PowerPoint.",
+            "startOffset": 18466,
+            "title": "Making the tool"
+        },
+        {
+            "endOffset": 32812,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "The use of GMO vaccines is regulated by separate legislation, and approval must be given by the Health and Safety Executive (HSE).",
+            "startOffset": 32682,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 40270,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0065",
+            "sentence": "Thus, it may be more appropriate to deploy other healthcare interventions to manage the disease, such a therapeutic antibodies or containment procedures.",
+            "startOffset": 40117,
+            "title": "Prioritisation guide"
+        },
+        {
+            "endOffset": 36512,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "The UKVN immediately added Zika to the priority pathogen list, and contributed to a number of funding streams to support vaccine R&D.",
+            "startOffset": 36379,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 23094,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0040",
+            "sentence": "Within pre-clinical discovery, understanding pathogen biology and developing the appropriate animal challenge models are seen as significant limiting factors, especially with emerging infectious disease.",
+            "startOffset": 22891,
+            "title": "Pre-clinical discovery"
+        },
+        {
+            "endOffset": 39311,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "The main bottlenecks are in the clinical phase and animal rule regulations necessary to follow for licensure and are particular to this pathogen and vaccine approach, and included: Quality control; Phase II regulatory requirements for two animal models; Fill Finish; and in Phase II safety studies, meeting requirements for licensure regulations.",
+            "startOffset": 38965,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 13546,
+            "parents": [],
+            "refoffsets": {
+                "b0035": {
+                    "endOffset": 13545,
+                    "startOffset": 13542
+                }
+            },
+            "secId": "s0005",
+            "sentence": "However, this also conspicuously highlighted that nations around the world need to be better prepared for outbreaks of all infectious diseases, particularly those with the potential for high levels of morbidity and mortality, and that other measures to control infection spread should also be implemented [7].",
+            "startOffset": 13237,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 40654,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0065",
+            "sentence": "A final consideration was the time scale and cost of development, with the single criterion to address the available vaccine candidate(s), considering the stage in development of any existing candidates.",
+            "startOffset": 40451,
+            "title": "Prioritisation guide"
+        },
+        {
+            "endOffset": 17611,
+            "parents": [
+                {
+                    "id": "s0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "s0015",
+            "sentence": "Several subgroups were convened to discuss these areas; membership was drawn from the UKVN, a core group of specialists that made up WG3 and further expertise consulted according to need.",
+            "startOffset": 17424,
+            "title": "Mapping the processes"
+        },
+        {
+            "endOffset": 27523,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "Recruiting a CMO to the task may help to alleviate the situation, but essential training and know-how is required.",
+            "startOffset": 27409,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 21147,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0030",
+            "sentence": "During normal development, this is a tool for novel vaccine creation.",
+            "startOffset": 21078,
+            "title": "Target product Profile"
+        },
+        {
+            "endOffset": 33119,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "Clinical Trial Authorisation (CTA) is made through a formal application to the MHRA.",
+            "startOffset": 33035,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 36942,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "In the earliest pre-clinical discovery stage, pathogen biology and host immunology were both rate limiting, particularly in identifying regions of the virus that could be used as a possible antigen.",
+            "startOffset": 36744,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 12328,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "As the Ebola epidemic worsened, the availability of small vaccine stockpiles, taken together with the threat of further spread, catalysed stakeholder engagement to test the vaccine in humans to determine safety for potential deployment.",
+            "startOffset": 12092,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 13857,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "Along with other countries, the UK Government mobilised resources to manage the Ebola outbreak, as well as played a role in testing Ebola vaccines in the UK, and West Africa.",
+            "startOffset": 13683,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 12092,
+            "parents": [],
+            "refoffsets": {
+                "b0020": {
+                    "endOffset": 12091,
+                    "startOffset": 12088
+                }
+            },
+            "secId": "s0005",
+            "sentence": "However, concerns over the potential use of Ebolavirus as a bioterrorism agent resulted in a number of stockpiled sources that had undergone testing in animal models [4].",
+            "startOffset": 11922,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 16808,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "This tool gives scientists vision of the considerations that will need to be made along the development process.",
+            "startOffset": 16696,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 37105,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "In vitro studies and deploying an in vivo challenge model were also rate limiting as the generation of reagents and the appropriate assays need to be established.",
+            "startOffset": 36943,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 25666,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "refoffsets": {
+                "b0045": {
+                    "endOffset": 25665,
+                    "startOffset": 25659
+                },
+                "b0050": {
+                    "endOffset": 25665,
+                    "startOffset": 25659
+                }
+            },
+            "secId": "s0045",
+            "sentence": "Viral vectors are one such platform technology that was effectively employed during the Ebola outbreak [9,10].",
+            "startOffset": 25556,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 24926,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "This will often require re-cloning into traceable cell lines that are GMP certified and free of any adventitious agent.",
+            "startOffset": 24807,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 29513,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0050",
+            "sentence": "Clinical trials require great investment and resource to execute, and the lengthy nature of the process could itself be described as a bottleneck; for the purposes of the tool however, we highlight fives steps within clinical development.",
+            "startOffset": 29275,
+            "title": "Clinical development"
+        },
+        {
+            "endOffset": 31439,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0050",
+            "sentence": "To overcome these bottlenecks, finding clinical trial sites and experienced NRAs that can act as credible authorities is essential, and early discussions need to occur in tandem to development and production to avoid delays.",
+            "startOffset": 31215,
+            "title": "Clinical development"
+        },
+        {
+            "endOffset": 41651,
+            "parents": [],
+            "secId": "s0070",
+            "sentence": "Infrastructure and manufacturing capacity needs to be accurately assessed, especially fill-finish capacity for the different vaccine types/classes.",
+            "startOffset": 41504,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 18448,
+            "parents": [
+                {
+                    "id": "s0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "s0015",
+            "sentence": "This was a concerted effort to break down silos between disciplines and sectors, and address how choices made in early discovery may affect the later development pathway.",
+            "startOffset": 18278,
+            "title": "Mapping the processes"
+        },
+        {
+            "endOffset": 32096,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "Nevertheless, there will be several stages where necessary approvals must be obtained in order to proceed with developing and testing a candidate.",
+            "startOffset": 31950,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 29274,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0050",
+            "sentence": "Nonetheless, the sequential clinical trial steps that would comprise the \u2018normal\u2019 steps in development of a vaccine being taken forward for licensure have been incorporated into the tool.",
+            "startOffset": 29087,
+            "title": "Clinical development"
+        },
+        {
+            "endOffset": 11753,
+            "parents": [],
+            "refoffsets": {
+                "b0020": {
+                    "endOffset": 11610,
+                    "startOffset": 11607
+                }
+            },
+            "secId": "s0005",
+            "sentence": "Levine et al. [4] described how these candidates had largely been developed as part of the bioterrorism preparedness programme, BioShield, in the United States.",
+            "startOffset": 11593,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 19073,
+            "parents": [
+                {
+                    "id": "s0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "s0020",
+            "sentence": "The MRC RSC offered designs for the main menu, layout and colour scheme and once agreed with the Secretariat, all graphics for the tool were drawn using Adobe Illustrator then saved in a web-friendly format.",
+            "startOffset": 18866,
+            "title": "Making the tool"
+        },
+        {
+            "endOffset": 35968,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "The bottlenecks that remains relevant from the generic tool are: basic understanding of human/livestock host immunology; using an appropriate animal challenge model (camels would be suitable, but few places have facilities for such a large model); and the three main bottlenecks in clinical development of obtaining ethical and regulatory approval, working with vaccines classified as GMOs, as the viral vector platform has been altered genetically from its original form, and the availability of overseas trial sites.",
+            "startOffset": 35450,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 22077,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0035",
+            "sentence": "However, in order to scrutinize the bottlenecks that could potentially be ameliorated by corrective action or investments by governments, research funders and policy makers, WG3 agreed that the tool should only identify steps where corrective action could be taken that could potentially accelerate vaccine development.",
+            "startOffset": 21758,
+            "title": "Bottlenecks"
+        },
+        {
+            "endOffset": 24260,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "It requires that vaccine candidates undergo strain development and confirmation of antigen presentation, verified by animal studies.",
+            "startOffset": 24128,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 33942,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "refoffsets": {
+                "b0070": {
+                    "endOffset": 33886,
+                    "startOffset": 33882
+                }
+            },
+            "secId": "s0055",
+            "sentence": "Previously applied to defence vaccines due to the limitations of clinical testing, the FDA Animal rule [14] may provide a pathway to test novel vaccine candidates.",
+            "startOffset": 33779,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 17728,
+            "parents": [
+                {
+                    "id": "s0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "s0015",
+            "sentence": "Process schematics were made, and members undertook interactive discussions to add in, remove, and reorganise steps.",
+            "startOffset": 17612,
+            "title": "Mapping the processes"
+        },
+        {
+            "endOffset": 17423,
+            "parents": [
+                {
+                    "id": "s0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "s0015",
+            "sentence": "After initial literature consultations, a basic schematic overview of the major steps was created, which then fell into four main areas: (i) pre-clinical discovery; (ii) pre-clinical development; (iii) manufacturing; and (iv) clinical trials.",
+            "startOffset": 17181,
+            "title": "Mapping the processes"
+        },
+        {
+            "endOffset": 22441,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0035",
+            "sentence": "An additional important consideration, was that the identification of these bottleneck \u2018nodes\u2019 should be sufficiently generic so as to be applied to a range of vaccine types, and pathogens \u2013 thus WG3 refined the key steps to common denominators that were shared across approaches.",
+            "startOffset": 22161,
+            "title": "Bottlenecks"
+        },
+        {
+            "endOffset": 16695,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "Considering the global nature of vaccines, it is important to understand the interdependencies that exist between discovery, development and manufacture.",
+            "startOffset": 16542,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 31721,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "The process mapping tool emphasises the importance of ethical and regulatory considerations throughout the entire process, as the iterative workshops continually highlighted the importance of early engagement so the appropriate advice and input shape the R&D.",
+            "startOffset": 31462,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 33667,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "refoffsets": {
+                "b0065": {
+                    "endOffset": 33666,
+                    "startOffset": 33662
+                }
+            },
+            "secId": "s0055",
+            "sentence": "In the case of life-threatening infections, it is conceivable that many of the priority vaccines under development will ultimately never undergo the standard clinical trials process and be used in an outbreak situation under EUAL [13].",
+            "startOffset": 33432,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 38964,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "As with the MERS case study the Plague Vaccine exploited a platform technology \u2013 Prokarium\u2019s Vaxonella platform \u2013 thus many bottlenecks, particularly in preclinical development, were circumvented (Fig. 4).",
+            "startOffset": 38759,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 39635,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "The case studies have demonstrated how useful the process map can be in vaccine development, and how using platform technologies enables many development steps to be circumvented and thus overcome rate-limiting steps, which could be vital in an outbreak situation where speed of development must be minimised where possible.",
+            "startOffset": 39311,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 28083,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "Indeed, many facilities do not have fill-finish operations co-located and fill-finish is also a bottleneck in clinical development due to the limited number of appropriate sites and the volume of vials required for Phase 2 and 3 trials.",
+            "startOffset": 27847,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 34645,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "Once a generic framework that could be applied to vaccine R&D broadly was established, the working group undertook a series of meetings applying the process map to three case studies of different vaccine candidates under development for three of the UKVN\u2019s priority pathogens: MERS Viral Vector vaccine, Zika protein subunit/VLP vaccine (Fig. 3), and the Prokarium Vaxonella\u00ae Plague vaccine (Fig. 4).",
+            "startOffset": 34245,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 40910,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0065",
+            "sentence": "Each criteria has a red, amber or green status, and taken together will enable decision-making on the suitability of pursuing vaccine R&D in an outbreak setting.",
+            "startOffset": 40749,
+            "title": "Prioritisation guide"
+        },
+        {
+            "endOffset": 23184,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0040",
+            "sentence": "The ability to screen, test, and verify potential new antigens is of critical importance.",
+            "startOffset": 23095,
+            "title": "Pre-clinical discovery"
+        },
+        {
+            "endOffset": 34230,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "In outbreak settings, as was the case with Ebola, it is possible to undertake an emergency use protocol and expedite authorisation to ensure a promising vaccine candidate can be deployed for human use, if it is justified as major interest for public health and/or therapeutic innovation.",
+            "startOffset": 33943,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 32577,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "Animal work is regulated under the Animals (Scientific Procedures) Act 1986 (ASPA).",
+            "startOffset": 32494,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 13236,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "In the case of Ebola, it was fortuitous that several candidate vaccines were already in development and immense global efforts made the vaccine available.",
+            "startOffset": 13082,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 20558,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0030",
+            "sentence": "This came about through repetitive discussions that prevailed on the importance of the TPP at all stages in development; in simple terms, to know what it is you are making, and for whom.",
+            "startOffset": 20372,
+            "title": "Target product Profile"
+        },
+        {
+            "endOffset": 25091,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "Major bottlenecks are around Process Development to create a scalable, GMP compliant, manufacturing process and the determination of the critical process parameters.",
+            "startOffset": 24926,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 30058,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0050",
+            "sentence": "Consequently, this may involve obtaining separate approvals, modifications to the trial site, modified procedures for sterilising, administering and disposing, separate storage facilities and special training of staff to handle GMOs.",
+            "startOffset": 29825,
+            "title": "Clinical development"
+        },
+        {
+            "endOffset": 22561,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0035",
+            "sentence": "Overall, many of the bottlenecks focused around gaps in funding for scientific knowledge, training, and infrastructure.",
+            "startOffset": 22442,
+            "title": "Bottlenecks"
+        },
+        {
+            "endOffset": 28789,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "These latest calls seek to reverse current limitations.",
+            "startOffset": 28734,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 10815,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "Timely response to epidemics requires the development, manufacture and distribution of vaccine.",
+            "startOffset": 10720,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 23821,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0040",
+            "sentence": "Conducting a freedom to operate review is an important step towards commercialisation.",
+            "startOffset": 23735,
+            "title": "Pre-clinical discovery"
+        },
+        {
+            "endOffset": 41442,
+            "parents": [],
+            "secId": "s0070",
+            "sentence": "The first is sustained funding for this problem, which is partly address through the creation of the Coalition for Epidemic Preparedness Innovation (CEPI, www.cepi.net), however improved co-ordination is still required between industry, academia, government and international organizations, such as the WHO.",
+            "startOffset": 41135,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 27846,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "Based on vaccine class, facilities may not have the appropriate containment level for bulk manufacture of the drug substance, or the fill-finish for drug product.",
+            "startOffset": 27684,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 15766,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "The primary purpose of the tool was to act as a visual aid for early discovery and development scientists, highlighting the major steps required to fully develop any experimental vaccine.",
+            "startOffset": 15579,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 15578,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "The group created a visual process mapping tool to better understand the potentially rate-limiting bottlenecks associated in moving a vaccine candidate from discovery through to development and early Phase clinical trials; then into clinical manufacture and Phase 3 trials.",
+            "startOffset": 15305,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 30607,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0050",
+            "sentence": "Obtaining Regulatory Approval may be especially difficult in the context of an international trial, where local rules may differ from country to country, or the National Regulatory Authority (NRA) itself may have insufficient experience and seek expert opinions, which can further delay the process.",
+            "startOffset": 30308,
+            "title": "Clinical development"
+        },
+        {
+            "endOffset": 42610,
+            "parents": [],
+            "secId": "s0075",
+            "sentence": "The author declares that there is no conflict of interest.",
+            "startOffset": 42552,
+            "title": "Declaration of interest"
+        },
+        {
+            "endOffset": 23490,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0040",
+            "sentence": "As lead candidates are identified, ensuring that the work has the appropriate freedom to operate becomes increasingly important.",
+            "startOffset": 23362,
+            "title": "Pre-clinical discovery"
+        },
+        {
+            "endOffset": 38205,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "In clinical development, deploying a human challenge model to study the response to a vaccine studies were considered rate-limiting, and it must be noted that in the case of emergency or experimental licensure, a strategy might be to establish some animal challenge data and seek to establish safety data in a Phase 1 trial before expansion into a Phase 2a/b trial.",
+            "startOffset": 37840,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 42020,
+            "parents": [],
+            "secId": "s0070",
+            "sentence": "An extraordinary array of technologies are under development that have the potential to change our ability to respond to emerging infectious diseases.",
+            "startOffset": 41870,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 22694,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0035",
+            "sentence": "An additional item was harmonisation of regulation, especially with regards to the release of genetically modified organisms (GMOs).",
+            "startOffset": 22562,
+            "title": "Bottlenecks"
+        },
+        {
+            "endOffset": 27299,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "Almost all vaccine manufacturers operate at capacity and are dedicated to production of a single product.",
+            "startOffset": 27194,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 14812,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "Members agreed that four Working Groups (WGs) with the following foci:",
+            "startOffset": 14742,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 18277,
+            "parents": [
+                {
+                    "id": "s0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "s0015",
+            "sentence": "The repeated process of interactive mapping, refinement of core documents, and presentation of progress back to the subgroups stimulated dialogue on the map as a whole.",
+            "startOffset": 18109,
+            "title": "Mapping the processes"
+        },
+        {
+            "endOffset": 17048,
+            "parents": [],
+            "refoffsets": {
+                "b0040": {
+                    "endOffset": 16968,
+                    "startOffset": 16965
+                }
+            },
+            "secId": "s0005",
+            "sentence": "In taking a much more holistic approach to vaccine development it is hoped that this can support other international such as the Global Vaccine Action Plan [8], which relies on the continued supply of vaccines to meet immunization targets.",
+            "startOffset": 16809,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 36743,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "Applying the process mapping tool to such an emerging pathogen, allowed the visualisation of the significant number of unknowns and challenges when dealing with a little-known emerging disease without platform approaches (Fig. 3).",
+            "startOffset": 36513,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 20316,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0030",
+            "sentence": "The Target Product Profile (TPP) is a descriptive document that sets out clear parameters for the characteristics of the desired end product, its intended use, and market.",
+            "startOffset": 20145,
+            "title": "Target product Profile"
+        },
+        {
+            "endOffset": 33778,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "In these circumstances, it is imperative to test novel vaccine candidates in well characterised animal models.",
+            "startOffset": 33668,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 35219,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "The viral vector approach overcomes a number of bottlenecks to speed up development, mainly impacting on the preclinical development stages to overcome delays that would be associated with masterseed bank production, pre-formulation work/in vitro and in vivo, and lead identification.",
+            "startOffset": 34935,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 34792,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "The case studies can be accessed through the main landing page of the process map2.",
+            "startOffset": 34646,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 21251,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0030",
+            "sentence": "However, in an outbreak situation, the TPP acts as an essential checklist under accelerated timescales.",
+            "startOffset": 21148,
+            "title": "Target product Profile"
+        },
+        {
+            "endOffset": 24127,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "Pre-clinical development is a complex, multi-step, and time-consuming process (Fig. 2).",
+            "startOffset": 24040,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 29086,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0050",
+            "sentence": "Many of the priority pathogens are prone to sporadic outbreaks, and due to potential lethality, it will not be possible to conduct full Phase 3 trials, and even Phase 2 studies may prove challenging in a human population due to the unpredictable nature of these outbreaks.",
+            "startOffset": 28814,
+            "title": "Clinical development"
+        },
+        {
+            "endOffset": 14644,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "A partnership was instigated across the DHSC, the UK Medical Research Council (MRC) and the Biotechnology and Biological Sciences Research Council (BBSRC), who then worked together to establish a \u2018UK Vaccine Network\u2019 (UKVN, www.gov.uk/government/groups/uk-vaccines-network) bringing together a small number of specialists from industry, academia and relevant funding bodies to make targeted investments in specific vaccines and vaccine technology for infectious diseases with the potential to cause an epidemic.",
+            "startOffset": 14133,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 25878,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "refoffsets": {
+                "b0055": {
+                    "endOffset": 25877,
+                    "startOffset": 25873
+                }
+            },
+            "secId": "s0045",
+            "sentence": "Looking more broadly, recombinant sub-unit vaccine technologies are another platform technology that could be used in other epidemics and has been successfully demonstrated in context of influenza vaccines [11].",
+            "startOffset": 25667,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 10955,
+            "parents": [],
+            "refoffsets": {
+                "b0005": {
+                    "endOffset": 10954,
+                    "startOffset": 10951
+                }
+            },
+            "secId": "s0005",
+            "sentence": "Activities by the UK Vaccine Network (UKVN) and the WHO have seen the identification of several pathogens that have epidemic potential [1].",
+            "startOffset": 10816,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 18108,
+            "parents": [
+                {
+                    "id": "s0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "s0015",
+            "sentence": "The UKVN Secretariat led on organising a series of iterative workshops that repeated this process several times; each time a skills gap analysis was carried out to ensure appropriate expertise was representing different disease/vaccine interests, and from across the vaccine sector from academic and industry discovery, development, regulation, manufacturing and clinical trials.",
+            "startOffset": 17729,
+            "title": "Mapping the processes"
+        },
+        {
+            "endOffset": 20371,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0030",
+            "sentence": "It is the designated entry point into the process map.",
+            "startOffset": 20317,
+            "title": "Target product Profile"
+        },
+        {
+            "endOffset": 19130,
+            "parents": [
+                {
+                    "id": "s0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "s0020",
+            "sentence": "The website was built in Dreamweaver using HTML5 coding.",
+            "startOffset": 19074,
+            "title": "Making the tool"
+        },
+        {
+            "endOffset": 36378,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "As the work of the UKVN progressed, the Zika outbreak unfolded, and funders in the UK and internationally were mobilised to increase investments.",
+            "startOffset": 36233,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 21077,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0030",
+            "sentence": "The consensus opinion within the working group was that the TPP should be seen as a strategic planning document that should be utilised as a benchmark as data emerges.",
+            "startOffset": 20910,
+            "title": "Target product Profile"
+        },
+        {
+            "endOffset": 37545,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "It should be noted that many vaccines have launched without the establishment of correlates of protection and will depend on the licensure sought and the severity of the disease and its outbreak.",
+            "startOffset": 37350,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 15037,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "WG2: To rationalise where and when vaccine development resources should be prioritised when intervention is possible.",
+            "startOffset": 14920,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 25198,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "At this stage manufacturers must address if the vaccine can in fact be manufactured in a scalable process.",
+            "startOffset": 25092,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 21565,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0035",
+            "sentence": "Iterative workshops hosted ongoing discussion on what was involved in each step, and where might rate limiting steps slow down development.",
+            "startOffset": 21426,
+            "title": "Bottlenecks"
+        },
+        {
+            "endOffset": 13081,
+            "parents": [],
+            "refoffsets": {
+                "b0025": {
+                    "endOffset": 12861,
+                    "startOffset": 12858
+                },
+                "b0030": {
+                    "endOffset": 13080,
+                    "startOffset": 13077
+                }
+            },
+            "secId": "s0005",
+            "sentence": "Several vaccines were deployed as part of the international response [5] although this outbreak also served to highlight the necessity of effective public health systems and infrastructure, and community engagement in order to mitigate disease spread through cultural or social practices [6].",
+            "startOffset": 12789,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 19319,
+            "parents": [
+                {
+                    "id": "s0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "s0020",
+            "sentence": "Efforts were made to make the site responsive to different devices, and while this was possible for the text it was not possible to do so for the maps due to the complexity of the subject.",
+            "startOffset": 19131,
+            "title": "Making the tool"
+        },
+        {
+            "endOffset": 14741,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "At its inaugural meeting in July 2014 the UKVN discussed potential priority areas for investment.",
+            "startOffset": 14644,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 14920,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "WG1: To prioritise 10\u201312 pathogens most likely to cause an epidemic or pandemic in the short to medium term.",
+            "startOffset": 14812,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 27041,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "With this model there are further potential bottlenecks associated with Home Office approvals, and Containment Level 3 and 4 facilities depending on the pathogen of study, and supply of animals.",
+            "startOffset": 26847,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 33034,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "To carry out experimental medicine studies of immune responses in humans the Health Research Authority (HRA) provides ethical approvals through the Research Ethics Service (RES) for projects in the NHS (led from England).",
+            "startOffset": 32813,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 37349,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "Without a robust set of assays and generation of some antigen in the early discovery phase, the bottleneck would be overcome however identification of the surrogate/correlate of protection in the appropriate challenge models will be important.",
+            "startOffset": 37106,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 24598,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "The first bottleneck encountered is in strain development.",
+            "startOffset": 24540,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 38415,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "However, demonstrating efficacy can only be one in endemic or outbreak situations and will require early engagement of the NRA, and locating suitable overseas trial sites has the potential to be rate-limiting.",
+            "startOffset": 38206,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 41503,
+            "parents": [],
+            "secId": "s0070",
+            "sentence": "This will be a key priority for policy makers in the future.",
+            "startOffset": 41443,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 32493,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "To discuss the TPP the UK Medicines and Healthcare products Regulatory Agency (MHRA) can be approached at any time.",
+            "startOffset": 32378,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 41870,
+            "parents": [],
+            "secId": "s0070",
+            "sentence": "Additionally, continued research is required to better understand the correlates of protection, appropriate animal models and, of course, the discovery of new antigens that can protect against these emerging pathogens.",
+            "startOffset": 41652,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 22160,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0035",
+            "sentence": "The main bottlenecks and the corrective action required are summarised in Table 1.",
+            "startOffset": 22078,
+            "title": "Bottlenecks"
+        },
+        {
+            "endOffset": 25555,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "Platform manufacturing technologies are a method to overcome this issue by streamlining manufacturing with generic operations into which your selected antigen(s) can be introduced.",
+            "startOffset": 25375,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 28536,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "refoffsets": {
+                "b0060": {
+                    "endOffset": 28441,
+                    "startOffset": 28437
+                }
+            },
+            "secId": "s0045",
+            "sentence": "Other organisations, such as CEPI [12], have also issued calls for proposals into new platform manufacturing technologies (cepi.net).",
+            "startOffset": 28403,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 33325,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0055",
+            "sentence": "Trialists must provide information on the mode of action, nature of the target, animal model studies and an IMP dossier with preclinical toxicology data, and any human mechanistic/proof of concept studies.",
+            "startOffset": 33120,
+            "title": "Regulatory affairs"
+        },
+        {
+            "endOffset": 17149,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "Thus, the tool serves multiple users and purposes, and we report on its main findings in this paper.",
+            "startOffset": 17049,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 36075,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "More bottlenecks were identified when applying the Vaccine Development Process Map to a novel Zika vaccine.",
+            "startOffset": 35968,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 24540,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "Material generated at the end of pre-clinical development can be used for animal toxicology studies and forms the basis of a clinical trial application.",
+            "startOffset": 24388,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 29824,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0050",
+            "sentence": "Current regulation stipulates that use of GMO vaccines is done so under \u2018contained use\u2019 or \u2018deliberate release\u2019 protocols to prevent release into the environment.",
+            "startOffset": 29662,
+            "title": "Clinical development"
+        },
+        {
+            "endOffset": 15304,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "This paper describes the activities undertaken by Working Group 3 on Vaccine Development.",
+            "startOffset": 15215,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 29661,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0050",
+            "sentence": "Current GMO regulations do not distinguish vaccines based on viral vectors, or live, replication incompetent vectors based on bacteria and viruses.",
+            "startOffset": 29514,
+            "title": "Clinical development"
+        },
+        {
+            "endOffset": 41134,
+            "parents": [],
+            "secId": "s0070",
+            "sentence": "However, there are still several key outstanding challenges it does not fully capture.",
+            "startOffset": 41048,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 14132,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "Alongside these efforts, the UK Chief Medical Officer for the Department of Health and Social Care (DHSC), Dame Sally Davies, raised the question to government and related stakeholders \u2013 what could the UK do to be better prepared for future outbreaks of infectious diseases?",
+            "startOffset": 13858,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 12788,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "Researchers, industrialists, regulators, and funders worked together to expedite the process of carrying out first-in-man trials of the Ebola vaccine1.",
+            "startOffset": 12329,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 18865,
+            "parents": [
+                {
+                    "id": "s0010",
+                    "title": "Methods"
+                }
+            ],
+            "secId": "s0020",
+            "sentence": "These images were then used as the basis for interactive webpages, which were constructed by the MRC Regulatory Support Centre (MRC RSC, https://mrc.ukri.org/research/facilities-and-resources-for-researchers/regulatory-support-centre/).",
+            "startOffset": 18629,
+            "title": "Making the tool"
+        },
+        {
+            "endOffset": 22864,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0035",
+            "sentence": "The bottlenecks can readily be seen on the process map by clicking \u2018show bottlenecks\u2019 on each map page; below we describe the main bottlenecks highlighted at each stage.",
+            "startOffset": 22695,
+            "title": "Bottlenecks"
+        },
+        {
+            "endOffset": 24806,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "Some development work can occur using a research cell bank, however research cell banks are generally not to GMP standards therefore delays at later stages can be avoided by ensuring banks are GMP compliant.",
+            "startOffset": 24599,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 25374,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "There is no generic manufacturing process for vaccines, thus almost all processes are designed from the bottom up, which adds costs and delays to any future intervention plan.",
+            "startOffset": 25199,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 35449,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "refoffsets": {
+                "b0075": {
+                    "endOffset": 35448,
+                    "startOffset": 35444
+                }
+            },
+            "secId": "s0060",
+            "sentence": "Antigen identification bottlenecks are also overcome, through straightforward selection of the spike protein (the major external antigen of coronaviruses) which elicits neutralising antibodies to the receptor binding domain [15].",
+            "startOffset": 35220,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 40450,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0065",
+            "sentence": "The prioritisation guide addresses the \u2018Technical Feasibility\u2019 of creating a vaccine together with \u2018Public Health Value\u2019 based on pathogen severity and alternatives to vaccination.",
+            "startOffset": 40270,
+            "title": "Prioritisation guide"
+        },
+        {
+            "endOffset": 23734,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0040",
+            "sentence": "A review of the Intellectual Property landscape including searches on the antigen, cell line, and biological methods employed to create them are required and time to completion could be as little as three months, but increases with complexity.",
+            "startOffset": 23491,
+            "title": "Pre-clinical discovery"
+        },
+        {
+            "endOffset": 30974,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0050",
+            "sentence": "The availability of trial sites may also impede progress; particularly if sites are not approved to work with GMO vaccines, or there are other limitations such as lack of infrastructure, skilled personnel, and capacity.",
+            "startOffset": 30755,
+            "title": "Clinical development"
+        },
+        {
+            "endOffset": 19720,
+            "parents": [],
+            "secId": "s0025",
+            "sentence": "The process mapping workshops culminated in production of a website, with standalone pages for maps that distinguished the following major subdivisions: (1) Target Product Profile (TPP); (2) Pre-clinical Discovery; (3) Pre-clinical Development; (4) Clinical Development; and (5) Regulatory Affairs and Ethical Approvals (Fig. 1).",
+            "startOffset": 19391,
+            "title": "Results"
+        },
+        {
+            "endOffset": 27683,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "Furthermore, some sites may only be suitable for certain vaccines classes, which can range from protein sub-unit vaccines to live viral and bacterial vaccines.",
+            "startOffset": 27524,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 16075,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "Identifying such strategic limitations may identify corrective actions, that may in turn help to overcome potential delays or setbacks when expediting vaccine development during epidemics.",
+            "startOffset": 15887,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 24387,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "This is followed by process development to ensure that a scalable, robust, and GMP compliant manufacturing process is created.",
+            "startOffset": 24261,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 37839,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0060",
+            "sentence": "Time could be saved if a platform technology was used for this vaccine, circumventing many steps in process development and formulation.",
+            "startOffset": 37703,
+            "title": "Case studies"
+        },
+        {
+            "endOffset": 15215,
+            "parents": [],
+            "secId": "s0005",
+            "sentence": "WG4: To address manufacturing capacity for vaccines.",
+            "startOffset": 15163,
+            "title": "Introduction"
+        },
+        {
+            "endOffset": 42239,
+            "parents": [],
+            "secId": "s0070",
+            "sentence": "Currently, there are no DNA or RNA vaccines licensed for human use.",
+            "startOffset": 42172,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 42529,
+            "parents": [],
+            "secId": "s0070",
+            "sentence": "In the meantime, funders, governments and policy makers must all focus to overcome the existing bottlenecks identified and employ better co-ordination to overcome future epidemic threats.",
+            "startOffset": 42342,
+            "title": "Conclusion"
+        },
+        {
+            "endOffset": 40749,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                }
+            ],
+            "secId": "s0065",
+            "sentence": "This included manufacturing considerations, and whether any vaccine may already be stockpiled.",
+            "startOffset": 40655,
+            "title": "Prioritisation guide"
+        },
+        {
+            "endOffset": 26519,
+            "parents": [
+                {
+                    "id": "s0025",
+                    "title": "Results"
+                },
+                {
+                    "id": "s0035",
+                    "title": "Bottlenecks"
+                }
+            ],
+            "secId": "s0045",
+            "sentence": "Finding suitable analytics that can resolve complex antigen structure, increase understanding of degradation pathways and formulation needs is a continuing bottleneck.",
+            "startOffset": 26352,
+            "title": "Pre-clinical development"
+        },
+        {
+            "endOffset": 11592,
+            "parents": [],
+            "refoffsets": {
+                "b0015": {
+                    "endOffset": 11591,
+                    "startOffset": 11588
+                }
+            },
+            "secId": "s0005",
+            "sentence": "Although there was no licenced Ebola vaccine available, approximately fifteen different vaccines were in preclinical development, including DNA vaccines, virus-like particles and viral vector [3].",
+            "startOffset": 11396,
+            "title": "Introduction"
+        }
+    ],
+    "docId": "S0264410X19301264",
+    "metadata": {
+        "asjc": [
+            "1313",
+            "2400",
+            "2725",
+            "2739",
+            "3400"
+        ],
+        "authors": [
+            {
+                "email": null,
+                "first": "Georgina",
+                "initial": "G.",
+                "last": "Drury"
+            },
+            {
+                "email": "siobhan.jolliffe@homeoffice.gov.uk",
+                "first": "Siobhan",
+                "initial": "S.",
+                "last": "Jolliffe"
+            },
+            {
+                "email": "ucbetkm@ucl.ac.uk",
+                "first": "Tarit K.",
+                "initial": "T.K.",
+                "last": "Mukhopadhyay"
+            }
+        ],
+        "doi": "10.1016/j.vaccine.2019.01.050",
+        "firstpage": "2415",
+        "issn": "0264410X",
+        "keywords": [
+            "Development pipeline",
+            "Emergency response",
+            "Priority pathogens",
+            "Vaccine development tool"
+        ],
+        "lastpage": "2421",
+        "openaccess": "Full",
+        "pub_year": 2019,
+        "subjareas": [
+            "BIOC",
+            "IMMU",
+            "MEDI",
+            "VETE"
+        ],
+        "title": "Process mapping of vaccines: Understanding the limitations in current response to emerging epidemic threats"
+    }
+}

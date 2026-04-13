@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     # ── File Storage ───────────────────────────────────────────
     upload_dir: str = "data/uploads"
     max_file_size_mb: int = 50
-    allowed_extensions: list[str] = ["pdf", "txt", "csv", "docx"]
+    allowed_extensions: list[str] = ["pdf", "txt", "csv", "docx", "json"]
 
     # ── ChromaDB ───────────────────────────────────────────────
     chroma_persist_dir: str = "chroma_db"
