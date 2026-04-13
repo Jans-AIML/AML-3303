@@ -8,7 +8,10 @@ from app.models.database import Base
 
 engine = create_engine(
     settings.database_url,
-    connect_args={"check_same_thread": False},  # required for SQLite
+    connect_args={
+        "check_same_thread": False,  # required for SQLite
+        "timeout": 30,               # wait up to 30 s when DB is locked
+    },
     echo=settings.debug,
 )
 

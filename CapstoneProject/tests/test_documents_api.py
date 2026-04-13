@@ -7,6 +7,7 @@ in-memory SQLite database so tests are fully isolated and repeatable.
 import io
 import os
 import tempfile
+from unittest.mock import patch
 
 import pytest
 from fastapi.testclient import TestClient
@@ -40,10 +41,16 @@ def override_get_db():
 
 @pytest.fixture(autouse=True)
 def setup_db():
-    """Create tables before each test, drop after."""
+    """Create tables before each test, drop after.
+
+    Also patches ``process_document_task`` so background processing never
+    touches the real ``support_assistant.db`` file during tests (which would
+    fail with a lock error if the seed script is running concurrently).
+    """
     Base.metadata.create_all(bind=test_engine)
     app.dependency_overrides[get_db] = override_get_db
-    yield
+    with patch("app.api.documents.process_document_task"):
+        yield
     Base.metadata.drop_all(bind=test_engine)
     app.dependency_overrides.clear()
 

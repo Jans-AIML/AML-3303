@@ -117,7 +117,32 @@ class TestVectorStore:
     def test_sources_contain_filename(self):
         add_chunks(doc_id=2, filename="manual.txt", chunks=["Product manual content."])
         _, sources = retrieve_chunks("product manual")
-        assert "manual.txt" in sources
+        # Without doc_metadata the source is just the bare filename string
+        assert any("manual.txt" in s for s in sources)
+
+    def test_rich_citation_includes_authors_and_year(self):
+        """When doc_metadata is supplied, citations show authors and year."""
+        add_chunks(
+            doc_id=20,
+            filename="article.json",
+            chunks=["Experimental results showed significant improvement."],
+            doc_metadata={"authors": "Smith J., Jones M.", "pub_year": 2021, "title": "Test"},
+        )
+        _, sources = retrieve_chunks("experimental results")
+        assert len(sources) == 1
+        src = sources[0]
+        assert "Smith J." in src
+        assert "2021" in src
+        assert "article.json" in src
+
+    def test_duplicate_upload_overwrites_not_duplicates(self):
+        """Re-adding chunks for the same doc_id should replace, not accumulate."""
+        add_chunks(doc_id=30, filename="doc.txt", chunks=["first version of content"])
+        add_chunks(doc_id=30, filename="doc.txt", chunks=["second version of content"])
+        results, sources = retrieve_chunks("version of content")
+        # top_k=3 but only 1 unique chunk after overwrite — must not return 2 copies
+        assert len(results) <= 1
+        assert len(sources) == 1
 
     def test_retrieve_from_empty_store_returns_empty(self):
         results, sources = retrieve_chunks("anything")
