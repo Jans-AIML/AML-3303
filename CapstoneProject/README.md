@@ -17,13 +17,15 @@ Streamlit UI  ──HTTP──►  FastAPI Backend  ──►  SQLite (metadata 
 
 ## Features
 
-- Upload PDF, TXT, CSV, DOCX support documents
+- Upload PDF, TXT, CSV, DOCX, and JSON (Elsevier OA) documents
 - Automatic background processing (chunking + embedding)
-- Semantic retrieval via ChromaDB + sentence-transformers
-- Grounded answer generation with Ollama (gemma, local, free)
+- Semantic retrieval via ChromaDB + sentence-transformers (`all-MiniLM-L6-v2`)
+- Grounded answer generation with Ollama (gemma, local, no API key)
+- Author + year rich citations: `Smith J., Jones M. (2021) — article.json`
+- Deduplication: re-uploading a document replaces its embeddings, not duplicates
 - Chat session management with full conversation history in SQLite
-- Source citations returned with every answer
-- FastAPI REST API with auto-generated Swagger docs
+- FastAPI REST API with auto-generated Swagger docs at `/docs`
+- Streamlit UI with real-time status badges, session management, and source expanders
 
 ---
 
@@ -58,15 +60,30 @@ pip install -r requirements.txt
 
 **Terminal 1 — Backend API:**
 ```bash
-uvicorn app.main:app --reload --port 8000
+uvicorn app.main:app --reload --port 8001
 ```
-API docs available at: http://localhost:8000/docs
+API docs available at: http://localhost:8001/docs
 
 **Terminal 2 — Streamlit UI:**
 ```bash
 streamlit run ui/streamlit_app.py
 ```
 UI available at: http://localhost:8501
+
+### (Optional) Seed the Elsevier Open Access corpus
+
+If you have the [Elsevier OA corpus](https://elsevier.digitalcommonsdata.com/datasets/zm33cdndxs/2) downloaded, seed the knowledge base:
+
+```bash
+# Seed 400 articles (stratified across all 27 subject areas, ~4 min)
+python scripts/seed_elsevier.py --reset --n 400 --stratified
+
+# Seed 10,000 articles (~3-4 hours on CPU)
+python scripts/seed_elsevier.py --reset --n 10000 --stratified
+```
+
+> **Important:** Complete the seed *before* starting the backend. Running them
+> concurrently will corrupt the ChromaDB HNSW index.
 
 ---
 
@@ -93,11 +110,13 @@ CapstoneProject/
 │       └── session.py             # DB session factory
 ├── ui/
 │   └── streamlit_app.py           # Streamlit frontend
-├── data/sample_docs/              # Sample test documents
-├── tests/                         # pytest test suite
+├── scripts/
+│   └── seed_elsevier.py           # Bulk-load Elsevier OA JSON articles
+├── data/sample_docs/              # Sample test documents (5 Elsevier articles)
+├── tests/                         # 43 pytest tests (API + RAG pipeline)
 ├── docs/
-│   ├── tech_spec.md               # Full technical specification
-│   └── architecture.md            # Architecture diagram
+│   └── tech_spec.md               # Full technical specification
+├── logs/                          # Backend + seed logs
 ├── .gitignore
 ├── requirements.txt
 └── README.md
