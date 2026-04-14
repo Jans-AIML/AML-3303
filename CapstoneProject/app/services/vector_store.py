@@ -47,9 +47,17 @@ def add_chunks(
     collection = _get_collection()
 
     # ── Deduplication: remove any prior chunks for this doc ──────────────────
-    existing = collection.get(where={"doc_id": doc_id})
-    if existing["ids"]:
-        collection.delete(ids=existing["ids"])
+    # Guard against ChromaDB HNSW index not yet ready (e.g. right after a large
+    # seed completes). If the check fails we skip dedup rather than crashing.
+    try:
+        existing = collection.get(where={"doc_id": doc_id})
+        if existing["ids"]:
+            collection.delete(ids=existing["ids"])
+    except Exception as exc:
+        import logging
+        logging.getLogger(__name__).warning(
+            "Dedup check skipped for doc_id=%s — ChromaDB not ready: %s", doc_id, exc
+        )
 
     ids = [f"doc{doc_id}_chunk{i}" for i in range(len(chunks))]
 
