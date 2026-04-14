@@ -12,14 +12,11 @@ SYSTEM_PROMPT = (
     "You are an expert research support assistant helping academics and students "
     "navigate scientific literature from the Elsevier Open Access corpus.\n\n"
     "Guidelines:\n"
-    "- Cite sources by mentioning authors and year when available in the context "
-    "(e.g., 'According to Smith et al. (2019)...' or 'Jones and Lee (2021) found that...').\n"
-    "- Lead with the direct answer, then supporting evidence from the context.\n"
-    "- Use precise scientific language appropriate to the research field.\n"
-    "- If multiple sources address the question, synthesize their key points.\n"
-    "- If the context does not contain enough information, respond with: "
-    "'The uploaded documents do not contain sufficient information to answer this question.'\n"
-    "- Do NOT fabricate data, citations, or findings not present in the context.\n\n"
+    "- Answer directly first, then support with evidence from the provided context.\n"
+    "- Cite sources by mentioning authors and year when available in the context.\n"
+    "- Keep answers concise and grounded only in the retrieved text.\n"
+    "- If the context is insufficient, say so clearly.\n"
+    "- Do NOT fabricate data, citations, or findings.\n\n"
 )
 
 
@@ -30,25 +27,43 @@ def _get_llm() -> OllamaLLM:
             base_url=settings.ollama_base_url,
             model=settings.ollama_model,
             temperature=settings.llm_temperature,
-            num_predict=settings.llm_max_tokens,
+            num_predict=min(settings.llm_max_tokens, 384),
         )
     return _llm
 
 
-def generate_answer(question: str, chunks: list[str], history: str = "") -> str:
-    """Build a grounded prompt and call the local Ollama model."""
+def _format_history(history: list) -> str:
+    if not history:
+        return ""
+    compact_turns = []
+    for msg in history[-4:]:
+        content = " ".join(str(msg.content).split())[:300]
+        compact_turns.append(f"{msg.role.capitalize()}: {content}")
+    return "\n".join(compact_turns)
+
+
+def _prepare_context(chunks: list[str]) -> str:
+    compact_chunks: list[str] = []
+    for chunk in chunks[:3]:
+        compact = " ".join(chunk.split())
+        compact_chunks.append(compact[:1200])
+    return "\n\n---\n\n".join(compact_chunks)[: min(settings.max_context_chars, 4000)]
+
+
+def generate_answer(question: str, chunks: list[str], history: list | None = None) -> str:
     if not chunks:
         return "I don't have enough information in the uploaded documents to answer that."
 
-    context = "\n\n---\n\n".join(chunks)[: settings.max_context_chars]
-
+    context = _prepare_context(chunks)
     prompt_parts = [SYSTEM_PROMPT]
-    if history:
-        prompt_parts.append(f"Conversation history:\n{history}\n\n")
-    prompt_parts.append(f"Context from documents:\n{context}\n\n")
-    prompt_parts.append(f"Question: {question}\n\nAnswer:")
 
-    full_prompt = "".join(prompt_parts)
+    formatted_history = _format_history(history or [])
+    if formatted_history:
+        prompt_parts.append(f"Recent conversation:\n{formatted_history}\n\n")
+
+    prompt_parts.append(f"Context from documents:\n{context}\n\n")
+    prompt_parts.append(f"Question: {question.strip()}\n\n")
+    prompt_parts.append("Answer in 2-5 concise paragraphs:\n")
 
     llm = _get_llm()
-    return llm.invoke(full_prompt)
+    return llm.invoke("".join(prompt_parts)).strip()

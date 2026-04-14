@@ -1,7 +1,7 @@
 """Chat API router — manage sessions and submit queries."""
-
-from fastapi import APIRouter, Depends, HTTPException, status
-from sqlalchemy.orm import Session
+import json
+from fastapi import APIRouter, Depends, HTTPException, Query, status
+from sqlalchemy.orm import Session, selectinload
 
 from app.db.session import get_db
 from app.models.database import ChatSession, Message
@@ -19,8 +19,6 @@ from app.services.vector_store import retrieve_chunks
 router = APIRouter()
 
 
-# ── Session management ────────────────────────────────────────────────────────
-
 @router.post("/sessions", response_model=SessionResponse, status_code=status.HTTP_201_CREATED)
 def create_session(payload: SessionCreate, db: Session = Depends(get_db)):
     session = ChatSession(title=payload.title)
@@ -32,15 +30,27 @@ def create_session(payload: SessionCreate, db: Session = Depends(get_db)):
 
 @router.get("/sessions", response_model=SessionListResponse)
 def list_sessions(db: Session = Depends(get_db)):
-    sessions = db.query(ChatSession).order_by(ChatSession.created_at.desc()).all()
+    sessions = db.query(ChatSession).order_by(ChatSession.id.desc()).all()
     return SessionListResponse(sessions=sessions, total=len(sessions))
 
 
 @router.get("/sessions/{session_id}", response_model=SessionDetailResponse)
-def get_session(session_id: int, db: Session = Depends(get_db)):
-    session = db.get(ChatSession, session_id)
+def get_session(
+    session_id: int,
+    limit_messages: int = Query(50, ge=1, le=200),
+    db: Session = Depends(get_db),
+):
+    session = (
+        db.query(ChatSession)
+        .options(selectinload(ChatSession.messages))
+        .filter(ChatSession.id == session_id)
+        .first()
+    )
     if not session:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Session not found")
+
+    ordered_messages = sorted(session.messages, key=lambda m: m.id or 0)
+    session.messages = ordered_messages[-limit_messages:]
     return session
 
 
@@ -53,40 +63,28 @@ def delete_session(session_id: int, db: Session = Depends(get_db)):
     db.commit()
 
 
-# ── Query / RAG ───────────────────────────────────────────────────────────────
-
 @router.post("/query", response_model=QueryResponse)
 def query(payload: QueryRequest, db: Session = Depends(get_db)):
-    """Accept a user question, run RAG, return a grounded answer and sources."""
     session = db.get(ChatSession, payload.session_id)
     if not session:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Session not found")
 
-    # 1. Save user message
     user_msg = Message(session_id=payload.session_id, role="user", content=payload.question)
     db.add(user_msg)
     db.commit()
 
-    # 2. Retrieve relevant chunks from ChromaDB
-    chunks, sources = retrieve_chunks(payload.question)
-
-    # 3. Fetch recent conversation history (last 3 pairs = 6 messages)
-    history = (
+    recent_history = (
         db.query(Message)
         .filter(Message.session_id == payload.session_id)
-        .order_by(Message.timestamp.desc())
+        .order_by(Message.id.desc())
         .limit(6)
         .all()
     )
-    history_text = "\n".join(
-        f"{m.role.upper()}: {m.content}" for m in reversed(history)
-    )
+    recent_history = list(reversed(recent_history))
 
-    # 4. Call LLM with context
-    answer = generate_answer(question=payload.question, chunks=chunks, history=history_text)
+    chunks, sources = retrieve_chunks(payload.question, top_k=3)
+    answer = generate_answer(payload.question, chunks, recent_history)
 
-    # 5. Save assistant message
-    import json
     assistant_msg = Message(
         session_id=payload.session_id,
         role="assistant",
@@ -98,8 +96,8 @@ def query(payload: QueryRequest, db: Session = Depends(get_db)):
     db.refresh(assistant_msg)
 
     return QueryResponse(
-        answer=answer,
-        sources=sources,
         session_id=payload.session_id,
         message_id=assistant_msg.id,
+        answer=answer,
+        sources=sources,
     )

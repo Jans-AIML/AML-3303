@@ -1,23 +1,25 @@
 """Streamlit frontend for the AI Research Support Assistant.
 
 Run with:
-    streamlit run ui/streamlit_app.py
+    streamlit run ui/streamlit_app.py --server.port 8001
 """
 
 from __future__ import annotations
 
 import json
+import os
+from typing import Any
 
 import pandas as pd
 import requests
 import streamlit as st
 
-API_BASE = "http://localhost:8501"
-LLM_TIMEOUT = 180     # seconds — gemma on CPU can take 30-90 s
-UPLOAD_TIMEOUT = 30   # seconds — upload returns 202 immediately
-SHORT_TIMEOUT = 10    # seconds — read-only calls
+API_BASE = os.getenv("API_BASE", "http://localhost:8501")
+LLM_TIMEOUT = 180
+UPLOAD_TIMEOUT = 30
+SHORT_TIMEOUT = 10
+CACHE_TTL = 5
 
-# ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="AI Research Support Assistant",
     page_icon="🔬",
@@ -25,7 +27,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ── Small CSS tweaks ──────────────────────────────────────────────────────────
 st.markdown(
     """
     <style>
@@ -36,38 +37,19 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+if "_http" not in st.session_state:
+    st.session_state["_http"] = requests.Session()
 
-# ── API helpers ───────────────────────────────────────────────────────────────
 
-def _api_get(path: str) -> dict | None:
+def _http() -> requests.Session:
+    return st.session_state["_http"]
+
+
+def _request(method: str, path: str, *, timeout: int, **kwargs) -> requests.Response | None:
     try:
-        r = requests.get(f"{API_BASE}{path}", timeout=SHORT_TIMEOUT)
-        r.raise_for_status()
-        return r.json()
-    except requests.exceptions.ConnectionError:
-        st.error("⚠️ Cannot reach the backend. Make sure `uvicorn app.main:app --reload --port 8501` is running.")
-        return None
-    except Exception as exc:
-        st.error(f"API error: {exc}")
-        return None
-
-
-def _api_post(
-    path: str,
-    *,
-    payload: dict | None = None,
-    files=None,
-    timeout: int = SHORT_TIMEOUT,
-) -> dict | None:
-    try:
-        kwargs: dict = {"timeout": timeout}
-        if files:
-            kwargs["files"] = files
-        else:
-            kwargs["json"] = payload
-        r = requests.post(f"{API_BASE}{path}", **kwargs)
-        r.raise_for_status()
-        return r.json()
+        response = _http().request(method, f"{API_BASE}{path}", timeout=timeout, **kwargs)
+        response.raise_for_status()
+        return response
     except requests.exceptions.ConnectionError:
         st.error("⚠️ Cannot reach the backend. Make sure `uvicorn app.main:app --reload --port 8501` is running.")
         return None
@@ -79,28 +61,53 @@ def _api_post(
         return None
 
 
+@st.cache_data(ttl=CACHE_TTL, show_spinner=False)
+def _cached_get(path: str) -> dict[str, Any] | None:
+    response = _request("GET", path, timeout=SHORT_TIMEOUT)
+    if response is None:
+        return None
+    return response.json()
+
+
+def _api_get(path: str, *, use_cache: bool = True) -> dict[str, Any] | None:
+    if use_cache:
+        return _cached_get(path)
+    response = _request("GET", path, timeout=SHORT_TIMEOUT)
+    if response is None:
+        return None
+    return response.json()
+
+
+def _api_post(path: str, *, payload: dict | None = None, files=None, timeout: int = SHORT_TIMEOUT) -> dict | None:
+    kwargs: dict[str, Any] = {}
+    if files:
+        kwargs["files"] = files
+    else:
+        kwargs["json"] = payload
+    response = _request("POST", path, timeout=timeout, **kwargs)
+    if response is None:
+        return None
+    _cached_get.clear()
+    return response.json()
+
+
 def _api_delete(path: str) -> bool:
-    try:
-        r = requests.delete(f"{API_BASE}{path}", timeout=SHORT_TIMEOUT)
-        r.raise_for_status()
-        return True
-    except Exception as exc:
-        st.error(f"Delete failed: {exc}")
+    response = _request("DELETE", path, timeout=SHORT_TIMEOUT)
+    if response is None:
         return False
+    _cached_get.clear()
+    return True
 
-
-# ── Analytics page ──────────────────────────────────────────────────────────────
 
 def render_analytics() -> None:
     st.title("📊 Analytics Dashboard")
     st.caption("Live statistics from the SQLite database.")
 
-    data = _api_get("/api/documents/analytics")
+    data = _api_get("/api/documents/analytics", use_cache=True)
     if not data:
         st.warning("Could not load analytics. Make sure the backend is running.")
         return
 
-    # ── KPI cards ────────────────────────────────────────────────────────────
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("📄 Documents", f"{data['total_documents']:,}")
     c2.metric("🔢 Chunks Indexed", f"{data['total_chunks']:,}")
@@ -114,16 +121,12 @@ def render_analytics() -> None:
         )
 
     st.divider()
-
-    # ── Status + Type breakdown ─────────────────────────────────────────────
     col_left, col_right = st.columns(2)
 
     with col_left:
         st.subheader("🟡 Documents by Status")
         if data["by_status"]:
-            df_status = pd.DataFrame.from_dict(
-                data["by_status"], orient="index", columns=["Count"]
-            ).sort_values("Count", ascending=False)
+            df_status = pd.DataFrame.from_dict(data["by_status"], orient="index", columns=["Count"]).sort_values("Count", ascending=False)
             st.bar_chart(df_status, color="#4CAF50")
         else:
             st.caption("No data yet.")
@@ -131,20 +134,15 @@ def render_analytics() -> None:
     with col_right:
         st.subheader("📂 Documents by File Type")
         if data["by_type"]:
-            df_type = pd.DataFrame.from_dict(
-                data["by_type"], orient="index", columns=["Count"]
-            ).sort_values("Count", ascending=False)
+            df_type = pd.DataFrame.from_dict(data["by_type"], orient="index", columns=["Count"]).sort_values("Count", ascending=False)
             st.bar_chart(df_type, color="#2196F3")
         else:
             st.caption("No data yet.")
 
     st.divider()
-
-    # ── Top documents table ─────────────────────────────────────────────────
     st.subheader("🏆 Top 10 Documents by Chunk Count")
     if data["top_docs_by_chunks"]:
         df_top = pd.DataFrame(data["top_docs_by_chunks"])
-        # Truncate long Elsevier filenames for readability
         df_top["filename"] = df_top["filename"].str.replace(".json", "", regex=False)
         df_top["filename"] = df_top["filename"].str[:30]
         df_top = df_top.set_index("filename").rename(columns={"chunk_count": "Chunks"})
@@ -153,38 +151,25 @@ def render_analytics() -> None:
         st.caption("No documents available.")
 
     st.divider()
-
-    # ── Raw detail table ──────────────────────────────────────────────────
     with st.expander("📝 Full status breakdown", expanded=False):
         st.write("**By Processing Status**")
-        st.dataframe(
-            pd.DataFrame.from_dict(data["by_status"], orient="index", columns=["Count"]),
-            use_container_width=True,
-        )
+        st.dataframe(pd.DataFrame.from_dict(data["by_status"], orient="index", columns=["Count"]), use_container_width=True)
         st.write("**By File Type**")
-        st.dataframe(
-            pd.DataFrame.from_dict(data["by_type"], orient="index", columns=["Count"]),
-            use_container_width=True,
-        )
+        st.dataframe(pd.DataFrame.from_dict(data["by_type"], orient="index", columns=["Count"]), use_container_width=True)
 
-
-# ── Sidebar ───────────────────────────────────────────────────────────────────
 
 with st.sidebar:
     st.title("🔬 Research Assistant")
     st.caption("AML-3303 Capstone · Lambton College · April 2026")
 
-    # ── Page selector ─────────────────────────────────────────────
-    page = st.radio(
-        "Navigate",
-        ["💬 Chat", "📊 Analytics"],
-        horizontal=True,
-        label_visibility="collapsed",
-    )
+    page = st.radio("Navigate", ["💬 Chat", "📊 Analytics"], horizontal=True, label_visibility="collapsed")
     st.divider()
 
-    # Backend status
-    health = _api_get("/health")
+    if st.button("🔄 Refresh sidebar", use_container_width=True):
+        _cached_get.clear()
+        st.rerun()
+
+    health = _api_get("/health", use_cache=True)
     if health:
         ollama_icon = "🟢" if health.get("ollama_available") else "🟡"
         st.caption(
@@ -194,7 +179,6 @@ with st.sidebar:
         )
     st.divider()
 
-    # ── Chat sessions ───────────────────────────────────────────────────────
     st.subheader("💬 Chat Sessions")
 
     if st.button("➕ New Session", use_container_width=True):
@@ -203,13 +187,11 @@ with st.sidebar:
             st.session_state["session_id"] = new_session["id"]
             st.rerun()
 
-    sessions_data = _api_get("/api/chat/sessions")
+    sessions_data = _api_get("/api/chat/sessions", use_cache=True)
     sessions = sessions_data["sessions"] if sessions_data else []
 
     if sessions:
         session_map = {s["id"]: f"#{s['id']} — {s['title']}" for s in sessions}
-
-        # Default to the first session if none is selected
         if "session_id" not in st.session_state or st.session_state["session_id"] not in session_map:
             st.session_state["session_id"] = sessions[0]["id"]
 
@@ -230,12 +212,8 @@ with st.sidebar:
         st.caption("No sessions yet — create one above.")
 
     st.divider()
-
-    # ── Document management ─────────────────────────────────────────────────
     st.subheader("📄 Documents")
 
-    # Key rotates after each successful upload so the widget resets and
-    # does NOT re-trigger on st.rerun() (which would cause an infinite loop).
     if "_uploader_key" not in st.session_state:
         st.session_state["_uploader_key"] = 0
 
@@ -254,12 +232,11 @@ with st.sidebar:
         )
         if resp:
             st.success(f"✓ Uploaded **{resp['filename']}** — processing in background.")
-            st.session_state["_uploader_key"] += 1  # reset the uploader widget
+            st.session_state["_uploader_key"] += 1
             st.rerun()
 
-    docs_data = _api_get("/api/documents")
+    docs_data = _api_get("/api/documents", use_cache=True)
     docs = docs_data["documents"] if docs_data else []
-
     STATUS_ICON = {"processed": "✅", "processing": "⏳", "pending": "🕐", "failed": "❌"}
 
     if docs:
@@ -278,19 +255,11 @@ with st.sidebar:
                         st.rerun()
     else:
         st.caption("No documents loaded yet.")
-        st.info(
-            "Tip: run `python scripts/seed_elsevier.py` to bulk-load "
-            "articles from the Elsevier OA archive.",
-            icon="💡",
-        )
+        st.info("Tip: run `python scripts/seed_elsevier.py` to bulk-load articles from the Elsevier OA archive.", icon="💡")
 
-
-# ── Page routing ──────────────────────────────────────────────────────────────
 if page == "📊 Analytics":
     render_analytics()
     st.stop()
-
-# ── Main chat area ────────────────────────────────────────────────────────────
 
 if "session_id" not in st.session_state:
     st.title("🔬 AI Research Support Assistant")
@@ -307,16 +276,12 @@ if "session_id" not in st.session_state:
     st.stop()
 
 session_id: int = st.session_state["session_id"]
-
-# Fetch session details (title + message history)
-session_detail = _api_get(f"/api/chat/sessions/{session_id}")
+session_detail = _api_get(f"/api/chat/sessions/{session_id}", use_cache=False)
 if not session_detail:
     st.error("Session not found — it may have been deleted.")
     st.stop()
 
 st.title(f"💬 {session_detail['title']}")
-
-# ── Render message history ────────────────────────────────────────────────────
 
 for msg in session_detail.get("messages", []):
     with st.chat_message(msg["role"]):
@@ -331,22 +296,15 @@ for msg in session_detail.get("messages", []):
             except (json.JSONDecodeError, TypeError):
                 pass
 
-# ── Chat input ────────────────────────────────────────────────────────────────
-
 user_input = st.chat_input("Ask a question about the research documents…")
 
 if user_input:
-    # Show user turn immediately (before API roundtrip)
     with st.chat_message("user"):
         st.markdown(user_input)
 
     with st.chat_message("assistant"):
         with st.spinner("Searching documents and generating answer… (this can take up to 60 s)"):
-            result = _api_post(
-                "/api/chat/query",
-                payload={"session_id": session_id, "question": user_input},
-                timeout=LLM_TIMEOUT,
-            )
+            result = _api_post("/api/chat/query", payload={"session_id": session_id, "question": user_input}, timeout=LLM_TIMEOUT)
 
         if result:
             st.markdown(result["answer"])
@@ -355,9 +313,6 @@ if user_input:
                 with st.expander("📚 Sources", expanded=False):
                     for src in sources:
                         st.caption(f"• {src}")
-            st.rerun()  # refresh history only on success
+            st.rerun()
         else:
-            st.error(
-                "Could not get a response. "
-                "Check that the FastAPI backend and Ollama are both running."
-            )
+            st.error("Could not get a response. Check that the FastAPI backend and Ollama are both running.")
