@@ -60,15 +60,15 @@ pip install -r requirements.txt
 
 **Terminal 1 — Backend API:**
 ```bash
-uvicorn app.main:app --reload --port 8001
+uvicorn app.main:app --reload --port 8501
 ```
-API docs available at: http://localhost:8001/docs
+API docs (Swagger UI): http://localhost:8501/docs
 
 **Terminal 2 — Streamlit UI:**
 ```bash
-streamlit run ui/streamlit_app.py
+streamlit run ui/streamlit_app.py --server.port 8001
 ```
-UI available at: http://localhost:8501
+UI available at: http://localhost:8001
 
 ### (Optional) Seed the Elsevier Open Access corpus
 

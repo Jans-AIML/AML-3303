@@ -1,7 +1,7 @@
 """FastAPI application entry point.
 
 Run with:
-    uvicorn app.main:app --reload --port 8000
+    uvicorn app.main:app --reload --port 8501
 """
 
 import os
@@ -37,7 +37,7 @@ app = FastAPI(
 # Allow the Streamlit frontend (running on a different port) to access the API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8501", "http://127.0.0.1:8501"],
+    allow_origins=["http://localhost:8001", "http://127.0.0.1:8001"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -12,7 +12,7 @@ import pandas as pd
 import requests
 import streamlit as st
 
-API_BASE = "http://localhost:8001"
+API_BASE = "http://localhost:8501"
 LLM_TIMEOUT = 180     # seconds — gemma on CPU can take 30-90 s
 UPLOAD_TIMEOUT = 30   # seconds — upload returns 202 immediately
 SHORT_TIMEOUT = 10    # seconds — read-only calls
@@ -45,7 +45,7 @@ def _api_get(path: str) -> dict | None:
         r.raise_for_status()
         return r.json()
     except requests.exceptions.ConnectionError:
-        st.error("⚠️ Cannot reach the backend. Make sure `uvicorn app.main:app --reload --port 8001` is running.")
+        st.error("⚠️ Cannot reach the backend. Make sure `uvicorn app.main:app --reload --port 8501` is running.")
         return None
     except Exception as exc:
         st.error(f"API error: {exc}")
@@ -69,7 +69,7 @@ def _api_post(
         r.raise_for_status()
         return r.json()
     except requests.exceptions.ConnectionError:
-        st.error("⚠️ Cannot reach the backend. Make sure `uvicorn app.main:app --reload --port 8001` is running.")
+        st.error("⚠️ Cannot reach the backend. Make sure `uvicorn app.main:app --reload --port 8501` is running.")
         return None
     except requests.exceptions.Timeout:
         st.error("⏱️ Request timed out. The server is still working — try refreshing in a moment.")

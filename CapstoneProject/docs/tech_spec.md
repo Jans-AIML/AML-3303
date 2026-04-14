@@ -378,15 +378,15 @@ ollama pull gemma
 python scripts/seed_elsevier.py --reset --n 400 --stratified   # ~4 min
 # python scripts/seed_elsevier.py --reset --n 10000 --stratified  # ~4 hours
 
-# 6. Start the backend API (port 8001)
-uvicorn app.main:app --reload --port 8001
+# 6. Start the backend API (port 8501)
+uvicorn app.main:app --reload --port 8501
 
-# 7. Start the Streamlit UI (new terminal)
-streamlit run ui/streamlit_app.py
+# 7. Start the Streamlit UI on port 8001 (new terminal)
+streamlit run ui/streamlit_app.py --server.port 8001
 ```
 
-API docs (Swagger UI): http://localhost:8001/docs  
-Streamlit UI: http://localhost:8501
+API docs (Swagger UI): http://localhost:8501/docs  
+Streamlit UI: http://localhost:8001
 
 ---
 
