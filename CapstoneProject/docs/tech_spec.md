@@ -275,18 +275,18 @@ Answer:
 ## 8. Prompt Engineering Strategy
 
 ### Grounding Rules
-1. The LLM **must** answer from context only
+1. The LLM **must** answer from context only.
 2. Explicit fallback: "I don't have enough information..."
-3. System prompt enforces professional, concise tone
+3. System prompt enforces professional, concise tone.
 
 ### Context Injection
-- Context is limited to top-5 chunks (≤2500 chars) to stay within context window
-- Each chunk carries author, year, DOI, and subject area metadata
-- Citation strings are built from this metadata and returned with every answer
+- Context is limited to top-5 chunks (≤2500 chars) to stay within context window.
+- Each chunk carries author, year, DOI, and subject area metadata.
+- Citation strings are built from this metadata and returned with every answer.
 
 ### Conversation History
-- Last 3 exchanges are prepended to the prompt for continuity
-- Full history stored in SQLite for analytics
+- Last 3 exchanges are prepended to the prompt for continuity.
+- Full history stored in SQLite for analytics.
 
 ---
 
@@ -409,6 +409,7 @@ Streamlit UI: http://localhost:8001
 - [x] Deduplication — re-upload replaces embeddings, no duplicates
 - [x] Research-domain system prompt with scientific citation style
 - [x] Stratified bulk-loading across all 27 Elsevier subject area codes
-- [ ] Analytics dashboard (query counts, response times, subject area breakdown)
+- [x] Analytics dashboard (documents, chunks, sessions, queries + bar charts)
+- [ ] Groq API as cloud LLM fallback
 - [ ] Groq API as cloud LLM fallback
 - [ ] Docker Compose for reproducible setup
