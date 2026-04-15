@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Research Support Assistant — AML-3303 Capstone</title>
+
+  <!-- Reveal.js CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/black.css" />
+
+  <style>
+    /* ── Global ──────────────────────────────────────────── */
+    :root {
+      --accent:   #4fc3f7;
+      --green:    #81c784;
+      --orange:   #ffb74d;
+      --red:      #e57373;
+      --muted:    #b0bec5;
+    }
+    .reveal { font-family: 'Segoe UI', system-ui, sans-serif; }
+    .reveal h1, .reveal h2, .reveal h3 { color: var(--accent); letter-spacing: -.5px; }
+    .reveal h1 { font-size: 2rem; }
+    .reveal h2 { font-size: 1.55rem; }
+    .reveal p, .reveal li { font-size: .88rem; line-height: 1.6; }
+    .reveal section { padding: 0 2rem; }
+    .reveal .slides { text-align: left; }
+
+    /* title slide */
+    .title-slide { text-align: center !important; }
+    .title-slide h1 { font-size: 2.3rem; color: #fff; }
+    .title-slide .subtitle { font-size: 1.1rem; color: var(--accent); margin: .4rem 0 1.4rem; }
+    .title-slide .meta { font-size: .82rem; color: var(--muted); }
+    .emoji-icon { font-size: 3.5rem; margin-bottom: .6rem; }
+
+    /* grid helpers */
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.4rem; }
+    .three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; }
+
+    /* card */
+    .card {
+      background: #1e2a38;
+      border: 1px solid #2a3b50;
+      border-radius: 8px;
+      padding: .85rem 1rem;
+    }
+    .card h3 { font-size: .85rem; margin: 0 0 .4rem; color: var(--accent); }
+    .card p, .card li { font-size: .78rem; margin: 0; color: #cfd8dc; }
+
+    /* kpi card */
+    .kpi { text-align: center; background: #1e2a38; border-radius: 10px; padding: 1rem .8rem; }
+    .kpi .num { font-size: 2rem; font-weight: 700; color: var(--accent); }
+    .kpi .lbl { font-size: .72rem; color: var(--muted); margin-top: .2rem; }
+
+    /* pipeline step */
+    .step {
+      display: flex; align-items: flex-start; gap: .7rem;
+      background: #1a2533; border-left: 3px solid var(--accent);
+      border-radius: 0 6px 6px 0; padding: .55rem .8rem; margin-bottom: .45rem;
+    }
+    .step .num { font-size: 1.1rem; font-weight: 700; color: var(--accent); min-width: 1.6rem; }
+    .step .text { font-size: .78rem; color: #cfd8dc; line-height: 1.4; }
+    .step .text strong { color: #fff; }
+
+    /* arch diagram */
+    .arch { display: flex; flex-direction: column; gap: .5rem; }
+    .arch-row { display: flex; gap: .6rem; justify-content: center; }
+    .arch-box {
+      border-radius: 6px; padding: .45rem .9rem;
+      font-size: .75rem; font-weight: 600; text-align: center;
+    }
+    .box-ui    { background: #1565c0; color: #fff; }
+    .box-api   { background: #00695c; color: #fff; }
+    .box-svc   { background: #4527a0; color: #fff; }
+    .box-db    { background: #bf360c; color: #fff; }
+    .box-chroma{ background: #558b2f; color: #fff; }
+    .box-llm   { background: #6a1b9a; color: #fff; }
+    .arch-arrow { text-align: center; font-size: 1.1rem; color: var(--muted); }
+
+    /* tech table */
+    table { width: 100%; border-collapse: collapse; font-size: .78rem; }
+    thead th { color: var(--accent); border-bottom: 1px solid #2a3b50; padding: .35rem .6rem; }
+    tbody td { padding: .3rem .6rem; color: #cfd8dc; border-bottom: 1px solid #1e2a38; }
+    tbody tr:hover td { background: #1e2a38; }
+
+    /* challenge / lesson */
+    .challenge { display: flex; gap: .6rem; margin-bottom: .55rem; align-items: flex-start; }
+    .challenge .icon { font-size: 1.2rem; min-width: 1.6rem; }
+    .challenge .body { font-size: .78rem; color: #cfd8dc; line-height: 1.4; }
+    .challenge .body strong { color: #fff; }
+
+    /* badge */
+    .badge {
+      display: inline-block; border-radius: 4px;
+      padding: .15rem .5rem; font-size: .7rem; font-weight: 600; margin: .15rem;
+    }
+    .b-green  { background: #1b5e20; color: #a5d6a7; }
+    .b-blue   { background: #0d47a1; color: #90caf9; }
+    .b-purple { background: #4a148c; color: #ce93d8; }
+    .b-orange { background: #e65100; color: #ffcc80; }
+
+    /* progress bar */
+    .progress-bar { background: #1e2a38; border-radius: 6px; height: 8px; margin: .25rem 0 .7rem; }
+    .progress-fill { height: 8px; border-radius: 6px; background: var(--accent); }
+
+    /* section label */
+    .section-label {
+      font-size: .7rem; text-transform: uppercase; letter-spacing: 2px;
+      color: var(--muted); margin-bottom: .6rem;
+    }
+
+    /* deliverables list */
+    .deliverable { display: flex; gap: .6rem; align-items: center; margin: .3rem 0; font-size: .8rem; }
+    .deliverable .tick { color: var(--green); font-weight: 700; font-size: 1rem; }
+
+    /* footer */
+    .slide-footer {
+      position: absolute; bottom: 10px; right: 20px;
+      font-size: .65rem; color: #546e7a;
+    }
+  </style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ══════════════════════════════════════════════════
+     SLIDE 1 — TITLE
+═══════════════════════════════════════════════════════ -->
+<section class="title-slide">
+  <div class="emoji-icon">🔬</div>
+  <h1>AI Research Support Assistant</h1>
+  <p class="subtitle">RAG-powered Knowledge Chatbot with Local LLM Inference</p>
+  <hr style="border-color:#2a3b50; margin: 1rem auto; width: 60%;" />
+  <p class="meta">
+    AML-3303 &nbsp;·&nbsp; Applied Machine Learning &nbsp;·&nbsp; Lambton College<br/>
+    Capstone Project &nbsp;·&nbsp; April 2026
+  </p>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     SLIDE 2 — PROBLEM STATEMENT
+═══════════════════════════════════════════════════════ -->
+<section>
+  <div class="section-label">The Problem</div>
+  <h2>Scattered Knowledge, Slow Answers</h2>
+
+  <div class="two-col" style="margin-top:.9rem">
+    <div>
+      <div class="card">
+        <h3>📁 The Pain Point</h3>
+        <ul style="padding-left:1rem; margin:.3rem 0 0">
+          <li>Research papers, PDFs, FAQs in dozens of formats</li>
+          <li>Manual search is slow and error-prone</li>
+          <li>Inconsistent response quality across staff</li>
+          <li>Valuable knowledge locked in static files</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <h3>🎯 Our Solution</h3>
+        <ul style="padding-left:1rem; margin:.3rem 0 0">
+          <li>Upload any document → indexed in seconds</li>
+          <li>Ask natural-language questions in a chat UI</li>
+          <li>Answers grounded in uploaded documents</li>
+          <li>Citations with author &amp; year for every response</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <p style="margin-top:1rem; color:var(--muted); font-size:.78rem;">
+    Corpus: <strong style="color:#fff">4,201 Elsevier Open Access</strong> research articles
+    · <strong style="color:#fff">482,741</strong> vector embeddings · fully local, no API costs
+  </p>
+  <div class="slide-footer">2 / 9</div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     SLIDE 3 — SYSTEM ARCHITECTURE
+═══════════════════════════════════════════════════════ -->
+<section>
+  <div class="section-label">Architecture</div>
+  <h2>Three-Tier System Design</h2>
+
+  <div class="arch" style="margin-top:.7rem">
+    <div class="arch-row">
+      <div class="arch-box box-ui" style="flex:1">🖥&nbsp; Streamlit UI &nbsp;(port 8001)</div>
+    </div>
+    <div class="arch-arrow">↕ HTTP / REST</div>
+    <div class="arch-row">
+      <div class="arch-box box-api" style="flex:1">⚡ FastAPI Backend (port 8501) &nbsp;·&nbsp; /api/documents &nbsp;·&nbsp; /api/chat &nbsp;·&nbsp; /health</div>
+    </div>
+    <div class="arch-arrow">↕ Service Layer &nbsp;·&nbsp; BackgroundTasks</div>
+    <div class="arch-row">
+      <div class="arch-box box-svc" style="flex:1">🧩 Services: DocumentProcessor &nbsp;·&nbsp; VectorStore &nbsp;·&nbsp; LLMService</div>
+    </div>
+    <div class="arch-arrow" style="display:flex;justify-content:space-around">
+      <span>↙ metadata</span><span>↘ embeddings</span><span>↘ inference</span>
+    </div>
+    <div class="arch-row">
+      <div class="arch-box box-db"    style="flex:1">🗄 SQLite &nbsp;— documents · sessions · messages</div>
+      <div class="arch-box box-chroma"style="flex:1">🔍 ChromaDB &nbsp;— 482 k vectors (all-MiniLM-L6-v2)</div>
+      <div class="arch-box box-llm"   style="flex:1">🤖 Ollama &nbsp;— gemma (local CPU inference)</div>
+    </div>
+  </div>
+  <div class="slide-footer">3 / 9</div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     SLIDE 4 — RAG PIPELINE
+═══════════════════════════════════════════════════════ -->
+<section>
+  <div class="section-label">Core Workflow</div>
+  <h2>RAG Pipeline — End to End</h2>
+
+  <div class="two-col" style="margin-top:.7rem; align-items:start">
+    <div>
+      <p style="font-size:.75rem; color:var(--orange); margin:.2rem 0 .5rem; font-weight:600;">📥 INGESTION</p>
+      <div class="step"><span class="num">1</span><span class="text"><strong>Upload</strong> PDF / DOCX / CSV / TXT / JSON → stored on disk</span></div>
+      <div class="step"><span class="num">2</span><span class="text"><strong>Parse</strong> — pdfplumber · python-docx · Elsevier JSON parser</span></div>
+      <div class="step"><span class="num">3</span><span class="text"><strong>Chunk</strong> — 500-char windows, 50-char overlap (LangChain splitter)</span></div>
+      <div class="step"><span class="num">4</span><span class="text"><strong>Embed + store</strong> — all-MiniLM-L6-v2 → ChromaDB with rich metadata</span></div>
+    </div>
+    <div>
+      <p style="font-size:.75rem; color:var(--accent); margin:.2rem 0 .5rem; font-weight:600;">💬 QUERY</p>
+      <div class="step"><span class="num">5</span><span class="text"><strong>Embed query</strong> with the same model</span></div>
+      <div class="step"><span class="num">6</span><span class="text"><strong>Retrieve</strong> top-5 chunks (cosine similarity)</span></div>
+      <div class="step"><span class="num">7</span><span class="text"><strong>Prompt</strong> = system prompt + last 3 exchanges + context + question</span></div>
+      <div class="step"><span class="num">8</span><span class="text"><strong>Generate</strong> — Ollama/gemma returns grounded answer + citations</span></div>
+    </div>
+  </div>
+
+  <p style="margin-top:.6rem; font-size:.72rem; color:var(--muted);">
+    Fallback: <em style="color:#fff">"The uploaded documents do not contain sufficient information to answer this question."</em>
+  </p>
+  <div class="slide-footer">4 / 9</div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     SLIDE 5 — TECHNOLOGY STACK
+═══════════════════════════════════════════════════════ -->
+<section>
+  <div class="section-label">Implementation</div>
+  <h2>Technology Stack</h2>
+
+  <table style="margin-top:.7rem">
+    <thead>
+      <tr>
+        <th>Layer</th>
+        <th>Technology</th>
+        <th>Purpose</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Backend API</td><td><span class="badge b-green">FastAPI</span></td><td>Async REST API with auto-generated Swagger docs</td></tr>
+      <tr><td>Database</td><td><span class="badge b-blue">SQLite + SQLAlchemy</span></td><td>Document metadata, chat sessions, message history</td></tr>
+      <tr><td>Vector Store</td><td><span class="badge b-green">ChromaDB</span></td><td>Persistent embedding store with cosine similarity</td></tr>
+      <tr><td>Embeddings</td><td><span class="badge b-blue">all-MiniLM-L6-v2</span></td><td>Lightweight 384-dim semantic embeddings (local)</td></tr>
+      <tr><td>LLM Inference</td><td><span class="badge b-purple">Ollama · gemma</span></td><td>Local LLM — no API key, no cloud cost</td></tr>
+      <tr><td>RAG Framework</td><td><span class="badge b-blue">LangChain</span></td><td>Text splitting, Ollama integration</td></tr>
+      <tr><td>UI</td><td><span class="badge b-orange">Streamlit</span></td><td>Chat interface, upload widget, analytics dashboard</td></tr>
+      <tr><td>Validation</td><td><span class="badge b-green">Pydantic v2</span></td><td>Request/response schema validation</td></tr>
+      <tr><td>Testing / Lint</td><td><span class="badge b-blue">pytest · Ruff</span></td><td>43 automated tests + code quality enforcement</td></tr>
+    </tbody>
+  </table>
+  <div class="slide-footer">5 / 9</div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     SLIDE 6 — KEY FEATURES
+═══════════════════════════════════════════════════════ -->
+<section>
+  <div class="section-label">Features</div>
+  <h2>What the System Delivers</h2>
+
+  <div class="three-col" style="margin-top:.9rem">
+    <div class="card">
+      <h3>📄 Document Ingestion</h3>
+      <p>PDF · DOCX · TXT · CSV · JSON<br/><br/>
+      Background processing with live status badges (✅ ⏳ 🕐 ❌).<br/><br/>
+      Re-upload deduplication — replaces existing embeddings.</p>
+    </div>
+    <div class="card">
+      <h3>💬 Grounded Chat</h3>
+      <p>Session-based conversations stored in SQLite.<br/><br/>
+      Every answer cites its sources:<br/>
+      <em style="color:var(--accent)">Smith J., Lee M. (2021) — article.json</em><br/><br/>
+      Explicit fallback when knowledge is absent.</p>
+    </div>
+    <div class="card">
+      <h3>📊 Analytics Dashboard</h3>
+      <p>Live KPI cards: docs, chunks, sessions, queries.<br/><br/>
+      Bar charts by status and file type.<br/><br/>
+      Top-10 documents ranked by chunk count.</p>
+    </div>
+  </div>
+
+  <div class="three-col" style="margin-top:.8rem">
+    <div class="card">
+      <h3>🔄 Background Automation</h3>
+      <p>FastAPI <code>BackgroundTasks</code> handles chunk + embed pipeline asynchronously post-upload.</p>
+    </div>
+    <div class="card">
+      <h3>🔍 Semantic Retrieval</h3>
+      <p>Cosine similarity over 482 k vectors. Top-5 most relevant chunks grounded into every answer.</p>
+    </div>
+    <div class="card">
+      <h3>📚 Elsevier OA Corpus</h3>
+      <p>Stratified seed across 27 subject areas: 4,201 articles loaded via bulk seed script.</p>
+    </div>
+  </div>
+  <div class="slide-footer">6 / 9</div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     SLIDE 7 — RESULTS & METRICS
+═══════════════════════════════════════════════════════ -->
+<section>
+  <div class="section-label">Results</div>
+  <h2>System Performance &amp; Metrics</h2>
+
+  <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:.8rem; margin-top:.9rem">
+    <div class="kpi">
+      <div class="num">4,201</div>
+      <div class="lbl">Research Articles<br/>Indexed</div>
+    </div>
+    <div class="kpi">
+      <div class="num">482 k</div>
+      <div class="lbl">Vector Embeddings<br/>in ChromaDB</div>
+    </div>
+    <div class="kpi">
+      <div class="num">43</div>
+      <div class="lbl">Automated Tests<br/>All Passing ✅</div>
+    </div>
+    <div class="kpi">
+      <div class="num">5</div>
+      <div class="lbl">Supported File<br/>Formats</div>
+    </div>
+  </div>
+
+  <div class="two-col" style="margin-top:1rem">
+    <div>
+      <p style="font-size:.78rem; color:var(--muted); margin-bottom:.4rem;">API Coverage</p>
+      <div style="font-size:.75rem; color:#cfd8dc; margin-bottom:.2rem;">Documents API (5 endpoints)</div>
+      <div class="progress-bar"><div class="progress-fill" style="width:100%"></div></div>
+      <div style="font-size:.75rem; color:#cfd8dc; margin-bottom:.2rem;">Chat &amp; Sessions API (5 endpoints)</div>
+      <div class="progress-bar"><div class="progress-fill" style="width:100%"></div></div>
+      <div style="font-size:.75rem; color:#cfd8dc; margin-bottom:.2rem;">RAG Pipeline (unit tested)</div>
+      <div class="progress-bar"><div class="progress-fill" style="width:100%"></div></div>
+    </div>
+    <div>
+      <p style="font-size:.78rem; color:var(--muted); margin-bottom:.4rem;">Optional Features Delivered</p>
+      <div style="font-size:.75rem; color:var(--green);">✅ Source citations (author + year)</div>
+      <div style="font-size:.75rem; color:var(--green);">✅ Real-time status badges</div>
+      <div style="font-size:.75rem; color:var(--green);">✅ Deduplication on re-upload</div>
+      <div style="font-size:.75rem; color:var(--green);">✅ Analytics dashboard</div>
+      <div style="font-size:.75rem; color:var(--green);">✅ Stratified 27-subject corpus seed</div>
+    </div>
+  </div>
+  <div class="slide-footer">7 / 9</div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     SLIDE 8 — CHALLENGES & LESSONS LEARNED
+═══════════════════════════════════════════════════════ -->
+<section>
+  <div class="section-label">Lessons Learned</div>
+  <h2>Challenges &amp; Solutions</h2>
+
+  <div style="margin-top:.9rem">
+    <div class="challenge">
+      <span class="icon">🔴</span>
+      <div class="body">
+        <strong>ChromaDB HNSW index corruption</strong><br/>
+        Running the seed script and backend concurrently wrote two segment directories, crashing the index.
+        <em style="color:var(--accent)"> → Rule: always complete seeding before starting the backend. Added graceful HNSW guard in code.</em>
+      </div>
+    </div>
+    <div class="challenge">
+      <span class="icon">🟡</span>
+      <div class="body">
+        <strong>CPU inference latency</strong><br/>
+        gemma on CPU takes 30–90 s per query. Answer quality is high but speed is a demo constraint.
+        <em style="color:var(--accent)"> → Set generous client timeouts (180 s); added spinner UX; Groq fallback identified as next step.</em>
+      </div>
+    </div>
+    <div class="challenge">
+      <span class="icon">🟡</span>
+      <div class="body">
+        <strong>Chunk size vs. retrieval precision trade-off</strong><br/>
+        Large chunks improve context but reduce retrieval precision; small chunks lose context.
+        <em style="color:var(--accent)"> → Settled on 500 chars / 50 overlap; scientifically-tuned for abstract + body text.</em>
+      </div>
+    </div>
+    <div class="challenge">
+      <span class="icon">🟢</span>
+      <div class="body">
+        <strong>Port &amp; CORS management</strong><br/>
+        Conflicting Uvicorn/Streamlit processes across sessions required careful port assignment.
+        <em style="color:var(--accent)"> → Documented canonical ports (API: 8501, UI: 8001) in README and CORS config.</em>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">8 / 9</div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     SLIDE 9 — NEXT STEPS & CONCLUSION
+═══════════════════════════════════════════════════════ -->
+<section>
+  <div class="section-label">Conclusion</div>
+  <h2>Next Steps &amp; Takeaways</h2>
+
+  <div class="two-col" style="margin-top:.9rem; align-items:start">
+    <div>
+      <p style="font-size:.78rem; color:var(--orange); font-weight:600; margin:.2rem 0 .6rem">🚀 Immediate Improvements</p>
+      <div class="challenge">
+        <span class="icon">☁️</span>
+        <div class="body"><strong>Groq API fallback</strong> — cloud LLM for sub-second inference when Ollama is unavailable</div>
+      </div>
+      <div class="challenge">
+        <span class="icon">🐳</span>
+        <div class="body"><strong>Docker Compose</strong> — one-command reproducible setup (backend + UI + Ollama)</div>
+      </div>
+      <div class="challenge">
+        <span class="icon">🔒</span>
+        <div class="body"><strong>Authentication</strong> — JWT-based user accounts to isolate knowledge bases</div>
+      </div>
+    </div>
+    <div>
+      <p style="font-size:.78rem; color:var(--accent); font-weight:600; margin:.2rem 0 .6rem">✅ What We Delivered</p>
+      <div class="deliverable"><span class="tick">✓</span> Fully working RAG chatbot (local, no API keys)</div>
+      <div class="deliverable"><span class="tick">✓</span> Clean 3-tier architecture with background automation</div>
+      <div class="deliverable"><span class="tick">✓</span> 4,201 articles · 482 k vectors indexed</div>
+      <div class="deliverable"><span class="tick">✓</span> 43 automated tests · Ruff linting</div>
+      <div class="deliverable"><span class="tick">✓</span> Complete tech spec · REST API · Swagger docs</div>
+      <div class="deliverable"><span class="tick">✓</span> Analytics dashboard + source citations</div>
+
+      <p style="margin-top:1rem; font-size:.75rem; color:var(--muted);">
+        GitHub · Tech Spec · README · requirements.txt · .gitignore
+      </p>
+    </div>
+  </div>
+  <div class="slide-footer">9 / 9</div>
+</section>
+
+</div><!-- /.slides -->
+</div><!-- /.reveal -->
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: false,
+    transition: 'slide',
+    transitionSpeed: 'fast',
+    controls: true,
+    progress: true,
+    center: false,
+    width: 1280,
+    height: 720,
+    margin: 0.05,
+    plugins: []
+  });
+</script>
+</body>
+</html>

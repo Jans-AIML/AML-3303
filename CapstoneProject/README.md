@@ -26,6 +26,13 @@ Streamlit UI  ──HTTP──►  FastAPI Backend  ──►  SQLite (metadata 
 - Chat session management with full conversation history in SQLite
 - FastAPI REST API with auto-generated Swagger docs at `/docs`
 - Streamlit UI with real-time status badges, session management, and source expanders
+- Analytics dashboard: KPI cards, status/type bar charts, top-10 documents
+
+---
+
+## Presentation
+
+Open [`docs/presentation.html`](docs/presentation.html) in any browser for the 9-slide reveal.js deck (requires an internet connection to load the CDN).
 
 ---
 
