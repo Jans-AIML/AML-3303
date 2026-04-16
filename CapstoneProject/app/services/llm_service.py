@@ -1,4 +1,4 @@
-"""LLM service — sends grounded prompts to Ollama and returns responses."""
+"""LLM service sends grounded prompts to Ollama and returns responses."""
 
 from __future__ import annotations
 
@@ -8,69 +8,111 @@ from app.config import settings
 
 _llm: OllamaLLM | None = None
 
-SYSTEM_PROMPT = (
-    "You are an expert research assistant helping academics and students "
-    "understand scientific literature.\n\n"
-    "Guidelines:\n"
-    "- Answer directly using information from the provided context.\n"
-    "- For summarization requests, synthesize the main topic, methods, findings, "
-    "and conclusions from the context.\n"
-    "- Cite authors and year when available (e.g. 'Smith et al. (2019) found...').\n"
-    "- If multiple sources address the question, synthesize their key points.\n"
-    "- If the context only partially covers the question, answer what you can "
-    "and briefly note the limitation.\n"
-    "- Do NOT fabricate data, citations, or findings.\n\n"
-)
+SYSTEM_PROMPT = """
+You are an expert research assistant helping academics and students understand scientific literature.
+
+Guidelines:
+- Answer directly using only the provided context.
+- If asked for a summary, explain the main topic, methods, findings, and conclusions.
+- If authors or year are available in the context, mention them naturally.
+- If the context is incomplete, say what is missing instead of guessing.
+- Keep the answer concise and clear.
+- Do NOT fabricate citations, results, or claims.
+""".strip()
 
 
-def _get_llm() -> OllamaLLM:
+def get_llm() -> OllamaLLM:
     global _llm
     if _llm is None:
         _llm = OllamaLLM(
             base_url=settings.ollama_base_url,
             model=settings.ollama_model,
             temperature=settings.llm_temperature,
-            num_predict=settings.llm_max_tokens,
+            num_predict=min(settings.llm_max_tokens, 300),
         )
     return _llm
 
 
-def _format_history(history) -> str:
-    """Accept either a plain string or a list of Message objects."""
+def format_history(history) -> str:
     if not history:
         return ""
+
     if isinstance(history, str):
-        return history
-    # List of Message ORM objects
+        return history[:600]
+
     lines = []
-    for msg in history[-4:]:
-        content = " ".join(str(msg.content).split())[:300]
+    recent = history[-4:] if len(history) > 4 else history
+
+    for msg in recent:
+        content = " ".join(str(msg.content).split())[:200]
         role = getattr(msg, "role", "user").capitalize()
         lines.append(f"{role}: {content}")
-    return "\n".join(lines)
+
+    return "\n".join(lines)[:600]
+
+
+def _truncate_chunks(chunks: list[str], max_chars: int) -> str:
+    clipped_chunks = []
+    running = 0
+
+    for chunk in chunks[:3]:
+        chunk = chunk.strip()
+        if not chunk:
+            continue
+
+        remaining = max_chars - running
+        if remaining <= 0:
+            break
+
+        piece = chunk[:remaining]
+        clipped_chunks.append(piece)
+        running += len(piece) + 5
+
+    return "\n---\n".join(clipped_chunks)
 
 
 def generate_answer(question: str, chunks: list[str], history=None) -> str:
-    """Build a grounded prompt and call the local Ollama model."""
     if not chunks:
-        return "No documents are uploaded yet. Please upload a document first."
+        return "No relevant document content was found. Please upload a document first."
 
-    context = "\n\n---\n\n".join(chunks)[: settings.max_context_chars]
+    max_context_chars = min(getattr(settings, "max_context_chars", 4000), 4000)
+    context = _truncate_chunks(chunks, max_context_chars)
+    formatted_history = format_history(history)
 
     prompt_parts = [SYSTEM_PROMPT]
 
-    formatted_history = _format_history(history)
     if formatted_history:
-        prompt_parts.append(f"Conversation history:\n{formatted_history}\n\n")
+        prompt_parts.append(f"Conversation history:\n{formatted_history}")
 
-    prompt_parts.append(f"Context from documents:\n{context}\n\n")
-    prompt_parts.append(f"Question: {question.strip()}\n\n")
+    prompt_parts.append(f"Document context:\n{context}")
+    prompt_parts.append(f"User question:\n{question.strip()}")
 
     q = question.lower()
-    if any(w in q for w in ["summarize", "summary", "overview", "what is this", "what does this paper"]):
-        prompt_parts.append("Provide a comprehensive summary covering the main topic, methods, findings, and conclusions:\n")
+    if any(
+        phrase in q
+        for phrase in [
+            "summarize",
+            "summary",
+            "overview",
+            "what is this document about",
+            "what is this paper about",
+        ]
+    ):
+        prompt_parts.append(
+            "Write a short summary of the document using only the context."
+        )
     else:
-        prompt_parts.append("Answer clearly and thoroughly based on the context above:\n")
+        prompt_parts.append(
+            "Answer the question using only the document context. If the answer is not in the context, say so."
+        )
 
-    llm = _get_llm()
-    return llm.invoke("".join(prompt_parts)).strip()
+    prompt = "\n\n".join(prompt_parts)
+
+    try:
+        response = get_llm().invoke(prompt)
+        return response.strip() if response else "No response was generated."
+    except Exception:
+        return (
+            "I could not generate a response because the local Ollama model crashed or became unavailable. "
+            "Please try again, restart Ollama, reduce the retrieved context, or switch to a smaller model."
+        )

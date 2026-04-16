@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What is defense?",
+    "answer": "Defense refers to the organized protection of a state, its people, territory, institutions, infrastructure, and interests against threats.",
+    "reference": {
+      "heading": "1. THE PURPOSE OF DEFENSE",
+      "page": 1
+    }
+  },
+  {
+    "question": "What does modern defense include beyond warfighting?",
+    "answer": "Modern defense includes deterrence, preparedness, resilience, crisis response, intelligence, logistics, cyber protection, civil support, and alliance coordination.",
+    "reference": {
+      "heading": "1. THE PURPOSE OF DEFENSE",
+      "page": 1
+    }
+  },
+  {
+    "question": "What is collective defence?",
+    "answer": "Collective defence is the principle that an attack on one ally can trigger a common response by all allies.",
+    "reference": {
+      "heading": "2. COLLECTIVE DEFENCE",
+      "page": 1
+    }
+  },
+  {
+    "question": "Why does deterrence depend on credibility?",
+    "answer": "Deterrence depends on credibility because a promise to respond must be backed by real forces, readiness, logistics, and political resolve.",
+    "reference": {
+      "heading": "5. DETERRENCE",
+      "page": 1
+    }
+  },
+  {
+    "question": "What are conventional forces?",
+    "answer": "Conventional forces are land, naval, air, and special operations capabilities used below the nuclear threshold.",
+    "reference": {
+      "heading": "6. CONVENTIONAL FORCES",
+      "page": 1
+    }
+  },
+  {
+    "question": "What is nuclear deterrence?",
+    "answer": "Nuclear deterrence is the use of nuclear capability to preserve peace, prevent coercion, and deter aggression.",
+    "reference": {
+      "heading": "7. NUCLEAR DETERRENCE",
+      "page": 1
+    }
+  },
+  {
+    "question": "What does NATO emphasize in air and missile defence?",
+    "answer": "NATO emphasizes a substantial and persistent presence on land, at sea, and in the air, including strengthened integrated air and missile defence.",
+    "reference": {
+      "heading": "9. AIR AND MISSILE DEFENCE",
+      "page": 1
+    }
+  },
+  {
+    "question": "What is cyber defence?",
+    "answer": "Cyber defence includes network hardening, threat detection, incident response, secure communications, access control, software assurance, and resilience planning.",
+    "reference": {
+      "heading": "10. CYBER DEFENCE",
+      "page": 1
+    }
+  },
+  {
+    "question": "Why is resilience important in defense?",
+    "answer": "Resilience helps a state and society absorb shocks, continue essential functions, and recover quickly during crises.",
+    "reference": {
+      "heading": "13. RESILIENCE AND CIVIL PREPAREDNESS",
+      "page": 1
+    }
+  },
+  {
+    "question": "What is a defense industrial base?",
+    "answer": "A defense industrial base includes the companies, workers, supply chains, technologies, and facilities needed to produce and sustain military capability.",
+    "reference": {
+      "heading": "14. DEFENSE INDUSTRIAL BASE",
+      "page": 1
+    }
+  },
+  {
+    "question": "How is technology changing defense?",
+    "answer": "Technology is changing defense by altering decision speed, intelligence, logistics, targeting, and the character of conflict.",
+    "reference": {
+      "heading": "15. TECHNOLOGY AND INNOVATION",
+      "page": 1
+    }
+  },
+  {
+    "question": "Why is climate change relevant to defense?",
+    "answer": "Climate change is relevant because it affects operating environments, infrastructure, disaster response, readiness, and regional instability.",
+    "reference": {
+      "heading": "16. CLIMATE AND DEFENSE",
+      "page": 1
+    }
+  },
+  {
+    "question": "Why is terrorism still a defense concern?",
+    "answer": "Terrorism remains a concern because it is a direct asymmetric threat to citizens and to international peace and prosperity.",
+    "reference": {
+      "heading": "17. TERRORISM AND ASYMMETRIC THREATS",
+      "page": 1
+    }
+  },
+  {
+    "question": "What is cooperative security?",
+    "answer": "Cooperative security means building stability with partners through dialogue, exercises, interoperability, intelligence sharing, and capacity building.",
+    "reference": {
+      "heading": "19. COOPERATIVE SECURITY",
+      "page": 1
+    }
+  },
+  {
+    "question": "What are Canada’s main defense priorities?",
+    "answer": "Canada’s defense priorities include protecting the country, defending North America, strengthening NATO, supporting the Arctic and the North, and assisting during crises.",
+    "reference": {
+      "heading": "20. CANADA’S DEFENSE PRIORITIES",
+      "page": 1
+    }
+  },
+  {
+    "question": "Why is the Arctic important in defense planning?",
+    "answer": "The Arctic is important because of geography, climate change, strategic access, surveillance needs, and growing competition.",
+    "reference": {
+      "heading": "21. THE ARCTIC AND THE NORTH",
+      "page": 1
+    }
+  },
+  {
+    "question": "Why are alliances important in defense?",
+    "answer": "Alliances distribute burden, improve deterrence, provide strategic depth, and strengthen interoperability among partners.",
+    "reference": {
+      "heading": "22. ALLIANCES AND PARTNERSHIPS",
+      "page": 1
+    }
+  },
+  {
+    "question": "What is defense governance?",
+    "answer": "Defense governance includes political oversight, legal authority, budgeting, procurement, personnel policy, and accountability.",
+    "reference": {
+      "heading": "23. DEFENSE GOVERNANCE AND POLICY",
+      "page": 1
+    }
+  },
+  {
+    "question": "Why is readiness important?",
+    "answer": "Readiness is important because it determines whether forces can respond effectively at the required time and scale.",
+    "reference": {
+      "heading": "24. READINESS AND TRAINING",
+      "page": 1
+    }
+  },
+  {
+    "question": "Why does information matter in defense?",
+    "answer": "Information matters because adversaries use propaganda and disinformation to weaken political resolve, divide alliances, and distort public understanding.",
+    "reference": {
+      "heading": "25. INFORMATION, COMMUNICATION, AND LEGITIMACY",
+      "page": 1
+    }
+  },
+  {
+    "question": "What is the role of logistics in defense?",
+    "answer": "Logistics ensures that forces have fuel, spare parts, ammunition, transport, maintenance, medical support, and resupply.",
+    "reference": {
+      "heading": "26. LOGISTICS AND SUSTAINMENT",
+      "page": 1
+    }
+  },
+  {
+    "question": "Why are people the foundation of military effectiveness?",
+    "answer": "People are the foundation because recruitment, training, leadership, retention, and technical skill determine whether systems can be used effectively.",
+    "reference": {
+      "heading": "27. HUMAN RESOURCES IN DEFENSE",
+      "page": 1
+    }
+  },
+  {
+    "question": "How do armed forces support disaster response?",
+    "answer": "Armed forces support disaster response with evacuation, airlift, communications, infrastructure repair, shelter, medical aid, and logistics.",
+    "reference": {
+      "heading": "28. DEFENSE AND DISASTER RESPONSE",
+      "page": 1
+    }
+  },
+  {
+    "question": "Why are defense documents useful for RAG?",
+    "answer": "Defense documents are useful for RAG because they contain structured terminology, named missions, capability categories, and clearly separated strategic topics.",
+    "reference": {
+      "heading": "29. WHY DEFENSE DOCUMENTS MATTER FOR RAG",
+      "page": 1
+    }
+  },
+  {
+    "question": "What is the overall lesson of the defense document?",
+    "answer": "The overall lesson is that modern defense is a whole-system enterprise involving military power, alliances, resilience, technology, industry, and public legitimacy.",
+    "reference": {
+      "heading": "30. CLOSING PERSPECTIVE",
+      "page": 1
+    }
+  }
+]
