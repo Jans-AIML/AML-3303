@@ -1,7 +1,4 @@
-"""Application configuration via Pydantic Settings.
-
-All values can be overridden by environment variables or a .env file.
-"""
+"""Application configuration via Pydantic Settings."""
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -31,13 +28,13 @@ class Settings(BaseSettings):
     ollama_base_url: str = "http://localhost:11434"
     ollama_model: str = "gemma:latest"
     llm_temperature: float = 0.1
-    llm_max_tokens: int = 1024
+    llm_max_tokens: int = 512       # reduced from 1024 for speed
 
     # ── RAG ────────────────────────────────────────────────────
     chunk_size: int = 500
     chunk_overlap: int = 50
-    retrieval_top_k: int = 5
-    max_context_chars: int = 2500
+    retrieval_top_k: int = 6        # increased from 5
+    max_context_chars: int = 5000   # increased from 2500 — this was the main issue
 
     model_config = SettingsConfigDict(
         env_file=".env",
