@@ -190,7 +190,15 @@ RETRIEVAL_TOP_K=5
 
 ## Screenshots
 
-*(Add screenshots here after Day 4 UI build)*
+![alt text](<docs/screenshots/Screenshot1.png> "Welcome / landing page")  
+
+![alt text](<docs/screenshots/Screenshot2.png> "Analytics dashboard")  
+
+![alt text](<docs/screenshots/Screenshot3.png> "Active chat with a research question and citations")
+
+![alt text](<docs/screenshots/Screenshot4.png> "Document sidebar with status icons")
+
+![alt text](<docs/screenshots/Screenshot5.png> "API docs")
 
 ---
 
