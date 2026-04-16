@@ -5,6 +5,7 @@ Handles adding document chunks and querying for similar content.
 
 from __future__ import annotations
 
+import re
 import chromadb
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 
@@ -29,6 +30,17 @@ def _get_collection():
     return _collection
 
 
+def _clean_chunk(text: str) -> str:
+    """Remove NIH watermark boilerplate from within a chunk."""
+    text = re.sub(r'(NIH-PA\s*\n?Author\s*\n?Manuscript\s*\n?)+', ' ', text, flags=re.IGNORECASE)
+    text = re.sub(r'(NIH Public Access\s*\n?)+', ' ', text, flags=re.IGNORECASE)
+    text = re.sub(r'Author manuscript; available in PMC[^\n]*\n?', ' ', text, flags=re.IGNORECASE)
+    text = re.sub(r'Published in final edited form[^\n]*\n?', ' ', text, flags=re.IGNORECASE)
+    text = re.sub(r'Q Rev Biophys\. Author manuscript[^\n]*\n?', ' ', text, flags=re.IGNORECASE)
+    text = re.sub(r'\s{2,}', ' ', text)
+    return text.strip()
+
+
 def add_chunks(
     doc_id: int,
     filename: str,
@@ -47,8 +59,6 @@ def add_chunks(
     collection = _get_collection()
 
     # ── Deduplication: remove any prior chunks for this doc ──────────────────
-    # Guard against ChromaDB HNSW index not yet ready (e.g. right after a large
-    # seed completes). If the check fails we skip dedup rather than crashing.
     try:
         existing = collection.get(where={"doc_id": doc_id})
         if existing["ids"]:
@@ -61,11 +71,9 @@ def add_chunks(
 
     ids = [f"doc{doc_id}_chunk{i}" for i in range(len(chunks))]
 
-    # Build base metadata shared across all chunks
     base: dict = {"doc_id": doc_id, "filename": filename}
     if doc_metadata:
         for k, v in doc_metadata.items():
-            # Only store values ChromaDB accepts; skip blanks
             if v is not None and v != "" and isinstance(v, (str, int, float, bool)):
                 base[k] = v
 
@@ -73,30 +81,38 @@ def add_chunks(
     collection.add(documents=chunks, ids=ids, metadatas=metadatas)
 
 
-def retrieve_chunks(query: str) -> tuple[list[str], list[str]]:
-    """Return top-k relevant chunks and formatted source citations.
-
-    Citation format (when metadata is available):
-        ``Smith J., Jones M. (2019) — S0264410X19301264.json``
-    Falls back to just the filename when author/year metadata is absent.
-    Sources are de-duplicated by filename while preserving relevance order.
-    """
+def retrieve_chunks(query: str, top_k: int | None = None) -> tuple[list[str], list[str]]:
     collection = _get_collection()
     if collection.count() == 0:
         return [], []
 
+    k = min((top_k or settings.retrieval_top_k) * 2, collection.count())
+
     results = collection.query(
         query_texts=[query],
-        n_results=min(settings.retrieval_top_k, collection.count()),
+        n_results=k,
         include=["documents", "metadatas"],
     )
 
     docs: list[str] = results["documents"][0] if results["documents"] else []
     metas: list[dict] = results["metadatas"][0] if results["metadatas"] else []
 
-    # Build rich citations, de-duplicated by filename (relevance order)
-    seen: dict[str, str] = {}  # filename → citation string
-    for m in metas:
+    # Clean watermark from each chunk, skip if nothing meaningful left
+    clean_docs = []
+    clean_metas = []
+    for doc, meta in zip(docs, metas):
+        cleaned = _clean_chunk(doc)
+        if len(cleaned.split()) >= 20:
+            clean_docs.append(cleaned)
+            clean_metas.append(meta)
+
+    # fallback: use raw docs if everything got filtered
+    final_docs = clean_docs[:top_k or settings.retrieval_top_k] or docs[:top_k or settings.retrieval_top_k]
+    final_metas = clean_metas[:top_k or settings.retrieval_top_k] or metas[:top_k or settings.retrieval_top_k]
+
+    # Build citations
+    seen: dict[str, str] = {}
+    for m in final_metas:
         filename = m.get("filename", "unknown")
         if filename in seen:
             continue
@@ -113,7 +129,7 @@ def retrieve_chunks(query: str) -> tuple[list[str], list[str]]:
         else:
             seen[filename] = filename
 
-    return docs, list(seen.values())
+    return final_docs, list(seen.values())
 
 
 def delete_document_chunks(doc_id: int) -> None:
