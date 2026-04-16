@@ -1,4 +1,4 @@
-"""LLM service sends grounded prompts to Ollama and returns responses."""
+"""LLM service — sends grounded prompts to Ollama and returns responses."""
 
 from __future__ import annotations
 
@@ -12,12 +12,10 @@ SYSTEM_PROMPT = """
 You are an expert research assistant helping academics and students understand scientific literature.
 
 Guidelines:
-- Answer directly using only the provided document context.
-- Use conversation history to resolve references like "above", "earlier", "that", "this", and "those findings".
+- Answer directly using only the provided context.
 - If asked for a summary, explain the main topic, methods, findings, and conclusions.
 - If authors or year are available in the context, mention them naturally.
 - If the context is incomplete, say what is missing instead of guessing.
-- If a follow-up question is ambiguous and cannot be grounded in the provided context, say that clearly and ask for clarification.
 - Keep the answer concise and clear.
 - Do NOT fabricate citations, results, or claims.
 """.strip()
@@ -30,115 +28,69 @@ def get_llm() -> OllamaLLM:
             base_url=settings.ollama_base_url,
             model=settings.ollama_model,
             temperature=settings.llm_temperature,
-            num_predict=min(settings.llm_max_tokens, 300),
+            num_predict=settings.llm_max_tokens,
         )
     return _llm
 
 
 def format_history(history) -> str:
+    """Normalise conversation history to a compact string for prompt injection."""
     if not history:
         return ""
 
     if isinstance(history, str):
-        return history[:1200]
+        return history[:600]
 
     lines = []
-    recent = history[-6:] if len(history) > 6 else history
-
+    recent = history[-4:] if len(history) > 4 else history
     for msg in recent:
-        content = " ".join(str(msg.content).split())[:300]
+        content = " ".join(str(msg.content).split())[:200]
         role = getattr(msg, "role", "user").capitalize()
         lines.append(f"{role}: {content}")
-
-    return "\n".join(lines)[:1200]
-
-
-def rewrite_question(question: str, history=None) -> str:
-    formatted_history = format_history(history)
-
-    if not formatted_history:
-        return question.strip()
-
-    rewrite_prompt = f"""
-You are helping a retrieval system.
-
-Rewrite the latest user question as a standalone search-ready question using the conversation history.
-Preserve the user's exact intent.
-Do not answer the question.
-Do not add facts that are not already implied by the conversation.
-If the latest question is already standalone, return it unchanged.
-
-Conversation history:
-{formatted_history}
-
-Latest user question:
-{question.strip()}
-
-Standalone question:
-""".strip()
-
-    try:
-        rewritten = get_llm().invoke(rewrite_prompt)
-        rewritten = rewritten.strip() if rewritten else ""
-        return rewritten or question.strip()
-    except Exception:
-        return question.strip()
+    return "\n".join(lines)[:600]
 
 
 def _truncate_chunks(chunks: list[str], max_chars: int) -> str:
-    clipped_chunks = []
+    """Join up to the first 3 chunks, clipping to max_chars total."""
+    parts = []
     running = 0
-
     for chunk in chunks[:3]:
         chunk = chunk.strip()
         if not chunk:
             continue
-
         remaining = max_chars - running
         if remaining <= 0:
             break
-
         piece = chunk[:remaining]
-        clipped_chunks.append(piece)
+        parts.append(piece)
         running += len(piece) + 5
-
-    return "\n---\n".join(clipped_chunks)
+    return "\n---\n".join(parts)
 
 
 def generate_answer(question: str, chunks: list[str], history=None) -> str:
+    """Build a grounded prompt and call the local Ollama model."""
     if not chunks:
         return "No relevant document content was found. Please upload a document first."
 
-    max_context_chars = min(getattr(settings, "max_context_chars", 4000), 4000)
+    max_context_chars = min(getattr(settings, "max_context_chars", 5000), 5000)
     context = _truncate_chunks(chunks, max_context_chars)
     formatted_history = format_history(history)
 
     prompt_parts = [SYSTEM_PROMPT]
-
     if formatted_history:
         prompt_parts.append(f"Conversation history:\n{formatted_history}")
-
     prompt_parts.append(f"Document context:\n{context}")
-    prompt_parts.append(f"User question:\n{question.strip()}")
 
     q = question.lower()
-    if any(
-        phrase in q
-        for phrase in [
-            "summarize",
-            "summary",
-            "overview",
-            "what is this document about",
-            "what is this paper about",
-        ]
-    ):
-        prompt_parts.append(
-            "Write a short summary of the document using only the context."
-        )
+    if any(phrase in q for phrase in ["summarize", "summary", "overview",
+                                       "what is this document about",
+                                       "what is this paper about"]):
+        prompt_parts.append("Write a short summary of the document using only the context.")
     else:
         prompt_parts.append(
             "Answer the question using only the document context. "
-            "If the answer is not in the context, say so clearly."
+            "If the answer is not in the context, say so.\n\n"
+            f"User question:\n{question.strip()}"
         )
 
     prompt = "\n\n".join(prompt_parts)
@@ -148,7 +100,6 @@ def generate_answer(question: str, chunks: list[str], history=None) -> str:
         return response.strip() if response else "No response was generated."
     except Exception:
         return (
-            "I could not generate a response because the local Ollama model crashed "
-            "or became unavailable. Please try again, restart Ollama, reduce the "
-            "retrieved context, or switch to a smaller model."
+            "I could not generate a response because the local Ollama model is unavailable. "
+            "Please restart Ollama and try again."
         )

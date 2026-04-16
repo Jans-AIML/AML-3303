@@ -115,17 +115,14 @@ def _has_allowed_context(text: str) -> bool:
 
 
 def _blocked_message(category: str) -> str:
-    if category == "hate":
-        return "I can’t help create hateful, abusive, or discriminatory content."
-    if category == "sexual":
-        return "I can’t help with explicit sexual or abusive sexual content."
-    if category == "self_harm":
-        return "I’m sorry, but I can’t help with instructions for self-harm or suicide."
-    if category == "violence":
-        return "I can’t help with violent wrongdoing or instructions to harm people."
-    if category == "dangerous":
-        return "I can’t help with illegal or dangerous instructions."
-    return "This request was blocked by safety filters."
+    messages = {
+        "hate": "I can't help create hateful, abusive, or discriminatory content.",
+        "sexual": "I can't help with explicit sexual or abusive sexual content.",
+        "self_harm": "I'm sorry, but I can't help with instructions for self-harm or suicide.",
+        "violence": "I can't help with violent wrongdoing or instructions to harm people.",
+        "dangerous": "I can't help with illegal or dangerous instructions.",
+    }
+    return messages.get(category, "This request was blocked by safety filters.")
 
 
 def moderate_text(text: str, *, stage: str) -> SafetyResult:
@@ -144,7 +141,6 @@ def moderate_text(text: str, *, stage: str) -> SafetyResult:
                         severity="low",
                         message="Allowed in contextual analysis mode",
                     )
-
                 return SafetyResult(
                     allowed=False,
                     category=category,
@@ -176,7 +172,7 @@ def moderate_chunks(chunks: list[str]) -> tuple[list[str], SafetyResult]:
             allowed=False,
             category="retrieval_content",
             severity="high",
-            message="I can’t use the retrieved evidence because it was flagged by safety filters.",
+            message="I can't use the retrieved evidence because it was flagged by safety filters.",
         )
 
     return safe_chunks, SafetyResult(allowed=True, message="Allowed")
@@ -189,20 +185,16 @@ def sanitize_sources(sources: list) -> list:
         if isinstance(src, dict):
             chunk_text = str(src.get("chunk_text", ""))
             result = moderate_text(chunk_text, stage="retrieval")
-
             clean = dict(src)
             if not result.allowed:
                 clean["chunk_text"] = "[Source content hidden by safety filter]"
-
             sanitized.append(clean)
-
         elif isinstance(src, str):
             result = moderate_text(src, stage="retrieval")
             if result.allowed:
                 sanitized.append(src)
             else:
                 sanitized.append("[Source content hidden by safety filter]")
-
         else:
             sanitized.append(str(src))
 

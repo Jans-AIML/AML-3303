@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import logging
 import time
 
 from fastapi import APIRouter, Depends, HTTPException, status
@@ -18,7 +19,7 @@ from app.models.schemas import (
     SessionListResponse,
     SessionResponse,
 )
-from app.services.llm_service import generate_answer, rewrite_question
+from app.services.llm_service import generate_answer
 from app.services.safety_service import (
     moderate_chunks,
     moderate_input,
@@ -27,6 +28,7 @@ from app.services.safety_service import (
 )
 from app.services.vector_store import retrieve_chunks
 
+logger = logging.getLogger(__name__)
 router = APIRouter()
 
 
@@ -112,13 +114,12 @@ def query(payload: QueryRequest, db: Session = Depends(get_db)):
         t_save_blocked = time.perf_counter() - t1
 
         total_time = time.perf_counter() - t_total_start
-        print(
-            f"QUERY TIMING | session={payload.session_id} | blocked=input | "
-            f"session_lookup={t_session_lookup:.3f}s | "
-            f"save_user={t_save_user:.3f}s | "
-            f"input_guard={t_input_guard:.3f}s | "
-            f"save_blocked={t_save_blocked:.3f}s | "
-            f"total={total_time:.3f}s"
+        logger.info(
+            "QUERY TIMING | session=%s | blocked=input | "
+            "session_lookup=%.3fs | save_user=%.3fs | input_guard=%.3fs | "
+            "save_blocked=%.3fs | total=%.3fs",
+            payload.session_id, t_session_lookup, t_save_user,
+            t_input_guard, t_save_blocked, total_time,
         )
 
         return QueryResponse(
@@ -129,24 +130,7 @@ def query(payload: QueryRequest, db: Session = Depends(get_db)):
         )
 
     t0 = time.perf_counter()
-    history = (
-        db.query(Message)
-        .filter(Message.session_id == payload.session_id)
-        .order_by(Message.timestamp.desc())
-        .limit(6)
-        .all()
-    )
-    history_text = "\n".join(
-        f"{m.role.upper()}: {m.content}" for m in reversed(history)
-    )
-    t_history = time.perf_counter() - t0
-
-    t0 = time.perf_counter()
-    standalone_question = rewrite_question(payload.question, history_text)
-    t_rewrite = time.perf_counter() - t0
-
-    t0 = time.perf_counter()
-    chunks, sources = retrieve_chunks(standalone_question)
+    chunks, sources = retrieve_chunks(payload.question)
     t_retrieve = time.perf_counter() - t0
 
     t0 = time.perf_counter()
@@ -170,17 +154,12 @@ def query(payload: QueryRequest, db: Session = Depends(get_db)):
         t_save_blocked = time.perf_counter() - t1
 
         total_time = time.perf_counter() - t_total_start
-        print(
-            f"QUERY TIMING | session={payload.session_id} | blocked=retrieval | "
-            f"session_lookup={t_session_lookup:.3f}s | "
-            f"save_user={t_save_user:.3f}s | "
-            f"input_guard={t_input_guard:.3f}s | "
-            f"history={t_history:.3f}s | "
-            f"rewrite={t_rewrite:.3f}s | "
-            f"retrieve={t_retrieve:.3f}s | "
-            f"retrieval_guard={t_retrieval_guard:.3f}s | "
-            f"save_blocked={t_save_blocked:.3f}s | "
-            f"total={total_time:.3f}s"
+        logger.info(
+            "QUERY TIMING | session=%s | blocked=retrieval | "
+            "session_lookup=%.3fs | save_user=%.3fs | input_guard=%.3fs | "
+            "retrieve=%.3fs | retrieval_guard=%.3fs | save_blocked=%.3fs | total=%.3fs",
+            payload.session_id, t_session_lookup, t_save_user, t_input_guard,
+            t_retrieve, t_retrieval_guard, t_save_blocked, total_time,
         )
 
         return QueryResponse(
@@ -189,6 +168,19 @@ def query(payload: QueryRequest, db: Session = Depends(get_db)):
             session_id=payload.session_id,
             message_id=assistant_msg.id,
         )
+
+    t0 = time.perf_counter()
+    history = (
+        db.query(Message)
+        .filter(Message.session_id == payload.session_id)
+        .order_by(Message.timestamp.desc())
+        .limit(6)
+        .all()
+    )
+    history_text = "\n".join(
+        f"{m.role.upper()}: {m.content}" for m in reversed(history)
+    )
+    t_history = time.perf_counter() - t0
 
     t0 = time.perf_counter()
     answer = generate_answer(
@@ -218,21 +210,15 @@ def query(payload: QueryRequest, db: Session = Depends(get_db)):
     t_save_assistant = time.perf_counter() - t0
 
     total_time = time.perf_counter() - t_total_start
-    print(
-        f"QUERY TIMING | session={payload.session_id} | "
-        f"rewritten={standalone_question!r} | "
-        f"chunks={len(chunks)} | safe_chunks={len(safe_chunks)} | "
-        f"session_lookup={t_session_lookup:.3f}s | "
-        f"save_user={t_save_user:.3f}s | "
-        f"input_guard={t_input_guard:.3f}s | "
-        f"history={t_history:.3f}s | "
-        f"rewrite={t_rewrite:.3f}s | "
-        f"retrieve={t_retrieve:.3f}s | "
-        f"retrieval_guard={t_retrieval_guard:.3f}s | "
-        f"generate={t_generate:.3f}s | "
-        f"output_guard={t_output_guard:.3f}s | "
-        f"save_assistant={t_save_assistant:.3f}s | "
-        f"total={total_time:.3f}s"
+    logger.info(
+        "QUERY TIMING | session=%s | chunks=%d | safe_chunks=%d | "
+        "session_lookup=%.3fs | save_user=%.3fs | input_guard=%.3fs | "
+        "retrieve=%.3fs | retrieval_guard=%.3fs | history=%.3fs | "
+        "generate=%.3fs | output_guard=%.3fs | save_assistant=%.3fs | total=%.3fs",
+        payload.session_id, len(chunks), len(safe_chunks),
+        t_session_lookup, t_save_user, t_input_guard,
+        t_retrieve, t_retrieval_guard, t_history,
+        t_generate, t_output_guard, t_save_assistant, total_time,
     )
 
     return QueryResponse(

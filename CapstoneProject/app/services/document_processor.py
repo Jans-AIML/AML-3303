@@ -4,7 +4,6 @@ Supports PDF, TXT, CSV, and DOCX file types.
 """
 
 import csv
-import io
 import re
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -43,19 +42,14 @@ def chunk_text(text: str) -> list[str]:
 
 
 def _clean_pdf_text(text: str) -> str:
-    """Remove NIH watermarks, headers, and figure captions from PDF text."""
-    # Remove repeating NIH-PA watermark
+    """Remove NIH watermarks, repeated headers, and figure captions from PDF text."""
     text = re.sub(r'(NIH-PA\s*\n?Author\s*\n?Manuscript\s*\n?){1,}', ' ', text, flags=re.IGNORECASE)
     text = re.sub(r'NIH Public Access\s*\n?Author Manuscript\s*\n?', ' ', text, flags=re.IGNORECASE)
-    # Remove journal citation headers that repeat on every page
     text = re.sub(r'Q Rev Biophys\.?\s*(Author manuscript)?[^\n]*\n?', ' ', text, flags=re.IGNORECASE)
     text = re.sub(r'Author manuscript;\s*available in PMC[^\n]*\n?', ' ', text, flags=re.IGNORECASE)
     text = re.sub(r'Published in final edited form[^\n]*\n?', ' ', text, flags=re.IGNORECASE)
-    # Remove figure/scheme/table captions (short standalone lines)
     text = re.sub(r'\n(Figure|Fig\.|Scheme|Table)\s+\d+[^\n]{0,120}\n', '\n', text, flags=re.IGNORECASE)
-    # Remove page headers like "Englander et al. Page 44"
     text = re.sub(r'\n[A-Za-z\s]+et al\.\s+Page\s+\d+\s*\n', '\n', text, flags=re.IGNORECASE)
-    # Collapse excessive whitespace
     text = re.sub(r'\n{3,}', '\n\n', text)
     text = re.sub(r'[ \t]{2,}', ' ', text)
     return text.strip()
@@ -71,7 +65,7 @@ def _extract_pdf(path: str) -> str:
             if text:
                 pages.append(text)
     raw = "\n\n".join(pages)
-    return _clean_pdf_text(raw)   # ← clean before returning
+    return _clean_pdf_text(raw)
 
 
 def _extract_txt(path: str) -> str:
@@ -98,7 +92,11 @@ def _extract_docx(path: str) -> str:
 
 
 def extract_elsevier_metadata(path: str) -> dict:
-    """Return a flat dict of article-level metadata for ChromaDB storage."""
+    """Return a flat dict of article-level metadata for ChromaDB storage.
+
+    All values are str or int so ChromaDB accepts them without coercion.
+    The ``authors`` field is formatted as "Last1 I., Last2 I." (max 3, then "et al.").
+    """
     import json
 
     with open(path, encoding="utf-8") as f:
@@ -139,6 +137,7 @@ def _extract_elsevier_json(path: str) -> str:
     meta = data.get("metadata", {})
     parts: list[str] = []
 
+    # ── Metadata header ───────────────────────────────────────
     parts.append(f"Title: {meta.get('title', 'Untitled')}")
 
     authors = meta.get("authors", [])
@@ -164,12 +163,14 @@ def _extract_elsevier_json(path: str) -> str:
 
     parts.append("")
 
+    # ── Abstract ──────────────────────────────────────────────
     abstract = data.get("abstract", "")
     if abstract:
         parts.append("ABSTRACT")
         parts.append(abstract)
         parts.append("")
 
+    # ── Author highlights ─────────────────────────────────────
     highlights = data.get("author_highlights", [])
     if highlights:
         parts.append("HIGHLIGHTS")
@@ -179,6 +180,7 @@ def _extract_elsevier_json(path: str) -> str:
                 parts.append(f"• {sentence}")
         parts.append("")
 
+    # ── Body text grouped by section ──────────────────────────
     current_section: str | None = None
     for entry in data.get("body_text", []):
         section = entry.get("title", "")

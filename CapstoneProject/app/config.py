@@ -1,4 +1,7 @@
-"""Application configuration via Pydantic Settings."""
+"""Application configuration via Pydantic Settings.
+
+All values can be overridden by environment variables or a .env file.
+"""
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -30,11 +33,11 @@ class Settings(BaseSettings):
     llm_temperature: float = 0.1
     llm_max_tokens: int = 512       # reduced from 1024 for speed
 
-    # ── RAG ────────────────────────────────────────────────────
+    # ── RAG ────────────────────────────────────────────────
     chunk_size: int = 500
     chunk_overlap: int = 50
     retrieval_top_k: int = 6        # increased from 5
-    max_context_chars: int = 5000   # increased from 2500 — this was the main issue
+    max_context_chars: int = 5000   # increased from 2500 — improves answer quality
 
     model_config = SettingsConfigDict(
         env_file=".env",
